@@ -1,9 +1,13 @@
 name: Тристер · бот 24/7
 
-# Запуск: каждый день в 14:00 UTC (когда открыта биржа США) + вручную кнопкой
+# Запуск:
+#   • КАЖДЫЙ ЧАС — живая торговля + проверка стоп-лосса («продать при риске»)
+#   • раз в день (14:00 UTC) — плюс тяжёлый турнир всех стратегий
+#   • вручную кнопкой — прогоняет всё
 on:
   schedule:
-    - cron: "0 14 * * *"
+    - cron: "0 * * * *"    # каждый час — торговля + стоп-лосс
+    - cron: "0 14 * * *"   # раз в день — + полный турнир стратегий
   workflow_dispatch: {}
 
 permissions:
@@ -41,11 +45,13 @@ jobs:
         run: python alpaca_bot.py
         continue-on-error: true
 
-      - name: Все рынки (локальный симулятор)
+      - name: Все рынки (локальный симулятор) — раз в день
+        if: github.event.schedule == '0 14 * * *' || github.event_name == 'workflow_dispatch'
         run: python paper_trader.py
         continue-on-error: true
 
-      - name: Турнир стратегий (по всем стратегиям)
+      - name: Турнир стратегий (по всем стратегиям) — раз в день
+        if: github.event.schedule == '0 14 * * *' || github.event_name == 'workflow_dispatch'
         run: python multi_strategy.py
         continue-on-error: true
 
@@ -53,10 +59,11 @@ jobs:
         run: python gather_data.py
         continue-on-error: true
 
-      - name: Обновить дашборд (коммит → Vercel сам передеплоит)
+      - name: Обновить дашборд (коммит)
         run: |
           git config user.name  "trister-bot"
           git config user.email "bot@trister.local"
           git add -A
-          git commit -m "🤖 авто: дневной прогон бота + обновление дашборда" || echo "нет изменений"
+          git commit -m "🤖 авто: почасовой прогон + стоп-лосс + дашборд" || echo "нет изменений"
+          git pull --rebase --autostash || true
           git push

@@ -11,6 +11,7 @@ import sys
 import data
 import strategies
 import futures_broker as fb
+import journal
 
 FUTURES_UNIVERSE = ["BTC/USDT", "ETH/USDT"]   # перпетуалы
 STRATEGY = "trend_ls"    # лонг/шорт-стратегия (шортит на падении)
@@ -101,12 +102,15 @@ def main():
                 if loss >= STOP_PCT:
                     close_pos(ex, sym, cur_side, cur_amt)
                     print(f"  {sym:12} 🛑 СТОП-ЛОСС −{loss*100:.1f}% — закрыл {cur_side}")
+                    journal.log("СТОП-ЛОСС", signal=f"{sym} {cur_side}", price=price,
+                                note=f"убыток −{loss*100:.1f}% — продал при риске")
                     cur_side = None
 
             # 2) ЛОГИКА СТРАТЕГИИ
             if want == "flat":
                 if cur_side:
                     close_pos(ex, sym, cur_side, cur_amt); print(f"  {sym:12} {txt:20} ✅ ЗАКРЫЛ")
+                    journal.log("ЗАКРЫЛ", signal=f"{sym} {cur_side}", price=price, note=txt)
                 else:
                     print(f"  {sym:12} {txt:20} вне рынка")
             elif want != cur_side:
@@ -115,6 +119,8 @@ def main():
                 open_pos(ex, sym, want, price)
                 arrow = "🟢 ЛОНГ" if want == "long" else "🔴 ШОРТ"
                 print(f"  {sym:12} {txt:20} ✅ ОТКРЫЛ {arrow}")
+                journal.log(f"ОТКРЫЛ {want}", signal=f"{sym} {txt}", price=price,
+                            cost_usdt=NOTIONAL_USD, note=f"плечо {LEVERAGE}x, стоп {STOP_PCT*100:.0f}%")
             elif cur_side:
                 print(f"  {sym:12} {txt:20} держим {cur_side}")
         except Exception as e:
