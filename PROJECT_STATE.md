@@ -1,0 +1,61 @@
+# 📋 Тристер — полное состояние проекта
+
+> Этот файл фиксирует всё, что сделано. Открывай его, чтобы вспомнить, где остановились.
+> Для нового чата с Клодом: скажи «прочитай PROJECT_STATE.md в папке Тристер».
+
+Обновлено: 2026-07-15 (Бишкек)
+
+---
+
+## Что это
+Автономный мульти-рыночный торговый **робот на демо-счетах** + дашборд + работа 24/7.
+Папка: `/Users/aim/Проекты/Тристер` · GitHub: `github.com/cyberacademiya-bit/trister`
+
+## 4 подключённых демо-счёта (всё игрушечные деньги)
+| Счёт | Что торгует | Баланс | Ключи в .env |
+|---|---|---|---|
+| Binance Spot | крипта + золото (PAXG) | ~$10k | BINANCE_API_KEY/SECRET |
+| Binance Futures | фьючерсы, ЛОНГ+ШОРТ+стоп | ~$5k | FUTURES_KEY/SECRET |
+| Alpaca | акции США | $100k | ALPACA_KEY/SECRET |
+| Локальный | все рынки (симулятор) | $10k | — |
+
+**Реальные деньги не тронуты нигде.** Ключи лежат в `.env` (не в git) и в GitHub Secrets.
+
+## Как запускать (в терминале)
+```bash
+cd "/Users/aim/Проекты/Тристер" && source .venv/bin/activate
+python trader.py --universe      # крипта + золото
+python futures_bot.py            # фьючерсы (лонг/шорт)
+python alpaca_bot.py             # акции
+python paper_trader.py           # локальный, все рынки
+python scanner.py                # сигналы по всем рынкам
+python multi_strategy.py         # турнир всех стратегий
+python gather_data.py            # собрать данные дашборда
+open dashboard.html              # открыть дашборд локально
+```
+
+## Стратегии (в config.py: STRATEGY="sma")
+buyhold · **sma (победитель)** · trend · cot · candles · trend_ls (шорт).
+Тест 99 гипотез + турнир: **sma_20_50** — самая устойчивая. «Умные» (свечи, шорт, COT) — сливают.
+Вывод: **простота + риск-менеджмент побеждают.**
+
+## Дашборд и хостинг
+- Локально: `dashboard.html` (двойной клик).
+- Онлайн: `site/index.html` тянет `site/dashboard_data.json`.
+- **Vercel** — задеплоен (`trister.vercel.app`), но новые деплои ЗАБЛОКИРОВАНЫ (просит оплату). Root Directory=`site`, Framework=Other.
+- **GitHub Pages** — настроен (`.github/workflows/pages.yml`), БЕСПЛАТНО. **ОСТАЛОСЬ ВКЛЮЧИТЬ:**
+  1. Сделать репо публичным: `github.com/cyberacademiya-bit/trister/settings` → Danger Zone → Make public
+  2. Включить Pages: `.../settings/pages` → Source: **GitHub Actions**
+  3. `.../actions` → «Дашборд на GitHub Pages» → Run workflow
+  4. Готово: **cyberacademiya-bit.github.io/trister/**
+
+## Авто 24/7
+GitHub Actions (`.github/workflows/bot.yml`) — бот торгует **каждый день 20:00 по Бишкеку**, коммитит данные, дашборд обновляется сам. Мак может быть выключен.
+
+## Что осталось / идеи на потом
+- [ ] Довести GitHub Pages (3 шага выше)
+- [ ] По желанию: чаще обновлять (поменять cron), стоп-лоссы тоньше, время Alpaca на Бишкек
+- [ ] Учёба: папка `Книги/` (21 книга) + `Фондовый_рынок_справочник.docx` + `План_обучения.md`
+
+## Учебные материалы в папке
+`Фондовый_рынок_справочник.docx` (~69 стр) · `План_обучения.md` (44 книги + 34 канала) · `Книги/` (21 скачанная книга).
