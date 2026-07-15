@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15 22:33 (Бишкек)",
+  "generated": "2026-07-15 22:39 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -16,13 +16,13 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100000.64,
+      "total": 100000.63,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 0.03142893,
-          "usd": 10.32
+          "usd": 10.31
         },
         {
           "asset": "SPY",
@@ -368,8 +368,8 @@
       {
         "name": "buyhold",
         "title": "📊 Купи и держи",
-        "equity": 20018.28,
-        "ret": 100.18,
+        "equity": 19991.17,
+        "ret": 99.91,
         "longs": 16,
         "shorts": 0,
         "curve": [
@@ -402,8 +402,8 @@
       {
         "name": "sma",
         "title": "📈 SMA 20/50",
-        "equity": 15344.21,
-        "ret": 53.44,
+        "equity": 15342.61,
+        "ret": 53.43,
         "longs": 3,
         "shorts": 0,
         "curve": [
@@ -436,8 +436,8 @@
       {
         "name": "trend",
         "title": "🏆 Тренд MA50/200 (лучший)",
-        "equity": 11754.87,
-        "ret": 17.549999999999997,
+        "equity": 11754.33,
+        "ret": 17.54,
         "longs": 8,
         "shorts": 0,
         "curve": [
@@ -470,8 +470,8 @@
       {
         "name": "cot",
         "title": "🧠 Тренд + COT Уильямса",
-        "equity": 11754.87,
-        "ret": 17.549999999999997,
+        "equity": 11754.33,
+        "ret": 17.54,
         "longs": 8,
         "shorts": 0,
         "curve": [
@@ -504,9 +504,9 @@
       {
         "name": "candles",
         "title": "🕯️ Свечи + индикаторы",
-        "equity": 8972.75,
-        "ret": -10.27,
-        "longs": 7,
+        "equity": 8965.93,
+        "ret": -10.34,
+        "longs": 6,
         "shorts": 2,
         "curve": [
           10000.6,
@@ -538,8 +538,8 @@
       {
         "name": "trend_ls",
         "title": "↕️ Тренд лонг/шорт (фьючерсы)",
-        "equity": 6838.83,
-        "ret": -31.61,
+        "equity": 6842.51,
+        "ret": -31.569999999999997,
         "longs": 9,
         "shorts": 7,
         "curve": [
@@ -571,5 +571,5 @@
       }
     ]
   },
-  "total_value": 110000.97
+  "total_value": 110000.96
 }
