@@ -1,6 +1,8 @@
 name: Дашборд на GitHub Pages
 
 on:
+  schedule:
+    - cron: "7 * * * *"    # каждый час в :07 — после прогона бота пересобираем сайт со свежими данными
   push:
     branches: [main]
   workflow_dispatch: {}
