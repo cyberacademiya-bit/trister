@@ -43,11 +43,7 @@ buyhold · **sma (победитель)** · trend · cot · candles · trend_ls
 - Локально: `dashboard.html` (двойной клик).
 - Онлайн: `site/index.html` тянет `site/dashboard_data.json`.
 - **Vercel** — задеплоен (`trister.vercel.app`), но новые деплои ЗАБЛОКИРОВАНЫ (просит оплату). Root Directory=`site`, Framework=Other.
-- **GitHub Pages** — настроен (`.github/workflows/pages.yml`), БЕСПЛАТНО. **ОСТАЛОСЬ ВКЛЮЧИТЬ:**
-  1. Сделать репо публичным: `github.com/cyberacademiya-bit/trister/settings` → Danger Zone → Make public
-  2. Включить Pages: `.../settings/pages` → Source: **GitHub Actions**
-  3. `.../actions` → «Дашборд на GitHub Pages» → Run workflow
-  4. Готово: **cyberacademiya-bit.github.io/trister/**
+- **GitHub Pages** — ✅ **ВКЛЮЧЁН И РАБОТАЕТ** (бесплатно). Репо публичный, Pages source=GitHub Actions, `.github/workflows/pages.yml` пересобирает сайт при каждом push. Сайт: **https://cyberacademiya-bit.github.io/trister/** (обновляется сам после каждого часового прогона бота).
 
 ## Авто 24/7
 GitHub Actions (`.github/workflows/bot.yml`) — два расписания:
