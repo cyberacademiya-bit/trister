@@ -60,6 +60,7 @@ h1{font-size:clamp(22px,3vw,30px);font-weight:700;letter-spacing:-.02em;text-wra
 .pill{font-size:10.5px;font-weight:650;padding:3px 8px;border-radius:999px;white-space:nowrap}
 .pill.ok{background:color-mix(in srgb,var(--up) 18%,transparent);color:var(--up)}
 .pill.err{background:color-mix(in srgb,var(--down) 18%,transparent);color:var(--down)}
+.pill.off{background:color-mix(in srgb,var(--muted) 20%,transparent);color:var(--muted)}
 .poslist{display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--border);padding-top:10px}
 .posrow{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted)}.posrow .a{color:var(--text)}
 .chip{font-size:10px;font-weight:700;padding:1px 6px;border-radius:5px;text-transform:uppercase;letter-spacing:.04em}
@@ -132,6 +133,7 @@ function render(D){
     <div class="hr-item"><div class="n mono" style="color:var(--up)">${(D.usage&&D.usage.filled)||0}</div><div class="k">исполнено</div></div>`;
 
   $("accts").innerHTML=(D.accounts||[]).map(a=>{
+    if(a.status==="offline") return `<div class="card"><div class="top"><div><div class="name">${a.name}</div><div class="kind">${a.kind||""}</div></div><span class="pill off">офлайн</span></div><div class="empty">${a.error||"недоступен с облака"}</div></div>`;
     if(a.status!=="ok") return `<div class="card"><div class="top"><div><div class="name">${a.name}</div><div class="kind">${a.kind||""}</div></div><span class="pill err">ошибка</span></div><div class="empty">${a.error||"нет связи"}</div></div>`;
     const p=(a.total/a.start-1)*100; const cls=Math.abs(p)<0.01?"flat":p>=0?"pos":"neg"; const sg=p>=0?"+":"";
     const pos=(a.positions&&a.positions.length)?`<div class="poslist">`+a.positions.slice(0,8).map(x=>{

@@ -8,6 +8,17 @@ import pandas as pd
 
 BISHKEK = timezone(timedelta(hours=6))   # время Кыргызстана (GMT+6)
 
+
+def acc_err(name, kind, e):
+    """Аккуратный статус для упавшего счёта. Гео-блок Binance (451) — это не ошибка бота,
+    а ограничение Binance для облачных серверов → показываем спокойное 'офлайн'."""
+    s = str(e).lower()
+    if "451" in s or "restricted location" in s or "eligibility" in s:
+        return {"name": name, "kind": kind, "status": "offline",
+                "error": "Binance блокирует облако (гео-блок). Виден при запуске с Мака."}
+    return {"name": name, "kind": kind, "status": "error", "error": str(e)[:80]}
+
+
 snap = {"generated": datetime.now(BISHKEK).strftime("%Y-%m-%d %H:%M") + " (Бишкек)",
         "accounts": [], "transactions": [], "hypotheses": [], "usage": {}}
 
@@ -25,7 +36,7 @@ try:
     snap["accounts"].append({"name": "Binance Spot", "kind": "Крипта + Золото", "total": round(total, 2),
                              "start": 10000, "positions": sorted(pos, key=lambda x: -x["usd"]), "status": "ok"})
 except Exception as e:
-    snap["accounts"].append({"name": "Binance Spot", "kind": "Крипта + Золото", "status": "error", "error": str(e)[:80]})
+    snap["accounts"].append(acc_err("Binance Spot", "Крипта + Золото", e))
 
 # ── 2. Binance Futures ──
 try:
@@ -42,7 +53,7 @@ try:
     snap["accounts"].append({"name": "Binance Futures", "kind": "Фьючерсы (лонг/шорт)", "total": round(usdt, 2),
                              "start": 5000, "positions": pos, "status": "ok"})
 except Exception as e:
-    snap["accounts"].append({"name": "Binance Futures", "kind": "Фьючерсы (лонг/шорт)", "status": "error", "error": str(e)[:80]})
+    snap["accounts"].append(acc_err("Binance Futures", "Фьючерсы (лонг/шорт)", e))
 
 # ── 3. Alpaca (акции) ──
 try:
