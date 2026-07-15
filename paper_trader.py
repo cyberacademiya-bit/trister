@@ -8,10 +8,12 @@
   python paper_trader.py --reset    → сбросить счёт к $10 000
 """
 import sys
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 import pandas as pd
 import yfinance as yf
+
+BISHKEK = timezone(timedelta(hours=6))   # время Кыргызстана (GMT+6)
 
 import config
 import paper
@@ -77,7 +79,7 @@ def main():
         show(acc, prices)
         return
 
-    now = datetime.now().strftime("%Y-%m-%d %H:%M")
+    now = datetime.now(BISHKEK).strftime("%Y-%m-%d %H:%M")
     print(f"\n📈 ТОРГУЮ по сигналам ({now}):")
     print("-" * 58)
     for tk, (pos, price, txt) in sig.items():

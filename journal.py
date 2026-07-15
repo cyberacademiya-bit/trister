@@ -5,7 +5,9 @@
 """
 import csv
 import os
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+
+BISHKEK = timezone(timedelta(hours=6))   # время Кыргызстана (GMT+6)
 
 JOURNAL_FILE = os.path.join(os.path.dirname(__file__), "trades.csv")
 _HEADER = ["time", "action", "signal", "price", "amount_btc", "cost_usdt", "note"]
@@ -18,6 +20,6 @@ def log(action, signal=None, price=None, amount_btc=None, cost_usdt=None, note="
         if new:
             w.writerow(_HEADER)
         w.writerow([
-            datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            datetime.now(BISHKEK).strftime("%Y-%m-%d %H:%M:%S"),
             action, signal, price, amount_btc, cost_usdt, note,
         ])

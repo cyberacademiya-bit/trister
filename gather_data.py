@@ -2,11 +2,13 @@
 """Собирает данные ВСЕХ демо-счетов в один JSON для дашборда."""
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 import pandas as pd
 
-snap = {"generated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+BISHKEK = timezone(timedelta(hours=6))   # время Кыргызстана (GMT+6)
+
+snap = {"generated": datetime.now(BISHKEK).strftime("%Y-%m-%d %H:%M") + " (Бишкек)",
         "accounts": [], "transactions": [], "hypotheses": [], "usage": {}}
 
 # ── 1. Binance Spot ──
