@@ -45,8 +45,7 @@ jobs:
         run: python alpaca_bot.py
         continue-on-error: true
 
-      - name: Все рынки (локальный симулятор) — раз в день
-        if: github.event.schedule == '0 14 * * *' || github.event_name == 'workflow_dispatch'
+      - name: Все рынки (локальный симулятор) — каждый час
         run: python paper_trader.py
         continue-on-error: true
 

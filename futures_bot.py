@@ -127,5 +127,17 @@ def main():
             print(f"  {sym:12} ⚠️ {type(e).__name__}: {str(e)[:50]}")
 
 
+def _is_geoblock(err):
+    s = str(err).lower()
+    return "451" in s or "restricted location" in s or "eligibility" in s
+
+
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        if _is_geoblock(e):
+            print("ℹ️  Binance Futures недоступен с этого сервера (гео-блок 451). "
+                  "Фьючерсы (лонг/шорт+стоп) торгуются с Мака. Пропускаю.")
+            sys.exit(0)   # не роняем прогон — это ограничение Binance, а не ошибка бота
+        raise
