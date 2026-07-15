@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-15 23:19 (Бишкек)",
+  "generated": "2026-07-15 23:28 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
       "kind": "Крипта + Золото",
-      "total": 9998.94,
+      "total": 9998.72,
       "start": 10000,
       "positions": [
         {
@@ -14,8 +14,13 @@
         },
         {
           "asset": "USDT",
-          "amount": 4998.943386,
-          "usd": 4998.94
+          "amount": 4798.968886,
+          "usd": 4798.97
+        },
+        {
+          "asset": "SOL",
+          "amount": 2.572425,
+          "usd": 199.75
         }
       ],
       "status": "ok"
@@ -23,20 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4999.59,
+      "total": 4999.57,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 65120.5,
-          "pnl": 0.181
+          "pnl": 0.197
         },
         {
           "asset": "ETH/USDT",
           "side": "short",
           "entry": 1910.04,
-          "pnl": -0.5
+          "pnl": -0.533
         }
       ],
       "status": "ok"
@@ -44,18 +49,18 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100000.6,
+      "total": 100000.62,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 0.03142893,
-          "usd": 10.25
+          "usd": 10.28
         },
         {
           "asset": "SPY",
           "amount": 0.013244769,
-          "usd": 9.96
+          "usd": 9.97
         }
       ],
       "status": "ok"
@@ -325,6 +330,14 @@
       "asset": "PAXG/BTC",
       "amount": "$0.394122464",
       "status": "filled"
+    },
+    {
+      "time": "2026-07-15 23:26:52",
+      "account": "Binance Spot",
+      "action": "BUY",
+      "asset": "PAXG/BTC",
+      "amount": "$199.9745",
+      "status": "filled"
     }
   ],
   "hypotheses": [
@@ -384,8 +397,8 @@
     }
   ],
   "usage": {
-    "total": 30,
-    "filled": 30,
+    "total": 31,
+    "filled": 31,
     "pending": 0,
     "failed": 0
   },
@@ -599,5 +612,5 @@
       }
     ]
   },
-  "total_value": 124999.46
+  "total_value": 124999.24
 }
