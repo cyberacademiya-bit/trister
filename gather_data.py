@@ -9,13 +9,40 @@ import pandas as pd
 BISHKEK = timezone(timedelta(hours=6))   # время Кыргызстана (GMT+6)
 
 
-def acc_err(name, kind, e):
-    """Аккуратный статус для упавшего счёта. Гео-блок Binance (451) — это не ошибка бота,
-    а ограничение Binance для облачных серверов → показываем спокойное 'офлайн'."""
+CACHE_FILE = os.path.join("Данные", "binance_cache.json")
+
+
+def load_cache():
+    try:
+        return json.load(open(CACHE_FILE, encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+_cache = load_cache()
+
+
+def acc_ok(name, kind, total, start, positions):
+    """Успех (запуск с Мака): запоминаем баланс в кэш, чтобы показывать его и с облака."""
+    _cache[name] = {"total": total, "positions": positions,
+                    "time": datetime.now(BISHKEK).strftime("%Y-%m-%d %H:%M")}
+    return {"name": name, "kind": kind, "total": total, "start": start,
+            "positions": positions, "status": "ok"}
+
+
+def acc_err(name, kind, start, e):
+    """Аккуратный статус для упавшего счёта. Гео-блок Binance (451) — не ошибка бота, а
+    ограничение Binance для облака. Если есть запомненный баланс с Мака — показываем его."""
     s = str(e).lower()
-    if "451" in s or "restricted location" in s or "eligibility" in s:
+    geo = "451" in s or "restricted location" in s or "eligibility" in s
+    cached = _cache.get(name)
+    if geo and cached:
+        return {"name": name, "kind": kind, "total": cached["total"], "start": start,
+                "positions": cached.get("positions", []), "status": "offline",
+                "error": f"Binance блокирует облако. Последний баланс с Мака: {cached['time']}"}
+    if geo:
         return {"name": name, "kind": kind, "status": "offline",
-                "error": "Binance блокирует облако (гео-блок). Виден при запуске с Мака."}
+                "error": "Binance блокирует облако (гео-блок). Запусти с Мака, чтобы увидеть баланс."}
     return {"name": name, "kind": kind, "status": "error", "error": str(e)[:80]}
 
 
@@ -33,10 +60,10 @@ try:
         if v > 0.01:
             pos.append({"asset": c, "amount": round(a, 6), "usd": round(v, 2)})
         total += v
-    snap["accounts"].append({"name": "Binance Spot", "kind": "Крипта + Золото", "total": round(total, 2),
-                             "start": 10000, "positions": sorted(pos, key=lambda x: -x["usd"]), "status": "ok"})
+    snap["accounts"].append(acc_ok("Binance Spot", "Крипта + Золото", round(total, 2), 10000,
+                                   sorted(pos, key=lambda x: -x["usd"])))
 except Exception as e:
-    snap["accounts"].append(acc_err("Binance Spot", "Крипта + Золото", e))
+    snap["accounts"].append(acc_err("Binance Spot", "Крипта + Золото", 10000, e))
 
 # ── 2. Binance Futures ──
 try:
@@ -50,10 +77,9 @@ try:
             pos.append({"asset": p["symbol"].split(":")[0], "side": p.get("side"),
                         "entry": round(float(p.get("entryPrice") or 0), 2),
                         "pnl": round(float(p.get("unrealizedPnl") or 0), 3)})
-    snap["accounts"].append({"name": "Binance Futures", "kind": "Фьючерсы (лонг/шорт)", "total": round(usdt, 2),
-                             "start": 5000, "positions": pos, "status": "ok"})
+    snap["accounts"].append(acc_ok("Binance Futures", "Фьючерсы (лонг/шорт)", round(usdt, 2), 5000, pos))
 except Exception as e:
-    snap["accounts"].append(acc_err("Binance Futures", "Фьючерсы (лонг/шорт)", e))
+    snap["accounts"].append(acc_err("Binance Futures", "Фьючерсы (лонг/шорт)", 5000, e))
 
 # ── 3. Alpaca (акции) ──
 try:
@@ -121,7 +147,15 @@ snap["usage"] = {"total": len(tx),
                  "filled": sum(1 for x in tx if x["status"] in ("filled", "closed")),
                  "pending": sum(1 for x in tx if x["status"] in ("new", "accepted", "pending_new")),
                  "failed": sum(1 for x in tx if x["status"] in ("rejected", "canceled", "expired"))}
-snap["total_value"] = round(sum(a.get("total", 0) for a in snap["accounts"] if a["status"] == "ok"), 2)
+# В сумму входят онлайн-счета + офлайн с запомненным балансом (у чистых ошибок 'total' нет → 0)
+snap["total_value"] = round(sum(a.get("total", 0) for a in snap["accounts"]), 2)
+
+# Сохраняем кэш балансов Binance (пополняется при запуске с Мака)
+try:
+    os.makedirs("Данные", exist_ok=True)
+    json.dump(_cache, open(CACHE_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+except Exception:
+    pass
 
 json.dump(snap, open("Данные/dashboard_data.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 # копия для сайта (Vercel читает её и авто-обновляется)

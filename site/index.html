@@ -133,7 +133,12 @@ function render(D){
     <div class="hr-item"><div class="n mono" style="color:var(--up)">${(D.usage&&D.usage.filled)||0}</div><div class="k">исполнено</div></div>`;
 
   $("accts").innerHTML=(D.accounts||[]).map(a=>{
-    if(a.status==="offline") return `<div class="card"><div class="top"><div><div class="name">${a.name}</div><div class="kind">${a.kind||""}</div></div><span class="pill off">офлайн</span></div><div class="empty">${a.error||"недоступен с облака"}</div></div>`;
+    if(a.status==="offline"){
+      const body=(a.total!==undefined&&a.total!==null)
+        ? `<div><div class="bal mono">${money(a.total)}</div><div class="pnl flat">офлайн · ${a.error||""}</div></div>`
+        : `<div class="empty">${a.error||"недоступен с облака"}</div>`;
+      return `<div class="card"><div class="top"><div><div class="name">${a.name}</div><div class="kind">${a.kind||""}</div></div><span class="pill off">офлайн</span></div>${body}</div>`;
+    }
     if(a.status!=="ok") return `<div class="card"><div class="top"><div><div class="name">${a.name}</div><div class="kind">${a.kind||""}</div></div><span class="pill err">ошибка</span></div><div class="empty">${a.error||"нет связи"}</div></div>`;
     const p=(a.total/a.start-1)*100; const cls=Math.abs(p)<0.01?"flat":p>=0?"pos":"neg"; const sg=p>=0?"+":"";
     const pos=(a.positions&&a.positions.length)?`<div class="poslist">`+a.positions.slice(0,8).map(x=>{
