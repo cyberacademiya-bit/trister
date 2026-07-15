@@ -1,0 +1,58 @@
+name: Тристер · бот 24/7
+
+# Запуск: каждый день в 14:00 UTC (когда открыта биржа США) + вручную кнопкой
+on:
+  schedule:
+    - cron: "0 14 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # чтобы коммитить обновлённые данные дашборда
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    env:
+      BINANCE_API_KEY:    ${{ secrets.BINANCE_API_KEY }}
+      BINANCE_API_SECRET: ${{ secrets.BINANCE_API_SECRET }}
+      FUTURES_KEY:        ${{ secrets.FUTURES_KEY }}
+      FUTURES_SECRET:     ${{ secrets.FUTURES_SECRET }}
+      ALPACA_KEY:         ${{ secrets.ALPACA_KEY }}
+      ALPACA_SECRET:      ${{ secrets.ALPACA_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Установка зависимостей
+        run: pip install -r requirements.txt
+
+      - name: Крипта + золото (Binance spot)
+        run: python trader.py --universe
+        continue-on-error: true
+
+      - name: Фьючерсы (лонг/шорт)
+        run: python futures_bot.py
+        continue-on-error: true
+
+      - name: Акции (Alpaca)
+        run: python alpaca_bot.py
+        continue-on-error: true
+
+      - name: Все рынки (локальный симулятор)
+        run: python paper_trader.py
+        continue-on-error: true
+
+      - name: Собрать данные для дашборда
+        run: python gather_data.py
+        continue-on-error: true
+
+      - name: Обновить дашборд (коммит → Vercel сам передеплоит)
+        run: |
+          git config user.name  "trister-bot"
+          git config user.email "bot@trister.local"
+          git add -A
+          git commit -m "🤖 авто: дневной прогон бота + обновление дашборда" || echo "нет изменений"
+          git push

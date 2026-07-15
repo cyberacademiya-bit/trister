@@ -1,0 +1,369 @@
+{
+  "generated": "2026-07-15 20:00",
+  "accounts": [
+    {
+      "name": "Binance Spot",
+      "kind": "Крипта + Золото",
+      "total": 9998.94,
+      "start": 10000,
+      "positions": [
+        {
+          "asset": "USDC",
+          "amount": 5000.0,
+          "usd": 5000.0
+        },
+        {
+          "asset": "USDT",
+          "amount": 4998.943386,
+          "usd": 4998.94
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "name": "Binance Futures",
+      "kind": "Фьючерсы (лонг/шорт)",
+      "total": 4999.13,
+      "start": 5000,
+      "positions": [
+        {
+          "asset": "BTC/USDT",
+          "side": "short",
+          "entry": 65120.5,
+          "pnl": 0.002
+        },
+        {
+          "asset": "ETH/USDT",
+          "side": "short",
+          "entry": 1910.04,
+          "pnl": -0.799
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "name": "Alpaca",
+      "kind": "Акции США",
+      "total": 100000.35,
+      "start": 100000,
+      "positions": [
+        {
+          "asset": "AAPL",
+          "amount": 0.03142893,
+          "usd": 10.09
+        },
+        {
+          "asset": "AMZN",
+          "amount": 0.03996,
+          "usd": 10.09
+        },
+        {
+          "asset": "GOOGL",
+          "amount": 0.027885554,
+          "usd": 10.15
+        },
+        {
+          "asset": "NVDA",
+          "amount": 0.047122641,
+          "usd": 9.97
+        },
+        {
+          "asset": "SPY",
+          "amount": 0.013244769,
+          "usd": 10.0
+        }
+      ],
+      "status": "ok"
+    },
+    {
+      "name": "Локальный",
+      "kind": "Все рынки (виртуально)",
+      "total": 10000.0,
+      "start": 10000.0,
+      "positions": [
+        {
+          "asset": "AAPL",
+          "amount": 0.03176,
+          "usd": 10.0
+        },
+        {
+          "asset": "NVDA",
+          "amount": 0.047214,
+          "usd": 10.0
+        },
+        {
+          "asset": "AMZN",
+          "amount": 0.040406,
+          "usd": 10.0
+        },
+        {
+          "asset": "GOOGL",
+          "amount": 0.027816,
+          "usd": 10.0
+        },
+        {
+          "asset": "SPY",
+          "amount": 0.013301,
+          "usd": 10.0
+        },
+        {
+          "asset": "QQQ",
+          "amount": 0.013895,
+          "usd": 10.0
+        },
+        {
+          "asset": "CL=F",
+          "amount": 0.125125,
+          "usd": 10.0
+        },
+        {
+          "asset": "HG=F",
+          "amount": 1.570352,
+          "usd": 10.0
+        }
+      ],
+      "status": "ok"
+    }
+  ],
+  "transactions": [
+    {
+      "time": "2026-07-15 13:23",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "GOOGL",
+      "amount": "$10",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 13:23",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "AAPL",
+      "amount": "$10",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 13:23",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "NVDA",
+      "amount": "$10",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 13:23",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "SPY",
+      "amount": "$10",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 13:23",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "AMZN",
+      "amount": "$10",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 18:35",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "AAPL",
+      "amount": "$10.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 18:35",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "NVDA",
+      "amount": "$10.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 18:35",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "AMZN",
+      "amount": "$10.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 18:35",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "GOOGL",
+      "amount": "$10.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 18:35",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "SPY",
+      "amount": "$10.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 18:35",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "QQQ",
+      "amount": "$10.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 18:35",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "CL=F",
+      "amount": "$10.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 18:35",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "HG=F",
+      "amount": "$10.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-14 22:35:53",
+      "account": "Binance Spot",
+      "action": "SELL",
+      "asset": "PAXG/BTC",
+      "amount": "$13.626291",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 13:53:04",
+      "account": "Binance Spot",
+      "action": "HOLD",
+      "asset": "PAXG/BTC",
+      "amount": "$0.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 15:16:58",
+      "account": "Binance Spot",
+      "action": "BUY",
+      "asset": "PAXG/BTC",
+      "amount": "$9.663",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 15:36:34",
+      "account": "Binance Spot",
+      "action": "HOLD",
+      "asset": "PAXG/BTC",
+      "amount": "$9.64566468",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 15:37:43",
+      "account": "Binance Spot",
+      "action": "HOLD",
+      "asset": "PAXG/BTC",
+      "amount": "$9.645640704",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 15:38:08",
+      "account": "Binance Spot",
+      "action": "HOLD",
+      "asset": "PAXG/BTC",
+      "amount": "$9.64818216",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 15:40:27",
+      "account": "Binance Spot",
+      "action": "HOLD",
+      "asset": "PAXG/BTC",
+      "amount": "$9.645688656",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 17:31:52",
+      "account": "Binance Spot",
+      "action": "SELL",
+      "asset": "PAXG/BTC",
+      "amount": "$9.263825",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-15 18:04:40",
+      "account": "Binance Spot",
+      "action": "HOLD",
+      "asset": "PAXG/BTC",
+      "amount": "$0.394122464",
+      "status": "filled"
+    }
+  ],
+  "hypotheses": [
+    {
+      "name": "sma_20_50",
+      "sharpe": 0.63,
+      "cagr": 14.6,
+      "dd": -41.2
+    },
+    {
+      "name": "buyhold",
+      "sharpe": 0.63,
+      "cagr": 19.5,
+      "dd": -59.9
+    },
+    {
+      "name": "sma_10_30",
+      "sharpe": 0.6,
+      "cagr": 15.2,
+      "dd": -39.3
+    },
+    {
+      "name": "trend",
+      "sharpe": 0.59,
+      "cagr": 14.6,
+      "dd": -43.8
+    },
+    {
+      "name": "macd",
+      "sharpe": 0.51,
+      "cagr": 13.0,
+      "dd": -87.2
+    },
+    {
+      "name": "rsi_meanrev",
+      "sharpe": 0.38,
+      "cagr": 6.4,
+      "dd": -52.2
+    },
+    {
+      "name": "trend_ls",
+      "sharpe": 0.34,
+      "cagr": 6.7,
+      "dd": -60.1
+    },
+    {
+      "name": "breakout20",
+      "sharpe": 0.15,
+      "cagr": 3.9,
+      "dd": -31.4
+    },
+    {
+      "name": "candles",
+      "sharpe": -0.12,
+      "cagr": -2.5,
+      "dd": -58.0
+    }
+  ],
+  "usage": {
+    "total": 22,
+    "filled": 22,
+    "pending": 0,
+    "failed": 0
+  },
+  "total_value": 124998.42
+}

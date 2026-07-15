@@ -1,0 +1,271 @@
+<title>Тристер · Командный центр</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{
+  --ground:#0a0e18; --surface:#121a2b; --surface2:#182338; --border:#26324c;
+  --text:#e7edf7; --muted:#8493b0; --faint:#5d6b88;
+  --accent:#4fc9d6; --gold:#f2c14e;
+  --up:#41c463; --down:#f6555f; --warn:#e5a93a; --hold:#6b7a99;
+  --shadow:0 1px 0 rgba(255,255,255,.03), 0 8px 24px rgba(0,0,0,.35);
+}
+@media (prefers-color-scheme: light){
+  :root{
+    --ground:#eef1f6; --surface:#ffffff; --surface2:#f4f6fb; --border:#dde3ee;
+    --text:#141b28; --muted:#5b6880; --faint:#8b97ac;
+    --accent:#1198a6; --gold:#b8860b;
+    --up:#1a9e4b; --down:#d63a44; --warn:#b7811a; --hold:#7a879e;
+    --shadow:0 1px 2px rgba(20,30,50,.06), 0 8px 24px rgba(20,30,50,.08);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0a0e18; --surface:#121a2b; --surface2:#182338; --border:#26324c;
+  --text:#e7edf7; --muted:#8493b0; --faint:#5d6b88;
+  --accent:#4fc9d6; --gold:#f2c14e; --up:#41c463; --down:#f6555f; --warn:#e5a93a; --hold:#6b7a99;
+  --shadow:0 1px 0 rgba(255,255,255,.03), 0 8px 24px rgba(0,0,0,.35);
+}
+:root[data-theme="light"]{
+  --ground:#eef1f6; --surface:#ffffff; --surface2:#f4f6fb; --border:#dde3ee;
+  --text:#141b28; --muted:#5b6880; --faint:#8b97ac;
+  --accent:#1198a6; --gold:#b8860b; --up:#1a9e4b; --down:#d63a44; --warn:#b7811a; --hold:#7a879e;
+  --shadow:0 1px 2px rgba(20,30,50,.06), 0 8px 24px rgba(20,30,50,.08);
+}
+*{box-sizing:border-box;margin:0}
+body{
+  background:var(--ground); color:var(--text);
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  line-height:1.5; -webkit-font-smoothing:antialiased;
+  padding:clamp(16px,3vw,40px);
+}
+.mono{font-family:ui-monospace,"SF Mono","JetBrains Mono","Cascadia Code",monospace;font-variant-numeric:tabular-nums}
+.wrap{max-width:1120px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
+
+/* header */
+header{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  border-bottom:1px solid var(--border);padding-bottom:18px}
+.brand{display:flex;flex-direction:column;gap:4px}
+.eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1{font-size:clamp(22px,3vw,30px);font-weight:700;letter-spacing:-.02em;text-wrap:balance}
+.sub{color:var(--muted);font-size:13px}
+.toggle{background:var(--surface2);border:1px solid var(--border);color:var(--muted);
+  border-radius:8px;padding:8px 12px;font-size:12px;cursor:pointer;display:flex;gap:6px;align-items:center}
+.toggle:hover{color:var(--text);border-color:var(--accent)}
+.toggle:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* hero */
+.hero{background:linear-gradient(135deg,var(--surface),var(--surface2));border:1px solid var(--border);
+  border-radius:16px;padding:26px 28px;box-shadow:var(--shadow);display:flex;justify-content:space-between;
+  align-items:center;gap:20px;flex-wrap:wrap}
+.hero .lbl{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.hero .big{font-size:clamp(34px,6vw,52px);font-weight:700;letter-spacing:-.03em;color:var(--gold);line-height:1.05}
+.hero .meta{color:var(--faint);font-size:12px;margin-top:6px}
+.hero-right{display:flex;gap:26px;text-align:right}
+.hr-item .n{font-size:22px;font-weight:700}
+.hr-item .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+
+/* section */
+.section-h{display:flex;align-items:baseline;gap:10px;margin:6px 2px 0}
+.section-h h2{font-size:15px;font-weight:650;letter-spacing:.02em}
+.section-h .hint{color:var(--faint);font-size:12px}
+
+/* account cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px;
+  box-shadow:var(--shadow);display:flex;flex-direction:column;gap:12px}
+.card .top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.card .name{font-weight:650;font-size:15px}
+.card .kind{color:var(--muted);font-size:12px;margin-top:1px}
+.card .bal{font-size:26px;font-weight:700}
+.pnl{font-size:12.5px;font-weight:600}
+.pnl.pos{color:var(--up)} .pnl.neg{color:var(--down)} .pnl.flat{color:var(--hold)}
+.pill{font-size:10.5px;font-weight:650;padding:3px 8px;border-radius:999px;letter-spacing:.03em;white-space:nowrap}
+.pill.ok{background:color-mix(in srgb,var(--up) 18%,transparent);color:var(--up)}
+.pill.err{background:color-mix(in srgb,var(--down) 18%,transparent);color:var(--down)}
+.poslist{display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--border);padding-top:10px}
+.posrow{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted)}
+.posrow .a{color:var(--text)}
+.chip{font-size:10px;font-weight:700;padding:1px 6px;border-radius:5px;text-transform:uppercase;letter-spacing:.04em}
+.chip.short{background:color-mix(in srgb,var(--down) 20%,transparent);color:var(--down)}
+.chip.long{background:color-mix(in srgb,var(--up) 20%,transparent);color:var(--up)}
+.empty{color:var(--faint);font-size:12px;font-style:italic}
+
+/* usage tiles */
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.tile{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 16px}
+.tile .n{font-size:28px;font-weight:700}
+.tile .k{font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin-top:2px}
+.tile.g .n{color:var(--up)} .tile.w .n{color:var(--warn)} .tile.r .n{color:var(--down)}
+
+/* table */
+.tablewrap{overflow-x:auto;border:1px solid var(--border);border-radius:14px;background:var(--surface)}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:560px}
+th{text-align:left;font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);
+  font-weight:600;padding:12px 16px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--surface)}
+td{padding:11px 16px;border-bottom:1px solid var(--border);color:var(--muted)}
+tr:last-child td{border-bottom:none}
+td.asset{color:var(--text);font-weight:550}
+.act{font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:6px;letter-spacing:.03em}
+.act.BUY{background:color-mix(in srgb,var(--up) 16%,transparent);color:var(--up)}
+.act.SELL{background:color-mix(in srgb,var(--down) 16%,transparent);color:var(--down)}
+.act.HOLD{background:color-mix(in srgb,var(--hold) 20%,transparent);color:var(--hold)}
+.st{font-size:11px;font-weight:600}
+.st.filled{color:var(--up)} .st.accepted,.st.pending{color:var(--warn)} .st.failed{color:var(--down)}
+
+/* hypotheses */
+.hyp{display:flex;flex-direction:column;gap:2px;background:var(--surface);border:1px solid var(--border);
+  border-radius:14px;overflow:hidden}
+.hyprow{display:grid;grid-template-columns:1.4fr 90px 80px 80px;gap:8px;align-items:center;
+  padding:12px 18px;border-bottom:1px solid var(--border)}
+.hyprow:last-child{border-bottom:none}
+.hyprow.win{background:color-mix(in srgb,var(--accent) 9%,transparent)}
+.hyprow .snm{font-weight:600;font-size:13.5px;display:flex;align-items:center;gap:8px}
+.hyprow .val{text-align:right;font-size:13px}
+.hyphead{grid-template-columns:1.4fr 90px 80px 80px;color:var(--muted);font-size:10.5px;
+  text-transform:uppercase;letter-spacing:.08em;font-weight:600;background:var(--surface2)}
+.bar{height:5px;border-radius:3px;background:var(--surface2);overflow:hidden;margin-top:5px}
+.bar>span{display:block;height:100%;background:var(--accent)}
+.tag{font-size:9.5px;font-weight:700;padding:1px 6px;border-radius:5px;background:var(--gold);color:#1a1200;letter-spacing:.03em}
+.tag.bad{background:color-mix(in srgb,var(--down) 22%,transparent);color:var(--down)}
+
+footer{color:var(--faint);font-size:12px;text-align:center;padding-top:8px;border-top:1px solid var(--border);line-height:1.7}
+.dot{color:var(--up)}
+@media (max-width:560px){.tiles{grid-template-columns:repeat(2,1fr)}.hero-right{gap:18px}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <span class="eyebrow">Тристер · Мульти-рыночный бот</span>
+      <h1>Командный центр</h1>
+      <span class="sub" id="sub"></span>
+    </div>
+    <button class="toggle" id="tg" aria-label="Сменить тему">◐ Тема</button>
+  </header>
+
+  <div class="hero">
+    <div>
+      <div class="lbl">Всего на всех демо-счетах</div>
+      <div class="big mono" id="tot"></div>
+      <div class="meta" id="hmeta"></div>
+    </div>
+    <div class="hero-right" id="hright"></div>
+  </div>
+
+  <div class="section-h"><h2>Счета</h2><span class="hint">4 демо · реальные деньги не тронуты</span></div>
+  <div class="grid" id="accts"></div>
+
+  <div class="section-h"><h2>Активность</h2><span class="hint">исполнено / в очереди / ошибки</span></div>
+  <div class="tiles" id="tiles"></div>
+
+  <div class="section-h"><h2>Транзакции</h2><span class="hint">последние сделки ботов</span></div>
+  <div class="tablewrap"><table><thead><tr>
+    <th>Время</th><th>Счёт</th><th>Действие</th><th>Инструмент</th><th>Сумма</th><th>Статус</th>
+  </tr></thead><tbody id="tx"></tbody></table></div>
+
+  <div class="section-h"><h2>Гипотезы стратегий</h2><span class="hint">9 стратегий × 11 рынков · out-of-sample · рейтинг по Sharpe</span></div>
+  <div class="hyp" id="hyp">
+    <div class="hyprow hyphead"><div>Стратегия</div><div class="val">Sharpe</div><div class="val">CAGR</div><div class="val">Просадка</div></div>
+  </div>
+
+  <footer id="ft"></footer>
+</div>
+
+<script>
+const DATA = {
+ "generated":"2026-07-15 19:19","total_value":124996.94,
+ "accounts":[
+  {"name":"Binance Spot","kind":"Крипта + Золото","total":9998.94,"start":10000,"status":"ok",
+   "positions":[{"asset":"USDC","usd":5000},{"asset":"USDT","usd":4998.94}]},
+  {"name":"Binance Futures","kind":"Фьючерсы · лонг/шорт","total":4998.0,"start":5000,"status":"ok",
+   "positions":[{"asset":"BTC/USDT","side":"short","pnl":-0.57},{"asset":"ETH/USDT","side":"short","pnl":-1.32}]},
+  {"name":"Alpaca","kind":"Акции США","total":100000,"start":100000,"status":"ok","positions":[]},
+  {"name":"Локальный","kind":"Все рынки · виртуально","total":10000,"start":10000,"status":"ok",
+   "positions":[{"asset":"AAPL","usd":10},{"asset":"NVDA","usd":10},{"asset":"AMZN","usd":10},{"asset":"GOOGL","usd":10},{"asset":"SPY","usd":10},{"asset":"QQQ","usd":10},{"asset":"CL=F","usd":10},{"asset":"HG=F","usd":10}]}
+ ],
+ "usage":{"total":22,"filled":17,"pending":5,"failed":0},
+ "transactions":[
+  {"time":"2026-07-15 18:35","account":"Локальный","action":"BUY","asset":"AAPL","amount":"$10","status":"filled"},
+  {"time":"2026-07-15 18:35","account":"Локальный","action":"BUY","asset":"NVDA","amount":"$10","status":"filled"},
+  {"time":"2026-07-15 18:35","account":"Локальный","action":"BUY","asset":"CL=F","amount":"$10","status":"filled"},
+  {"time":"2026-07-15 18:35","account":"Локальный","action":"BUY","asset":"HG=F","amount":"$10","status":"filled"},
+  {"time":"2026-07-15 18:04","account":"Binance Spot","action":"HOLD","asset":"PAXG","amount":"$0.39","status":"filled"},
+  {"time":"2026-07-15 17:31","account":"Binance Spot","action":"SELL","asset":"PAXG","amount":"$9.26","status":"filled"},
+  {"time":"2026-07-15 15:16","account":"Binance Spot","action":"BUY","asset":"PAXG","amount":"$9.66","status":"filled"},
+  {"time":"2026-07-15 12:51","account":"Alpaca","action":"BUY","asset":"AAPL","amount":"$10","status":"accepted"},
+  {"time":"2026-07-15 12:51","account":"Alpaca","action":"BUY","asset":"NVDA","amount":"$10","status":"accepted"},
+  {"time":"2026-07-15 12:51","account":"Alpaca","action":"BUY","asset":"AMZN","amount":"$10","status":"accepted"},
+  {"time":"2026-07-15 12:51","account":"Alpaca","action":"BUY","asset":"GOOGL","amount":"$10","status":"accepted"},
+  {"time":"2026-07-15 12:51","account":"Alpaca","action":"BUY","asset":"SPY","amount":"$10","status":"accepted"},
+  {"time":"2026-07-14 22:35","account":"Binance Spot","action":"SELL","asset":"PAXG","amount":"$13.63","status":"filled"}
+ ],
+ "hypotheses":[
+  {"name":"sma_20_50","sharpe":0.63,"cagr":14.6,"dd":-41.2,"win":true},
+  {"name":"buyhold","sharpe":0.63,"cagr":19.5,"dd":-59.9},
+  {"name":"sma_10_30","sharpe":0.60,"cagr":15.2,"dd":-39.3},
+  {"name":"trend","sharpe":0.59,"cagr":14.6,"dd":-43.8},
+  {"name":"macd","sharpe":0.51,"cagr":13.0,"dd":-87.2},
+  {"name":"rsi_meanrev","sharpe":0.38,"cagr":6.4,"dd":-52.2},
+  {"name":"trend_ls","sharpe":0.34,"cagr":6.7,"dd":-60.1},
+  {"name":"breakout20","sharpe":0.15,"cagr":3.9,"dd":-31.4},
+  {"name":"candles","sharpe":-0.12,"cagr":-2.5,"dd":-58.0,"bad":true}
+ ]
+};
+const $=(id)=>document.getElementById(id);
+const money=(n)=>"$"+n.toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+const pnlPct=(t,s)=>((t/s-1)*100);
+
+$("sub").textContent="Обновлено "+DATA.generated+" · все счета демо";
+$("tot").textContent=money(DATA.total_value);
+$("hmeta").textContent=DATA.accounts.length+" счёта · "+DATA.usage.total+" транзакций";
+const okAcc=DATA.accounts.filter(a=>a.status==="ok").length;
+$("hright").innerHTML=`
+ <div class="hr-item"><div class="n mono">${okAcc}/4</div><div class="k">счетов онлайн</div></div>
+ <div class="hr-item"><div class="n mono" style="color:var(--up)">${DATA.usage.filled}</div><div class="k">исполнено</div></div>`;
+
+$("accts").innerHTML=DATA.accounts.map(a=>{
+  const p=pnlPct(a.total,a.start); const cls=Math.abs(p)<0.01?"flat":p>=0?"pos":"neg";
+  const sign=p>=0?"+":"";
+  const pos=a.positions.length? `<div class="poslist">`+a.positions.slice(0,8).map(x=>{
+     const side=x.side?`<span class="chip ${x.side}">${x.side==="short"?"шорт":"лонг"}</span>`:"";
+     const right=x.pnl!==undefined?`<span class="${x.pnl>=0?'a':'a'}" style="color:${x.pnl>=0?'var(--up)':'var(--down)'}">${x.pnl>=0?'+':''}${x.pnl}$</span>`:`<span class="a mono">${x.usd?money(x.usd):''}</span>`;
+     return `<div class="posrow"><span>${x.asset} ${side}</span>${right}</div>`;
+   }).join("")+`</div>` : `<div class="empty">нет позиций · в кэше</div>`;
+  return `<div class="card">
+    <div class="top"><div><div class="name">${a.name}</div><div class="kind">${a.kind}</div></div>
+      <span class="pill ${a.status==='ok'?'ok':'err'}">${a.status==='ok'?'● онлайн':'ошибка'}</span></div>
+    <div><div class="bal mono">${money(a.total)}</div>
+      <div class="pnl ${cls}">${sign}${p.toFixed(2)}% · старт ${money(a.start)}</div></div>
+    ${pos}</div>`;
+}).join("");
+
+$("tiles").innerHTML=`
+ <div class="tile"><div class="n mono">${DATA.usage.total}</div><div class="k">Всего сделок</div></div>
+ <div class="tile g"><div class="n mono">${DATA.usage.filled}</div><div class="k">Исполнено</div></div>
+ <div class="tile w"><div class="n mono">${DATA.usage.pending}</div><div class="k">В очереди</div></div>
+ <div class="tile r"><div class="n mono">${DATA.usage.failed}</div><div class="k">Ошибки</div></div>`;
+
+$("tx").innerHTML=DATA.transactions.map(t=>`
+ <tr><td class="mono">${t.time}</td><td>${t.account}</td>
+   <td><span class="act ${t.action}">${t.action}</span></td>
+   <td class="asset">${t.asset}</td><td class="mono">${t.amount}</td>
+   <td><span class="st ${t.status}">${t.status==='filled'?'✓ исполнено':t.status==='accepted'?'⏳ в очереди':t.status}</span></td></tr>`).join("");
+
+const maxSh=Math.max(...DATA.hypotheses.map(h=>h.sharpe));
+$("hyp").insertAdjacentHTML("beforeend",DATA.hypotheses.map(h=>{
+  const tag=h.win?`<span class="tag">лучшая</span>`:h.bad?`<span class="tag bad">слив</span>`:"";
+  const w=Math.max(2,(h.sharpe/maxSh)*100);
+  return `<div class="hyprow ${h.win?'win':''}">
+    <div><div class="snm">${h.name} ${tag}</div><div class="bar"><span style="width:${w}%"></span></div></div>
+    <div class="val mono" style="font-weight:700">${h.sharpe.toFixed(2)}</div>
+    <div class="val mono" style="color:${h.cagr>=0?'var(--up)':'var(--down)'}">${h.cagr>=0?'+':''}${h.cagr}%</div>
+    <div class="val mono" style="color:var(--down)">${h.dd}%</div></div>`;
+}).join(""));
+
+$("ft").innerHTML=`<span class="dot">●</span> Все счета демо (testnet/paper) · реальные деньги не тронуты · снимок ${DATA.generated}<br>Лучшая проверенная стратегия: <b>sma_20_50</b> (Sharpe 0.63, устойчива на 100% рынков out-of-sample)`;
+
+// тема
+const tg=$("tg"),root=document.documentElement;
+tg.addEventListener("click",()=>{
+  const cur=root.getAttribute("data-theme")||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");
+  root.setAttribute("data-theme",cur==="dark"?"light":"dark");
+});
+</script>

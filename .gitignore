@@ -1,0 +1,11 @@
+.venv/
+data_cache/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+Книги/
+*.epub
+*.pkg
+*.zip
+*.docx
