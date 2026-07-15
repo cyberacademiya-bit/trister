@@ -5,8 +5,8 @@
     {
       "name": "buyhold",
       "title": "📊 Купи и держи",
-      "equity": 19988.8,
-      "ret": 99.89,
+      "equity": 20005.01,
+      "ret": 100.05,
       "longs": 16,
       "shorts": 0,
       "curve": [
@@ -39,8 +39,8 @@
     {
       "name": "sma",
       "title": "📈 SMA 20/50",
-      "equity": 15341.9,
-      "ret": 53.42,
+      "equity": 15346.13,
+      "ret": 53.459999999999994,
       "longs": 3,
       "shorts": 0,
       "curve": [
@@ -73,8 +73,8 @@
     {
       "name": "trend",
       "title": "🏆 Тренд MA50/200 (лучший)",
-      "equity": 11753.54,
-      "ret": 17.54,
+      "equity": 11759.8,
+      "ret": 17.599999999999998,
       "longs": 8,
       "shorts": 0,
       "curve": [
@@ -107,8 +107,8 @@
     {
       "name": "cot",
       "title": "🧠 Тренд + COT Уильямса",
-      "equity": 11753.54,
-      "ret": 17.54,
+      "equity": 11759.8,
+      "ret": 17.599999999999998,
       "longs": 8,
       "shorts": 0,
       "curve": [
@@ -141,9 +141,9 @@
     {
       "name": "candles",
       "title": "🕯️ Свечи + индикаторы",
-      "equity": 8966.46,
-      "ret": -10.34,
-      "longs": 6,
+      "equity": 8968.66,
+      "ret": -10.31,
+      "longs": 7,
       "shorts": 2,
       "curve": [
         10000.6,
@@ -175,8 +175,8 @@
     {
       "name": "trend_ls",
       "title": "↕️ Тренд лонг/шорт (фьючерсы)",
-      "equity": 6841.53,
-      "ret": -31.580000000000002,
+      "equity": 6843.2,
+      "ret": -31.569999999999997,
       "longs": 9,
       "shorts": 7,
       "curve": [
