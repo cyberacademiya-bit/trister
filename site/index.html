@@ -109,6 +109,8 @@ footer{color:var(--faint);font-size:12px;text-align:center;padding-top:8px;borde
   <div class="tiles" id="tiles"></div>
   <div class="section-h"><h2>Транзакции</h2><span class="hint">последние сделки ботов</span></div>
   <div class="tablewrap"><table><thead><tr><th>Время</th><th>Счёт</th><th>Действие</th><th>Инструмент</th><th>Сумма</th><th>Статус</th></tr></thead><tbody id="tx"></tbody></table></div>
+  <div class="section-h"><h2>🏁 Битва стратегий</h2><span class="hint">каждая торгует портфель по 16 рынкам · живой забег</span></div>
+  <div class="hyp" id="battle"></div>
   <div class="section-h"><h2>Гипотезы стратегий</h2><span class="hint">9 стратегий × 11 рынков · out-of-sample</span></div>
   <div class="hyp" id="hyp"></div>
   <footer id="ft"></footer>
@@ -117,6 +119,9 @@ footer{color:var(--faint);font-size:12px;text-align:center;padding-top:8px;borde
 <script>
 const $=(id)=>document.getElementById(id);
 const money=(n)=>"$"+(+n).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});
+function spark(c,up){if(!c||c.length<2)return"";const w=76,h=22,mn=Math.min(...c),mx=Math.max(...c),rng=(mx-mn)||1;
+  const pts=c.map((v,i)=>`${(i/(c.length-1)*w).toFixed(1)},${(h-(v-mn)/rng*h).toFixed(1)}`).join(" ");
+  return `<svg width="${w}" height="${h}" style="vertical-align:middle"><polyline points="${pts}" fill="none" stroke="${up?'var(--up)':'var(--down)'}" stroke-width="1.5"/></svg>`;}
 
 function render(D){
   $("sub").textContent="Обновлено "+(D.generated||"—")+" · все счета демо";
@@ -157,7 +162,16 @@ function render(D){
         <div class="val mono" style="color:${h.cagr>=0?'var(--up)':'var(--down)'}">${h.cagr>=0?'+':''}${h.cagr}%</div>
         <div class="val mono" style="color:var(--down)">${h.dd}%</div></div>`;}).join("");
 
-  $("ft").innerHTML=`<span class="dot">●</span> Все счета демо (testnet/paper) · реальные деньги не тронуты · снимок ${D.generated||"—"}<br>Бот работает автономно 24/7 · лучшая стратегия: <b>sma_20_50</b>`;
+  const B=D.battle;
+  $("battle").innerHTML=(B&&B.strategies)?(`<div class="hyprow hyphead" style="grid-template-columns:1.6fr 100px 90px 90px"><div>Стратегия · период ${B.period||''}</div><div class="val">Портфель</div><div class="val">Доход</div><div class="val">График</div></div>`+
+    B.strategies.map((s,i)=>{const medal=i===0?'🥇':i===1?'🥈':i===2?'🥉':(i+1)+'';
+      return `<div class="hyprow ${i===0?'win':''}" style="grid-template-columns:1.6fr 100px 90px 90px">
+        <div class="snm">${medal} ${s.name} <span style="color:var(--faint);font-size:11px">${s.longs}L/${s.shorts}S</span></div>
+        <div class="val mono" style="font-weight:700">$${Math.round(s.equity).toLocaleString('en-US')}</div>
+        <div class="val mono" style="color:${s.ret>=0?'var(--up)':'var(--down)'}">${s.ret>=0?'+':''}${(+s.ret).toFixed(1)}%</div>
+        <div class="val">${spark(s.curve,s.ret>=0)}</div></div>`;}).join("")):'<div class="hyprow"><div class="empty">нет данных турнира</div></div>';
+
+  $("ft").innerHTML=`<span class="dot">●</span> Все счета демо (testnet/paper) · реальные деньги не тронуты · снимок ${D.generated||"—"}<br>Бот работает автономно 24/7 · турнир: победитель <b>${(B&&B.strategies&&B.strategies[0])?B.strategies[0].name:'—'}</b>`;
 }
 
 const FALLBACK={"generated":"—","total_value":0,"accounts":[],"transactions":[],"hypotheses":[],"usage":{}};

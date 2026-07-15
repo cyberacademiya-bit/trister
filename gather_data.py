@@ -96,6 +96,12 @@ try:
 except Exception:
     pass
 
+# ── Битва стратегий (турнир) ──
+try:
+    snap["battle"] = json.load(open("Данные/strategy_battle.json", encoding="utf-8"))
+except Exception:
+    snap["battle"] = None
+
 # ── Usage: сводка по транзакциям ──
 tx = snap["transactions"]
 snap["usage"] = {"total": len(tx),
