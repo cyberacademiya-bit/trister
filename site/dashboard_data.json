@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16 21:48 (Бишкек)",
+  "generated": "2026-07-16 23:56 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,18 +51,18 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100000.76,
+      "total": 100000.71,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 0.03142893,
-          "usd": 10.42
+          "usd": 10.4
         },
         {
           "asset": "SPY",
           "amount": 0.013244769,
-          "usd": 9.98
+          "usd": 9.95
         }
       ],
       "status": "ok"
@@ -446,14 +446,14 @@
     "failed": 0
   },
   "battle": {
-    "period": "2024-01-01 → 2026-07-15",
+    "period": "2024-01-01 → 2026-07-16",
     "markets": 16,
     "strategies": [
       {
         "name": "buyhold",
         "title": "📊 Купи и держи",
-        "equity": 20005.01,
-        "ret": 100.05,
+        "equity": 19869.04,
+        "ret": 98.69,
         "longs": 16,
         "shorts": 0,
         "curve": [
@@ -486,7 +486,7 @@
       {
         "name": "sma",
         "title": "📈 SMA 20/50",
-        "equity": 15346.13,
+        "equity": 15345.68,
         "ret": 53.459999999999994,
         "longs": 3,
         "shorts": 0,
@@ -520,8 +520,8 @@
       {
         "name": "trend",
         "title": "🏆 Тренд MA50/200 (лучший)",
-        "equity": 11759.8,
-        "ret": 17.599999999999998,
+        "equity": 11742.53,
+        "ret": 17.43,
         "longs": 8,
         "shorts": 0,
         "curve": [
@@ -554,8 +554,8 @@
       {
         "name": "cot",
         "title": "🧠 Тренд + COT Уильямса",
-        "equity": 11759.8,
-        "ret": 17.599999999999998,
+        "equity": 11742.53,
+        "ret": 17.43,
         "longs": 8,
         "shorts": 0,
         "curve": [
@@ -588,9 +588,9 @@
       {
         "name": "candles",
         "title": "🕯️ Свечи + индикаторы",
-        "equity": 8968.66,
-        "ret": -10.31,
-        "longs": 7,
+        "equity": 8946.09,
+        "ret": -10.54,
+        "longs": 6,
         "shorts": 2,
         "curve": [
           10000.6,
@@ -622,10 +622,10 @@
       {
         "name": "trend_ls",
         "title": "↕️ Тренд лонг/шорт (фьючерсы)",
-        "equity": 6843.2,
-        "ret": -31.569999999999997,
-        "longs": 9,
-        "shorts": 7,
+        "equity": 6849.93,
+        "ret": -31.5,
+        "longs": 8,
+        "shorts": 8,
         "curve": [
           9468.5,
           8677.4,
@@ -655,5 +655,5 @@
       }
     ]
   },
-  "total_value": 124998.84
+  "total_value": 124998.79
 }
