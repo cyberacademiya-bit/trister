@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-16 11:44 (Бишкек)",
+  "generated": "2026-07-16 18:05 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
       "kind": "Крипта + Золото",
-      "total": 9998.05,
+      "total": 9994.81,
       "start": 10000,
       "positions": [
         {
@@ -20,7 +20,7 @@
         {
           "asset": "SOL",
           "amount": 2.572425,
-          "usd": 199.08
+          "usd": 195.84
         }
       ],
       "status": "ok"
@@ -28,20 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4999.51,
+      "total": 5002.86,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 65120.5,
-          "pnl": 0.331
+          "pnl": 1.436
         },
         {
           "asset": "ETH/USDT",
           "side": "short",
           "entry": 1910.04,
-          "pnl": -0.752
+          "pnl": 1.476
         }
       ],
       "status": "ok"
@@ -49,18 +49,18 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100000.69,
+      "total": 100000.66,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 0.03142893,
-          "usd": 10.31
+          "usd": 10.33
         },
         {
           "asset": "SPY",
           "amount": 0.013244769,
-          "usd": 10.0
+          "usd": 9.96
         }
       ],
       "status": "ok"
@@ -85,6 +85,31 @@
           "asset": "QQQ",
           "amount": 0.013895,
           "usd": 10.0
+        },
+        {
+          "asset": "NVDA",
+          "amount": 2.352941,
+          "usd": 500.0
+        },
+        {
+          "asset": "AMZN",
+          "amount": 1.961092,
+          "usd": 500.0
+        },
+        {
+          "asset": "GOOGL",
+          "amount": 1.348,
+          "usd": 500.0
+        },
+        {
+          "asset": "CL=F",
+          "amount": 6.264094,
+          "usd": 500.0
+        },
+        {
+          "asset": "HG=F",
+          "amount": 78.326935,
+          "usd": 500.0
         }
       ],
       "status": "ok"
@@ -153,30 +178,6 @@
       "action": "BUY",
       "asset": "AMZN",
       "amount": "$10",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-15 18:35",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "AAPL",
-      "amount": "$10.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-15 18:35",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "NVDA",
-      "amount": "$10.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-15 18:35",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "AMZN",
-      "amount": "$10.0",
       "status": "filled"
     },
     {
@@ -257,6 +258,46 @@
       "action": "SELL",
       "asset": "HG=F",
       "amount": "$9.97",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-16 18:05",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "NVDA",
+      "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-16 18:05",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "AMZN",
+      "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-16 18:05",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "GOOGL",
+      "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-16 18:05",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "CL=F",
+      "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-16 18:05",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "HG=F",
+      "amount": "$500.0",
       "status": "filled"
     },
     {
@@ -397,8 +438,8 @@
     }
   ],
   "usage": {
-    "total": 31,
-    "filled": 31,
+    "total": 33,
+    "filled": 33,
     "pending": 0,
     "failed": 0
   },
@@ -612,5 +653,5 @@
       }
     ]
   },
-  "total_value": 124998.58
+  "total_value": 124998.66
 }
