@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16 23:56 (Бишкек)",
+  "generated": "2026-07-17 01:46 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -57,12 +57,12 @@
         {
           "asset": "AAPL",
           "amount": 0.03142893,
-          "usd": 10.4
+          "usd": 10.43
         },
         {
           "asset": "SPY",
           "amount": 0.013244769,
-          "usd": 9.95
+          "usd": 9.91
         }
       ],
       "status": "ok"
