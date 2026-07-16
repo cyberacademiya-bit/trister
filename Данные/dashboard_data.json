@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-16 06:13 (Бишкек)",
+  "generated": "2026-07-16 11:44 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
       "kind": "Крипта + Золото",
-      "total": 9998.72,
+      "total": 9998.05,
       "start": 10000,
       "positions": [
         {
@@ -20,38 +20,36 @@
         {
           "asset": "SOL",
           "amount": 2.572425,
-          "usd": 199.75
+          "usd": 199.08
         }
       ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-15 23:28"
+      "status": "ok"
     },
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4999.57,
+      "total": 4999.51,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 65120.5,
-          "pnl": 0.197
+          "pnl": 0.331
         },
         {
           "asset": "ETH/USDT",
           "side": "short",
           "entry": 1910.04,
-          "pnl": -0.533
+          "pnl": -0.752
         }
       ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-15 23:28"
+      "status": "ok"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100000.7,
+      "total": 100000.69,
       "start": 100000,
       "positions": [
         {
@@ -614,5 +612,5 @@
       }
     ]
   },
-  "total_value": 124999.32
+  "total_value": 124998.58
 }
