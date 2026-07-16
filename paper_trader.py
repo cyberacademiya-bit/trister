@@ -19,6 +19,10 @@ import config
 import paper
 import strategies
 
+# Локальный счёт держит СВОЮ стратегию — «тренд» (акции + сырьё по тренду).
+# Так все стратегии работают вживую на разных счетах: спот/Alpaca=sma, фьючерсы=лонг/шорт, локальный=тренд.
+STRATEGY = "trend"
+
 # Все рынки, которые торгуем виртуально (yfinance-тикеры)
 MARKETS = {
     "AAPL": "Apple", "MSFT": "Microsoft", "NVDA": "Nvidia", "TSLA": "Tesla",
@@ -40,7 +44,7 @@ def fetch():
             df = d[["dt", "open", "high", "low", "close"]]
             if len(df) < 210:
                 continue
-            pos, txt, _ = strategies.signal_now(config.STRATEGY, df)
+            pos, txt, _ = strategies.signal_now(STRATEGY, df)
             out[tk] = (pos, float(df["close"].iloc[-1]), txt)
         except Exception:
             pass
@@ -71,7 +75,7 @@ def main():
         print("✅ Счёт сброшен к $10 000.")
         return
 
-    print(f"Тяну живые цены всех рынков (стратегия '{config.STRATEGY}')...")
+    print(f"Тяну живые цены всех рынков (стратегия '{STRATEGY}')...")
     sig = fetch()
     prices = {s: v[1] for s, v in sig.items()}
 
