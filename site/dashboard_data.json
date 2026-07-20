@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20 16:24 (Бишкек)",
+  "generated": "2026-07-20 22:17 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,23 +51,23 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99996.46,
+      "total": 99999.66,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 0.03142893,
-          "usd": 10.46
+          "usd": 10.22
         },
         {
           "asset": "META",
           "amount": 0.770889994,
-          "usd": 495.77
+          "usd": 499.2
         },
         {
           "asset": "SPY",
           "amount": 0.013244769,
-          "usd": 9.87
+          "usd": 9.89
         }
       ],
       "status": "ok"
@@ -668,5 +668,5 @@
       }
     ]
   },
-  "total_value": 124994.54
+  "total_value": 124997.74
 }
