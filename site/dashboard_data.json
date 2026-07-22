@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22 16:07 (Бишкек)",
+  "generated": "2026-07-22 16:13 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -23,41 +23,39 @@
           "usd": 0.03
         }
       ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-22 16:01"
+      "status": "ok"
     },
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4993.77,
+      "total": 4993.92,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 66044.0,
-          "pnl": 2.105
+          "pnl": 2.058
         },
         {
           "asset": "ETH/USDT",
           "side": "long",
           "entry": 1921.41,
-          "pnl": 1.158
+          "pnl": 1.353
         }
       ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-22 16:01"
+      "status": "ok"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99996.83,
+      "total": 99996.82,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 0.03142893,
-          "usd": 10.28
+          "usd": 10.27
         },
         {
           "asset": "META",
@@ -838,7 +836,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-22 16:07:42 (Бишкек)",
+    "generated": "2026-07-22 16:13:48 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -847,16 +845,16 @@
         "sym": "BTC",
         "side": "short",
         "entry": 66044.0,
-        "price": 65896.4,
-        "pnl_pct": 0.22,
+        "price": 65904.8,
+        "pnl_pct": 0.21,
         "why": "EMA↓ RSI 46"
       },
       {
         "sym": "ETH",
         "side": "long",
         "entry": 1921.41,
-        "price": 1923.49,
-        "pnl_pct": 0.11,
+        "price": 1923.77,
+        "pnl_pct": 0.12,
         "why": "EMA↑ RSI 58"
       }
     ],
@@ -864,5 +862,5 @@
       "15:56:29 ETH 🟢 ЛОНГ @ 1921.41"
     ]
   },
-  "total_value": 124987.28
+  "total_value": 124987.42
 }
