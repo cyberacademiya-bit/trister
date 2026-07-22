@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22 15:43 (Бишкек)",
+  "generated": "2026-07-22 15:49 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,20 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4994.05,
+      "total": 4994.42,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 66044.0,
-          "pnl": 2.319
+          "pnl": 2.929
         },
         {
           "asset": "ETH/USDT",
           "side": "short",
           "entry": 1919.92,
-          "pnl": -0.354
+          "pnl": -0.598
         }
       ],
       "status": "ok"
@@ -65,7 +65,7 @@
         {
           "asset": "SPY",
           "amount": 0.013244769,
-          "usd": 9.88
+          "usd": 9.89
         }
       ],
       "status": "ok"
@@ -828,7 +828,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-22 15:43:05 (Бишкек)",
+    "generated": "2026-07-22 15:49:07 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -837,20 +837,20 @@
         "sym": "BTC",
         "side": "short",
         "entry": 66044.0,
-        "price": 65860.5,
-        "pnl_pct": 0.28,
-        "why": "EMA↓ RSI 42"
+        "price": 65850.0,
+        "pnl_pct": 0.29,
+        "why": "EMA↓ RSI 44"
       },
       {
         "sym": "ETH",
         "side": "short",
         "entry": 1919.92,
-        "price": 1920.62,
-        "pnl_pct": -0.04,
-        "why": "EMA↓ RSI 50"
+        "price": 1921.13,
+        "pnl_pct": -0.06,
+        "why": "EMA↓ RSI 52"
       }
     ],
     "recent": []
   },
-  "total_value": 124987.26
+  "total_value": 124987.63
 }
