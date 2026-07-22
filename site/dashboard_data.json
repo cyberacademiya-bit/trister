@@ -29,20 +29,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4980.29,
+      "total": 4981.56,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "long",
           "entry": 66006.6,
-          "pnl": -0.29
+          "pnl": 0.519
         },
         {
           "asset": "ETH/USDT",
           "side": "long",
           "entry": 1941.33,
-          "pnl": -0.051
+          "pnl": 0.63
         }
       ],
       "status": "offline",
@@ -67,7 +67,7 @@
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2998.67
+          "usd": 2998.47
         },
         {
           "asset": "IEF",
@@ -964,7 +964,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-22 22:00:58 (Бишкек)",
+    "generated": "2026-07-22 22:07:15 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -973,17 +973,17 @@
         "sym": "BTC",
         "side": "long",
         "entry": 66006.6,
-        "price": 65994.6,
-        "pnl_pct": -0.02,
-        "why": "EMA↑ RSI 59"
+        "price": 66041.1,
+        "pnl_pct": 0.05,
+        "why": "EMA↑ RSI 62"
       },
       {
         "sym": "ETH",
         "side": "long",
         "entry": 1941.33,
-        "price": 1941.59,
-        "pnl_pct": 0.01,
-        "why": "EMA↑ RSI 56"
+        "price": 1942.39,
+        "pnl_pct": 0.05,
+        "why": "EMA↑ RSI 58"
       }
     ],
     "recent": [
