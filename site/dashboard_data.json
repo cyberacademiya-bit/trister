@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22 18:17 (Бишкек)",
+  "generated": "2026-07-22 18:23 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,20 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4982.1,
+      "total": 4981.34,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 65912.0,
-          "pnl": 0.572
+          "pnl": 0.876
         },
         {
           "asset": "ETH/USDT",
           "side": "long",
           "entry": 1931.22,
-          "pnl": -3.231
+          "pnl": -4.296
         }
       ],
       "status": "ok"
@@ -49,7 +49,7 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99997.89,
+      "total": 99997.94,
       "start": 100000,
       "positions": [
         {
@@ -60,7 +60,7 @@
         {
           "asset": "META",
           "amount": 0.770889994,
-          "usd": 497.36
+          "usd": 497.41
         },
         {
           "asset": "SPY",
@@ -876,7 +876,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-22 18:17:51 (Бишкек)",
+    "generated": "2026-07-22 18:23:59 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -885,17 +885,17 @@
         "sym": "BTC",
         "side": "short",
         "entry": 65912.0,
-        "price": 65882.9,
-        "pnl_pct": 0.04,
-        "why": "EMA↓ RSI 39"
+        "price": 65854.0,
+        "pnl_pct": 0.09,
+        "why": "EMA↓ RSI 40"
       },
       {
         "sym": "ETH",
         "side": "long",
         "entry": 1931.22,
-        "price": 1924.91,
-        "pnl_pct": -0.33,
-        "why": "EMA↑ RSI 46"
+        "price": 1922.91,
+        "pnl_pct": -0.43,
+        "why": "EMA↑ RSI 42"
       }
     ],
     "recent": [
@@ -909,5 +909,5 @@
       "17:05:12 BTC 🟢 ЛОНГ @ 66006.5"
     ]
   },
-  "total_value": 124976.67
+  "total_value": 124975.96
 }
