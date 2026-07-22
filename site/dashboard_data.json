@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22 19:19 (Бишкек)",
+  "generated": "2026-07-22 19:25 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,20 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4984.11,
+      "total": 4984.59,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 65912.0,
-          "pnl": 4.489
+          "pnl": 5.01
         },
         {
           "asset": "ETH/USDT",
           "side": "short",
           "entry": 1920.82,
-          "pnl": 0.883
+          "pnl": 0.852
         }
       ],
       "status": "ok"
@@ -49,18 +49,18 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99998.49,
+      "total": 99998.93,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 0.03142893,
-          "usd": 10.29
+          "usd": 10.28
         },
         {
           "asset": "META",
           "amount": 0.770889994,
-          "usd": 497.96
+          "usd": 498.41
         },
         {
           "asset": "SPY",
@@ -147,6 +147,30 @@
   ],
   "transactions": [
     {
+      "time": "2026-07-22 13:23",
+      "account": "Alpaca",
+      "action": "SELL",
+      "asset": "SPY",
+      "amount": "$0.013244769",
+      "status": "new"
+    },
+    {
+      "time": "2026-07-22 13:23",
+      "account": "Alpaca",
+      "action": "SELL",
+      "asset": "AAPL",
+      "amount": "$0.03142893",
+      "status": "new"
+    },
+    {
+      "time": "2026-07-22 13:23",
+      "account": "Alpaca",
+      "action": "SELL",
+      "asset": "META",
+      "amount": "$0.770889994",
+      "status": "new"
+    },
+    {
       "time": "2026-07-22 08:31",
       "account": "Alpaca",
       "action": "BUY",
@@ -225,30 +249,6 @@
       "asset": "MSFT",
       "amount": "$3000",
       "status": "new"
-    },
-    {
-      "time": "2026-07-22 08:18",
-      "account": "Alpaca",
-      "action": "SELL",
-      "asset": "SPY",
-      "amount": "$0.013244769",
-      "status": "accepted"
-    },
-    {
-      "time": "2026-07-22 08:18",
-      "account": "Alpaca",
-      "action": "SELL",
-      "asset": "META",
-      "amount": "$0.770889994",
-      "status": "accepted"
-    },
-    {
-      "time": "2026-07-22 08:18",
-      "account": "Alpaca",
-      "action": "SELL",
-      "asset": "AAPL",
-      "amount": "$0.03142893",
-      "status": "accepted"
     },
     {
       "time": "2026-07-17 16:48",
@@ -876,7 +876,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-22 19:19:28 (Бишкек)",
+    "generated": "2026-07-22 19:25:38 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -885,16 +885,16 @@
         "sym": "BTC",
         "side": "short",
         "entry": 65912.0,
-        "price": 65600.1,
-        "pnl_pct": 0.47,
-        "why": "EMA↓ RSI 32"
+        "price": 65551.0,
+        "pnl_pct": 0.55,
+        "why": "EMA↓ RSI 31"
       },
       {
         "sym": "ETH",
         "side": "short",
         "entry": 1920.82,
-        "price": 1918.35,
-        "pnl_pct": 0.13,
+        "price": 1919.05,
+        "pnl_pct": 0.09,
         "why": "EMA↓ RSI 43"
       }
     ],
@@ -909,5 +909,5 @@
       "17:08:58 BTC 🔴 ШОРТ @ 66022.4"
     ]
   },
-  "total_value": 124979.28
+  "total_value": 124980.2
 }
