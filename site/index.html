@@ -61,7 +61,7 @@ h1{font-size:clamp(22px,3vw,30px);font-weight:700;letter-spacing:-.02em;text-wra
 .pill.ok{background:color-mix(in srgb,var(--up) 18%,transparent);color:var(--up)}
 .pill.err{background:color-mix(in srgb,var(--down) 18%,transparent);color:var(--down)}
 .pill.off{background:color-mix(in srgb,var(--muted) 20%,transparent);color:var(--muted)}
-.poslist{display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--border);padding-top:10px}
+.poslist{display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--border);padding-top:10px;max-height:280px;overflow-y:auto}
 .posrow{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted)}.posrow .a{color:var(--text)}
 .chip{font-size:10px;font-weight:700;padding:1px 6px;border-radius:5px;text-transform:uppercase;letter-spacing:.04em}
 .chip.short{background:color-mix(in srgb,var(--down) 20%,transparent);color:var(--down)}
@@ -141,7 +141,7 @@ function render(D){
     }
     if(a.status!=="ok") return `<div class="card"><div class="top"><div><div class="name">${a.name}</div><div class="kind">${a.kind||""}</div></div><span class="pill err">ошибка</span></div><div class="empty">${a.error||"нет связи"}</div></div>`;
     const p=(a.total/a.start-1)*100; const cls=Math.abs(p)<0.01?"flat":p>=0?"pos":"neg"; const sg=p>=0?"+":"";
-    const pos=(a.positions&&a.positions.length)?`<div class="poslist">`+a.positions.slice(0,8).map(x=>{
+    const pos=(a.positions&&a.positions.length)?`<div class="poslist">`+a.positions.map(x=>{
       const side=x.side?`<span class="chip ${x.side}">${x.side==="short"?"шорт":"лонг"}</span>`:"";
       const right=(x.pnl!==undefined&&x.pnl!==null)?`<span class="a" style="color:${x.pnl>=0?'var(--up)':'var(--down)'}">${x.pnl>=0?'+':''}${x.pnl}$</span>`:`<span class="a mono">${x.usd?money(x.usd):''}</span>`;
       return `<div class="posrow"><span>${x.asset} ${side}</span>${right}</div>`;}).join("")+`</div>`:`<div class="empty">нет позиций · в кэше</div>`;
@@ -155,7 +155,7 @@ function render(D){
     <div class="tile w"><div class="n mono">${u.pending||0}</div><div class="k">В очереди</div></div>
     <div class="tile r"><div class="n mono">${u.failed||0}</div><div class="k">Ошибки</div></div>`;
 
-  $("tx").innerHTML=(D.transactions||[]).slice(0,15).map(t=>`<tr><td class="mono">${t.time}</td><td>${t.account}</td>
+  $("tx").innerHTML=(D.transactions||[]).slice(0,60).map(t=>`<tr><td class="mono">${t.time}</td><td>${t.account}</td>
     <td><span class="act ${t.action}">${t.action}</span></td><td class="asset">${t.asset}</td><td class="mono">${t.amount}</td>
     <td><span class="st ${t.status}">${t.status==='filled'?'✓ исполнено':t.status==='accepted'?'⏳ в очереди':t.status}</span></td></tr>`).join("");
 
