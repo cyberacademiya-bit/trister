@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22 16:46 (Бишкек)",
+  "generated": "2026-07-22 16:48 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,14 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4994.54,
+      "total": 4994.51,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 66044.0,
-          "pnl": -0.183
+          "pnl": 0.278
+        },
+        {
+          "asset": "ETH/USDT",
+          "side": "long",
+          "entry": 1931.22,
+          "pnl": -0.088
         }
       ],
       "status": "ok"
@@ -555,6 +561,14 @@
       "asset": "PAXG/BTC",
       "amount": "$1000.0",
       "status": "filled"
+    },
+    {
+      "time": "2026-07-22 16:48:11",
+      "account": "Binance Spot",
+      "action": "LIVE ОТКРЫЛ long",
+      "asset": "PAXG/BTC",
+      "amount": "$1000.0",
+      "status": "filled"
     }
   ],
   "hypotheses": [
@@ -614,8 +628,8 @@
     }
   ],
   "usage": {
-    "total": 52,
-    "filled": 39,
+    "total": 53,
+    "filled": 40,
     "pending": 13,
     "failed": 0
   },
@@ -830,7 +844,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-22 16:46:47 (Бишкек)",
+    "generated": "2026-07-22 16:48:11 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -839,15 +853,24 @@
         "sym": "BTC",
         "side": "short",
         "entry": 66044.0,
-        "price": 66031.8,
-        "pnl_pct": 0.02,
-        "why": "EMA↓ RSI 66"
+        "price": 65985.7,
+        "pnl_pct": 0.09,
+        "why": "EMA↓ RSI 64"
+      },
+      {
+        "sym": "ETH",
+        "side": "long",
+        "entry": 1931.22,
+        "price": 1931.22,
+        "pnl_pct": 0.0,
+        "why": "EMA↑ RSI 72"
       }
     ],
     "recent": [
+      "16:48:00 ETH 🟢 ЛОНГ @ 1931.22",
       "16:46:36 ETH ⚪ закрыл long (нейтрально)",
       "15:56:29 ETH 🟢 ЛОНГ @ 1921.41"
     ]
   },
-  "total_value": 124988.57
+  "total_value": 124988.54
 }
