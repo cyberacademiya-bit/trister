@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22 14:19 (Бишкек)",
+  "generated": "2026-07-22 14:32 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -23,21 +23,33 @@
           "usd": 0.03
         }
       ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-16 18:25"
+      "status": "ok"
     },
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4998.81,
+      "total": 4998.23,
       "start": 5000,
-      "positions": [],
+      "positions": [
+        {
+          "asset": "BTC/USDT",
+          "side": "short",
+          "entry": 66044.0,
+          "pnl": 0.215
+        },
+        {
+          "asset": "ETH/USDT",
+          "side": "short",
+          "entry": 1921.41,
+          "pnl": 0.151
+        }
+      ],
       "status": "ok"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99995.03,
+      "total": 99996.19,
       "start": 100000,
       "positions": [
         {
@@ -48,12 +60,12 @@
         {
           "asset": "META",
           "amount": 0.770889994,
-          "usd": 494.53
+          "usd": 495.67
         },
         {
           "asset": "SPY",
           "amount": 0.013244769,
-          "usd": 9.88
+          "usd": 9.89
         }
       ],
       "status": "ok"
@@ -63,11 +75,157 @@
       "kind": "Все рынки (виртуально)",
       "total": 9999.32,
       "start": 10000.0,
-      "positions": [],
+      "positions": [
+        {
+          "asset": "AAPL",
+          "amount": 1.5256,
+          "usd": 500.0
+        },
+        {
+          "asset": "MSFT",
+          "amount": 1.257071,
+          "usd": 500.0
+        },
+        {
+          "asset": "NVDA",
+          "amount": 2.41208,
+          "usd": 500.0
+        },
+        {
+          "asset": "GOOGL",
+          "amount": 1.4403,
+          "usd": 500.0
+        },
+        {
+          "asset": "AMZN",
+          "amount": 2.019794,
+          "usd": 500.0
+        },
+        {
+          "asset": "META",
+          "amount": 0.776627,
+          "usd": 500.0
+        },
+        {
+          "asset": "SPY",
+          "amount": 0.668199,
+          "usd": 500.0
+        },
+        {
+          "asset": "QQQ",
+          "amount": 0.705248,
+          "usd": 500.0
+        },
+        {
+          "asset": "TLT",
+          "amount": 5.976572,
+          "usd": 500.0
+        },
+        {
+          "asset": "IEF",
+          "amount": 5.358483,
+          "usd": 500.0
+        },
+        {
+          "asset": "AGG",
+          "amount": 5.115613,
+          "usd": 500.0
+        },
+        {
+          "asset": "BND",
+          "amount": 6.89465,
+          "usd": 500.0
+        },
+        {
+          "asset": "LQD",
+          "amount": 4.679457,
+          "usd": 500.0
+        }
+      ],
       "status": "ok"
     }
   ],
   "transactions": [
+    {
+      "time": "2026-07-22 08:31",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "LQD",
+      "amount": "$3000",
+      "status": "new"
+    },
+    {
+      "time": "2026-07-22 08:31",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "BND",
+      "amount": "$3000",
+      "status": "new"
+    },
+    {
+      "time": "2026-07-22 08:31",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "AGG",
+      "amount": "$3000",
+      "status": "new"
+    },
+    {
+      "time": "2026-07-22 08:31",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "IEF",
+      "amount": "$3000",
+      "status": "new"
+    },
+    {
+      "time": "2026-07-22 08:31",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "TLT",
+      "amount": "$3000",
+      "status": "new"
+    },
+    {
+      "time": "2026-07-22 08:31",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "QQQ",
+      "amount": "$3000",
+      "status": "new"
+    },
+    {
+      "time": "2026-07-22 08:31",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "AMZN",
+      "amount": "$3000",
+      "status": "new"
+    },
+    {
+      "time": "2026-07-22 08:31",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "GOOGL",
+      "amount": "$3000",
+      "status": "new"
+    },
+    {
+      "time": "2026-07-22 08:31",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "NVDA",
+      "amount": "$3000",
+      "status": "new"
+    },
+    {
+      "time": "2026-07-22 08:31",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "MSFT",
+      "amount": "$3000",
+      "status": "new"
+    },
     {
       "time": "2026-07-22 08:18",
       "account": "Alpaca",
@@ -165,110 +323,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-07-15 22:33",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "CL=F",
-      "amount": "$9.91",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-15 22:33",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "HG=F",
-      "amount": "$9.97",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-16 18:05",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "NVDA",
-      "amount": "$500.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-16 18:05",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "AMZN",
-      "amount": "$500.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-16 18:05",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "GOOGL",
-      "amount": "$500.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-16 18:05",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "CL=F",
-      "amount": "$500.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-16 18:05",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "HG=F",
-      "amount": "$500.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:18",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "AAPL",
-      "amount": "$10.41",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:18",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "SPY",
-      "amount": "$9.95",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:18",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "QQQ",
-      "amount": "$9.85",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:18",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "NVDA",
-      "amount": "$487.74",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:18",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "AMZN",
-      "amount": "$485.47",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:18",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "GOOGL",
-      "amount": "$467.96",
-      "status": "filled"
-    },
-    {
       "time": "2026-07-22 14:18",
       "account": "Локальный",
       "action": "SELL",
@@ -282,6 +336,110 @@
       "action": "SELL",
       "asset": "HG=F",
       "amount": "$511.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "AAPL",
+      "amount": "$500",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "MSFT",
+      "amount": "$500",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "NVDA",
+      "amount": "$500",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "GOOGL",
+      "amount": "$500",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "AMZN",
+      "amount": "$500",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "META",
+      "amount": "$500",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "SPY",
+      "amount": "$500",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "QQQ",
+      "amount": "$500",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "TLT",
+      "amount": "$500",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "IEF",
+      "amount": "$500",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "AGG",
+      "amount": "$500",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "BND",
+      "amount": "$500",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "LQD",
+      "amount": "$500",
       "status": "filled"
     },
     {
@@ -363,6 +521,22 @@
       "asset": "PAXG/BTC",
       "amount": "$199.9745",
       "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:23:43",
+      "account": "Binance Spot",
+      "action": "LIVE ОТКРЫЛ short",
+      "asset": "PAXG/BTC",
+      "amount": "$1000.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 14:23:47",
+      "account": "Binance Spot",
+      "action": "LIVE ОТКРЫЛ short",
+      "asset": "PAXG/BTC",
+      "amount": "$1000.0",
+      "status": "filled"
     }
   ],
   "hypotheses": [
@@ -422,9 +596,9 @@
     }
   ],
   "usage": {
-    "total": 37,
-    "filled": 34,
-    "pending": 3,
+    "total": 49,
+    "filled": 36,
+    "pending": 13,
     "failed": 0
   },
   "battle": {
@@ -637,5 +811,5 @@
       }
     ]
   },
-  "total_value": 124990.52
+  "total_value": 124991.1
 }
