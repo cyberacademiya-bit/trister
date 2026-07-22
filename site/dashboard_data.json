@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23 02:21 (Бишкек)",
+  "generated": "2026-07-23 02:26 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -649,7 +649,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-23 02:21:56 (Бишкек)",
+    "generated": "2026-07-23 02:26:57 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
