@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22 15:56 (Бишкек)",
+  "generated": "2026-07-22 16:01 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,20 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4993.52,
+      "total": 4993.88,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 66044.0,
-          "pnl": 2.63
+          "pnl": 2.173
         },
         {
           "asset": "ETH/USDT",
           "side": "long",
           "entry": 1921.41,
-          "pnl": 0.334
+          "pnl": 1.196
         }
       ],
       "status": "ok"
@@ -49,23 +49,23 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99996.48,
+      "total": 99996.23,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 0.03142893,
-          "usd": 10.27
+          "usd": 10.28
         },
         {
           "asset": "META",
           "amount": 0.770889994,
-          "usd": 495.97
+          "usd": 495.7
         },
         {
           "asset": "SPY",
           "amount": 0.013244769,
-          "usd": 9.88
+          "usd": 9.89
         }
       ],
       "status": "ok"
@@ -836,7 +836,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-22 15:56:41 (Бишкек)",
+    "generated": "2026-07-22 16:01:34 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -845,22 +845,22 @@
         "sym": "BTC",
         "side": "short",
         "entry": 66044.0,
-        "price": 65867.0,
-        "pnl_pct": 0.27,
-        "why": "EMA↓ RSI 44"
+        "price": 65915.2,
+        "pnl_pct": 0.2,
+        "why": "EMA↓ RSI 49"
       },
       {
         "sym": "ETH",
         "side": "long",
         "entry": 1921.41,
-        "price": 1921.41,
-        "pnl_pct": 0.0,
-        "why": "EMA↑ RSI 55"
+        "price": 1923.87,
+        "pnl_pct": 0.13,
+        "why": "EMA↑ RSI 57"
       }
     ],
     "recent": [
       "15:56:29 ETH 🟢 ЛОНГ @ 1921.41"
     ]
   },
-  "total_value": 124986.68
+  "total_value": 124986.79
 }
