@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22 20:02 (Бишкек)",
+  "generated": "2026-07-22 20:05 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,20 +28,14 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4982.65,
+      "total": 4981.77,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 65912.0,
-          "pnl": 0.446
-        },
-        {
-          "asset": "ETH/USDT",
-          "side": "long",
-          "entry": 1925.5,
-          "pnl": 6.794
+          "pnl": -1.385
         }
       ],
       "status": "ok"
@@ -49,58 +43,58 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100027.39,
+      "total": 100029.94,
       "start": 100000,
       "positions": [
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2999.22
+          "usd": 2998.7
         },
         {
           "asset": "AMZN",
           "amount": 12.184320741,
-          "usd": 3000.88
+          "usd": 3005.99
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2998.88
+          "usd": 2998.47
         },
         {
           "asset": "GOOGL",
           "amount": 8.631215866,
-          "usd": 3012.73
+          "usd": 3011.95
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2998.55
+          "usd": 2997.59
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2999.15
+          "usd": 2998.87
         },
         {
           "asset": "MSFT",
           "amount": 7.584366617,
-          "usd": 2977.32
+          "usd": 2976.86
         },
         {
           "asset": "NVDA",
           "amount": 14.591972432,
-          "usd": 3026.89
+          "usd": 3028.13
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3013.62
+          "usd": 3013.87
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 3000.53
+          "usd": 3000.14
         }
       ],
       "status": "ok"
@@ -911,7 +905,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-22 20:02:33 (Бишкек)",
+    "generated": "2026-07-22 20:05:09 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -920,29 +914,21 @@
         "sym": "BTC",
         "side": "short",
         "entry": 65912.0,
-        "price": 65879.0,
-        "pnl_pct": 0.05,
-        "why": "EMA↓ RSI 56"
-      },
-      {
-        "sym": "ETH",
-        "side": "long",
-        "entry": 1925.5,
-        "price": 1937.99,
-        "pnl_pct": 0.65,
-        "why": "EMA↑ RSI 73"
+        "price": 66004.1,
+        "pnl_pct": -0.14,
+        "why": "EMA↓ RSI 65"
       }
     ],
     "recent": [
+      "20:04:58 ETH ⚪ закрыл long (нейтрально)",
       "19:40:11 ETH 🟢 ЛОНГ @ 1925.5",
       "18:42:07 ETH 🔴 ШОРТ @ 1921.6",
       "18:05:27 BTC 🔴 ШОРТ @ 65912.0",
       "17:47:00 BTC 🟢 ЛОНГ @ 65940.6",
       "17:45:34 BTC 🔴 ШОРТ @ 65888.9",
       "17:20:41 BTC 🟢 ЛОНГ @ 65968.3",
-      "17:16:47 BTC 🔴 ШОРТ @ 65963.5",
-      "17:10:22 BTC 🟢 ЛОНГ @ 66022.5"
+      "17:16:47 BTC 🔴 ШОРТ @ 65963.5"
     ]
   },
-  "total_value": 125006.72
+  "total_value": 125008.39
 }
