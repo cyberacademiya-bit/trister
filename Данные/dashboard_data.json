@@ -23,7 +23,8 @@
           "usd": 0.03
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-22 16:01"
     },
     {
       "name": "Binance Futures",
@@ -44,7 +45,8 @@
           "pnl": 1.158
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-22 16:01"
     },
     {
       "name": "Alpaca",
@@ -82,11 +84,6 @@
           "usd": 500.0
         },
         {
-          "asset": "MSFT",
-          "amount": 1.257071,
-          "usd": 500.0
-        },
-        {
           "asset": "NVDA",
           "amount": 2.41208,
           "usd": 500.0
@@ -99,11 +96,6 @@
         {
           "asset": "AMZN",
           "amount": 2.019794,
-          "usd": 500.0
-        },
-        {
-          "asset": "META",
-          "amount": 0.776627,
           "usd": 500.0
         },
         {
@@ -139,6 +131,16 @@
         {
           "asset": "LQD",
           "amount": 4.679457,
+          "usd": 500.0
+        },
+        {
+          "asset": "CL=F",
+          "amount": 5.647165,
+          "usd": 500.0
+        },
+        {
+          "asset": "HG=F",
+          "amount": 76.781326,
           "usd": 500.0
         }
       ],
@@ -323,38 +325,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-07-22 14:18",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "CL=F",
-      "amount": "$546.6",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:18",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "HG=F",
-      "amount": "$511.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:31",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "AAPL",
-      "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:31",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "MSFT",
-      "amount": "$500",
-      "status": "filled"
-    },
-    {
       "time": "2026-07-22 14:31",
       "account": "Локальный",
       "action": "BUY",
@@ -440,6 +410,38 @@
       "action": "BUY",
       "asset": "LQD",
       "amount": "$500",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 16:07",
+      "account": "Локальный",
+      "action": "SELL",
+      "asset": "MSFT",
+      "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 16:07",
+      "account": "Локальный",
+      "action": "SELL",
+      "asset": "META",
+      "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 16:07",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "CL=F",
+      "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-22 16:07",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "HG=F",
+      "amount": "$500.0",
       "status": "filled"
     },
     {
