@@ -708,3 +708,18 @@
 ----------------------------------------------------------------
   20:33:46 BTC/USDT     ⚠️ NetworkError: binance GET https://demo-fapi.binance.com/fap
   20:33:46 ETH/USDT     держим long  EMA↑ RSI 48      PnL -0.68%
+----------------------------------------------------------------
+  20:43:30 BTC/USDT     ⚠️ NetworkError: binance GET https://fapi.binance.com/fapi/v1/
+  20:43:30 ETH/USDT     ⚠️ NetworkError: binance GET https://api.binance.com/api/v3/ex
+----------------------------------------------------------------
+  21:19:08 BTC/USDT     ⚠️ RequestTimeout: binance GET https://demo-fapi.binance.com/fap
+  21:19:08 ETH/USDT     держим long  EMA↑ RSI 65      PnL +0.08%
+----------------------------------------------------------------
+  21:20:29 BTC/USDT     держим short EMA↓ RSI 64      PnL -0.02%
+  21:20:29 ETH/USDT     держим long  EMA↑ RSI 71      PnL +0.20%
+----------------------------------------------------------------
+  21:21:41 BTC/USDT     держим short EMA↓ RSI 63      PnL -0.07%
+  21:21:41 ETH/USDT     держим long  EMA↑ RSI 70      PnL +0.21%
+----------------------------------------------------------------
+  21:22:55 BTC/USDT     держим short EMA↓ RSI 62      PnL -0.09%
+  21:22:55 ETH/USDT     держим long  EMA↑ RSI 68      PnL +0.14%
