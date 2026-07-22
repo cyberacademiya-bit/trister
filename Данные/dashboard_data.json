@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22 19:25 (Бишкек)",
+  "generated": "2026-07-22 19:31 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,20 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4984.59,
+      "total": 4980.49,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 65912.0,
-          "pnl": 5.01
+          "pnl": 4.211
         },
         {
           "asset": "ETH/USDT",
           "side": "short",
           "entry": 1920.82,
-          "pnl": 0.852
+          "pnl": -2.36
         }
       ],
       "status": "ok"
@@ -49,23 +49,58 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99998.93,
+      "total": 99989.79,
       "start": 100000,
       "positions": [
         {
-          "asset": "AAPL",
-          "amount": 0.03142893,
-          "usd": 10.28
+          "asset": "AGG",
+          "amount": 30.699856733,
+          "usd": 2999.99
         },
         {
-          "asset": "META",
-          "amount": 0.770889994,
-          "usd": 498.41
+          "asset": "AMZN",
+          "amount": 7.0,
+          "usd": 1719.06
         },
         {
-          "asset": "SPY",
-          "amount": 0.013244769,
-          "usd": 9.88
+          "asset": "BND",
+          "amount": 8.0,
+          "usd": 580.0
+        },
+        {
+          "asset": "GOOGL",
+          "amount": 1.0,
+          "usd": 347.55
+        },
+        {
+          "asset": "IEF",
+          "amount": 1.0,
+          "usd": 93.28
+        },
+        {
+          "asset": "LQD",
+          "amount": 28.092424384,
+          "usd": 3000.13
+        },
+        {
+          "asset": "MSFT",
+          "amount": 2.0,
+          "usd": 791.06
+        },
+        {
+          "asset": "NVDA",
+          "amount": 6.0,
+          "usd": 1232.73
+        },
+        {
+          "asset": "QQQ",
+          "amount": 4.259171446,
+          "usd": 3000.76
+        },
+        {
+          "asset": "TLT",
+          "amount": 23.0,
+          "usd": 1923.26
         }
       ],
       "status": "ok"
@@ -152,7 +187,7 @@
       "action": "SELL",
       "asset": "SPY",
       "amount": "$0.013244769",
-      "status": "new"
+      "status": "filled"
     },
     {
       "time": "2026-07-22 13:23",
@@ -160,7 +195,7 @@
       "action": "SELL",
       "asset": "AAPL",
       "amount": "$0.03142893",
-      "status": "new"
+      "status": "filled"
     },
     {
       "time": "2026-07-22 13:23",
@@ -168,7 +203,7 @@
       "action": "SELL",
       "asset": "META",
       "amount": "$0.770889994",
-      "status": "new"
+      "status": "filled"
     },
     {
       "time": "2026-07-22 08:31",
@@ -176,7 +211,7 @@
       "action": "BUY",
       "asset": "LQD",
       "amount": "$3000",
-      "status": "new"
+      "status": "filled"
     },
     {
       "time": "2026-07-22 08:31",
@@ -184,7 +219,7 @@
       "action": "BUY",
       "asset": "BND",
       "amount": "$3000",
-      "status": "new"
+      "status": "partially_filled"
     },
     {
       "time": "2026-07-22 08:31",
@@ -192,7 +227,7 @@
       "action": "BUY",
       "asset": "AGG",
       "amount": "$3000",
-      "status": "new"
+      "status": "filled"
     },
     {
       "time": "2026-07-22 08:31",
@@ -200,7 +235,7 @@
       "action": "BUY",
       "asset": "IEF",
       "amount": "$3000",
-      "status": "new"
+      "status": "partially_filled"
     },
     {
       "time": "2026-07-22 08:31",
@@ -208,7 +243,7 @@
       "action": "BUY",
       "asset": "TLT",
       "amount": "$3000",
-      "status": "new"
+      "status": "partially_filled"
     },
     {
       "time": "2026-07-22 08:31",
@@ -216,7 +251,7 @@
       "action": "BUY",
       "asset": "QQQ",
       "amount": "$3000",
-      "status": "new"
+      "status": "filled"
     },
     {
       "time": "2026-07-22 08:31",
@@ -224,7 +259,7 @@
       "action": "BUY",
       "asset": "AMZN",
       "amount": "$3000",
-      "status": "new"
+      "status": "partially_filled"
     },
     {
       "time": "2026-07-22 08:31",
@@ -232,7 +267,7 @@
       "action": "BUY",
       "asset": "GOOGL",
       "amount": "$3000",
-      "status": "new"
+      "status": "partially_filled"
     },
     {
       "time": "2026-07-22 08:31",
@@ -240,7 +275,7 @@
       "action": "BUY",
       "asset": "NVDA",
       "amount": "$3000",
-      "status": "new"
+      "status": "partially_filled"
     },
     {
       "time": "2026-07-22 08:31",
@@ -248,7 +283,7 @@
       "action": "BUY",
       "asset": "MSFT",
       "amount": "$3000",
-      "status": "new"
+      "status": "partially_filled"
     },
     {
       "time": "2026-07-17 16:48",
@@ -661,8 +696,8 @@
   ],
   "usage": {
     "total": 57,
-    "filled": 44,
-    "pending": 13,
+    "filled": 50,
+    "pending": 0,
     "failed": 0
   },
   "battle": {
@@ -876,7 +911,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-22 19:25:38 (Бишкек)",
+    "generated": "2026-07-22 19:31:42 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -885,17 +920,17 @@
         "sym": "BTC",
         "side": "short",
         "entry": 65912.0,
-        "price": 65551.0,
-        "pnl_pct": 0.55,
-        "why": "EMA↓ RSI 31"
+        "price": 65636.6,
+        "pnl_pct": 0.42,
+        "why": "EMA↓ RSI 42"
       },
       {
         "sym": "ETH",
         "side": "short",
         "entry": 1920.82,
-        "price": 1919.05,
-        "pnl_pct": 0.09,
-        "why": "EMA↓ RSI 43"
+        "price": 1925.23,
+        "pnl_pct": -0.23,
+        "why": "EMA↓ RSI 55"
       }
     ],
     "recent": [
@@ -909,5 +944,5 @@
       "17:08:58 BTC 🔴 ШОРТ @ 66022.4"
     ]
   },
-  "total_value": 124980.2
+  "total_value": 124966.96
 }
