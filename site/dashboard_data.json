@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22 17:20 (Бишкек)",
+  "generated": "2026-07-22 17:22 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,20 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4987.28,
+      "total": 4989.01,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "long",
           "entry": 65969.2,
-          "pnl": 0.045
+          "pnl": 0.562
         },
         {
           "asset": "ETH/USDT",
           "side": "long",
           "entry": 1931.22,
-          "pnl": -2.467
+          "pnl": -1.27
         }
       ],
       "status": "ok"
@@ -49,18 +49,18 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99996.34,
+      "total": 99996.05,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 0.03142893,
-          "usd": 10.28
+          "usd": 10.29
         },
         {
           "asset": "META",
           "amount": 0.770889994,
-          "usd": 495.82
+          "usd": 495.52
         },
         {
           "asset": "SPY",
@@ -876,7 +876,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-22 17:20:54 (Бишкек)",
+    "generated": "2026-07-22 17:22:17 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -884,18 +884,18 @@
       {
         "sym": "BTC",
         "side": "long",
-        "entry": 65968.3,
-        "price": 65968.3,
-        "pnl_pct": 0.0,
-        "why": "EMA↑ RSI 53"
+        "entry": 65969.2,
+        "price": 65996.3,
+        "pnl_pct": 0.04,
+        "why": "EMA↑ RSI 56"
       },
       {
         "sym": "ETH",
         "side": "long",
         "entry": 1931.22,
-        "price": 1926.25,
-        "pnl_pct": -0.26,
-        "why": "EMA↑ RSI 56"
+        "price": 1928.65,
+        "pnl_pct": -0.13,
+        "why": "EMA↑ RSI 59"
       }
     ],
     "recent": [
@@ -909,5 +909,5 @@
       "15:56:29 ETH 🟢 ЛОНГ @ 1921.41"
     ]
   },
-  "total_value": 124980.3
+  "total_value": 124981.74
 }
