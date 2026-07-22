@@ -23,7 +23,8 @@
           "usd": 0.03
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-23 02:04"
     },
     {
       "name": "Binance Futures",
@@ -44,7 +45,8 @@
           "pnl": 3.082
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-23 02:04"
     },
     {
       "name": "Alpaca",
@@ -75,7 +77,7 @@
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2996.62
+          "usd": 2997.03
         },
         {
           "asset": "META",
