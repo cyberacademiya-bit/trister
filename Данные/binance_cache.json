@@ -1,6 +1,6 @@
 {
   "Binance Spot": {
-    "total": 9994.65,
+    "total": 9997.36,
     "positions": [
       {
         "asset": "USDC",
@@ -9,33 +9,20 @@
       },
       {
         "asset": "USDT",
-        "amount": 4798.968886,
-        "usd": 4798.97
+        "amount": 4997.328727,
+        "usd": 4997.33
       },
       {
         "asset": "SOL",
-        "amount": 2.572425,
-        "usd": 195.68
+        "amount": 0.000425,
+        "usd": 0.03
       }
     ],
-    "time": "2026-07-16 18:25"
+    "time": "2026-07-22 14:19"
   },
   "Binance Futures": {
-    "total": 5003.1,
-    "positions": [
-      {
-        "asset": "BTC/USDT",
-        "side": "short",
-        "entry": 65120.5,
-        "pnl": 1.528
-      },
-      {
-        "asset": "ETH/USDT",
-        "side": "short",
-        "entry": 1910.04,
-        "pnl": 1.621
-      }
-    ],
-    "time": "2026-07-16 18:25"
+    "total": 4998.81,
+    "positions": [],
+    "time": "2026-07-22 14:19"
   }
 }
