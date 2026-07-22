@@ -18,24 +18,24 @@
         "usd": 0.03
       }
     ],
-    "time": "2026-07-23 01:03"
+    "time": "2026-07-23 01:09"
   },
   "Binance Futures": {
-    "total": 4972.97,
+    "total": 4974.09,
     "positions": [
       {
         "asset": "BTC/USDT",
         "side": "short",
         "entry": 65830.9,
-        "pnl": -0.002
+        "pnl": 0.264
       },
       {
         "asset": "ETH/USDT",
         "side": "short",
         "entry": 1931.5,
-        "pnl": 1.851
+        "pnl": 2.714
       }
     ],
-    "time": "2026-07-23 01:03"
+    "time": "2026-07-23 01:09"
   }
 }
