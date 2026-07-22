@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22 17:28 (Бишкек)",
+  "generated": "2026-07-22 17:34 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,20 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4988.54,
+      "total": 4989.21,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "long",
           "entry": 65969.2,
-          "pnl": 0.962
+          "pnl": 1.044
         },
         {
           "asset": "ETH/USDT",
           "side": "long",
           "entry": 1931.22,
-          "pnl": -2.118
+          "pnl": -1.508
         }
       ],
       "status": "ok"
@@ -49,18 +49,18 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99996.21,
+      "total": 99996.32,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 0.03142893,
-          "usd": 10.28
+          "usd": 10.29
         },
         {
           "asset": "META",
           "amount": 0.770889994,
-          "usd": 495.68
+          "usd": 495.79
         },
         {
           "asset": "SPY",
@@ -876,7 +876,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-22 17:28:33 (Бишкек)",
+    "generated": "2026-07-22 17:34:38 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -885,17 +885,17 @@
         "sym": "BTC",
         "side": "long",
         "entry": 65969.2,
-        "price": 66037.6,
+        "price": 66032.7,
         "pnl_pct": 0.1,
-        "why": "EMA↑ RSI 55"
+        "why": "EMA↑ RSI 57"
       },
       {
         "sym": "ETH",
         "side": "long",
         "entry": 1931.22,
-        "price": 1927.02,
-        "pnl_pct": -0.22,
-        "why": "EMA↑ RSI 54"
+        "price": 1928.23,
+        "pnl_pct": -0.15,
+        "why": "EMA↑ RSI 56"
       }
     ],
     "recent": [
@@ -909,5 +909,5 @@
       "15:56:29 ETH 🟢 ЛОНГ @ 1921.41"
     ]
   },
-  "total_value": 124981.43
+  "total_value": 124982.21
 }
