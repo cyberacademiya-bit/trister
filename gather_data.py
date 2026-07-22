@@ -141,6 +141,12 @@ try:
 except Exception:
     snap["battle"] = None
 
+# ── Живая торговля фьючерсами (5m лонг/шорт, пишет futures_live.py) ──
+try:
+    snap["live"] = json.load(open("Данные/live_futures.json", encoding="utf-8"))
+except Exception:
+    snap["live"] = None
+
 # ── Usage: сводка по транзакциям ──
 tx = snap["transactions"]
 snap["usage"] = {"total": len(tx),

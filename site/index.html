@@ -106,6 +106,8 @@ footer{color:var(--faint);font-size:12px;text-align:center;padding-top:8px;borde
     <div class="hero-right" id="hright"></div></div>
   <div class="section-h"><h2>Счета</h2><span class="hint">демо · реальные деньги не тронуты</span></div>
   <div class="grid" id="accts"></div>
+  <div class="section-h" id="livehead" style="display:none"><h2>🔴🟢 Живая торговля</h2><span class="hint" id="livehint">фьючерсы 5m · лонг/шорт · в реальном времени</span></div>
+  <div id="live"></div>
   <div class="section-h"><h2>Активность</h2><span class="hint">исполнено / в очереди / ошибки</span></div>
   <div class="tiles" id="tiles"></div>
   <div class="section-h"><h2>Транзакции</h2><span class="hint">последние сделки ботов</span></div>
@@ -148,6 +150,22 @@ function render(D){
     return `<div class="card"><div class="top"><div><div class="name">${a.name}</div><div class="kind">${a.kind||""}</div></div><span class="pill ok">● онлайн</span></div>
       <div><div class="bal mono">${money(a.total)}</div><div class="pnl ${cls}">${sg}${p.toFixed(2)}% · старт ${money(a.start)}</div></div>${pos}</div>`;
   }).join("");
+
+  // 🔴🟢 Живая торговля фьючерсами (5m)
+  const L=D.live;
+  if(L && ((L.positions&&L.positions.length) || (L.recent&&L.recent.length))){
+    $("livehead").style.display="";
+    $("livehint").textContent=`фьючерсы 5m · $${L.size_usd} · плечо ${L.leverage}x · стоп ${L.stop_pct}% · ${L.generated||""}`;
+    const cards=(L.positions&&L.positions.length)?(L.positions).map(x=>{
+      const dir=x.side==="long"?"🟢 ЛОНГ":"🔴 ШОРТ";
+      const col=x.pnl_pct>=0?"var(--up)":"var(--down)"; const sg=x.pnl_pct>=0?"+":"";
+      return `<div class="card"><div class="top"><div><div class="name">${x.sym}</div><div class="kind">вход $${x.entry} · сейчас $${x.price}</div></div><span class="chip ${x.side}">${dir}</span></div>
+        <div class="bal mono" style="color:${col}">${sg}${x.pnl_pct}%</div><div class="kind">${x.why||""} · PnL в реальном времени</div></div>`;
+    }).join(""):`<div class="card"><div class="empty">нет открытых позиций — бот ждёт сигнал</div></div>`;
+    const rec=(L.recent&&L.recent.length)?`<div class="card"><div class="kind" style="margin-bottom:10px;font-weight:600">📋 Последние действия бота</div><div class="poslist" style="border-top:none;padding-top:0">`+
+      L.recent.map(r=>`<div class="posrow"><span>${r}</span></div>`).join("")+`</div></div>`:"";
+    $("live").innerHTML=`<div class="grid">${cards}${rec}</div>`;
+  } else { $("livehead").style.display="none"; $("live").innerHTML=""; }
 
   const u=D.usage||{};
   $("tiles").innerHTML=`<div class="tile"><div class="n mono">${u.total||0}</div><div class="k">Всего сделок</div></div>
