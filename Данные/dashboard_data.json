@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23 17:37 (Бишкек)",
+  "generated": "2026-07-23 17:40 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,20 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4971.54,
+      "total": 4970.86,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
-          "side": "long",
-          "entry": 65683.1,
-          "pnl": -1.654
+          "side": "short",
+          "entry": 65574.33,
+          "pnl": 0.057
         },
         {
           "asset": "ETH/USDT",
           "side": "long",
           "entry": 1925.0,
-          "pnl": -0.083
+          "pnl": -0.021
         }
       ],
       "status": "ok"
@@ -49,28 +49,28 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99959.15,
+      "total": 99958.02,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.539577162,
-          "usd": 497.51
+          "usd": 497.4
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2995.08
+          "usd": 2996.31
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2994.55
+          "usd": 2995.03
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2989.66
+          "usd": 2989.07
         },
         {
           "asset": "LQD",
@@ -80,22 +80,22 @@
         {
           "asset": "META",
           "amount": 0.79500283,
-          "usd": 490.4
+          "usd": 489.8
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2980.14
+          "usd": 2979.72
         },
         {
           "asset": "SPY",
           "amount": 0.666790247,
-          "usd": 495.5
+          "usd": 495.47
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2985.46
+          "usd": 2984.38
         }
       ],
       "status": "ok"
@@ -529,14 +529,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-07-22 15:56:41",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ long",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
       "time": "2026-07-22 16:48:11",
       "account": "Binance Spot",
       "action": "LIVE ОТКРЫЛ long",
@@ -684,6 +676,14 @@
       "time": "2026-07-23 15:26:14",
       "account": "Binance Spot",
       "action": "LIVE ОТКРЫЛ long",
+      "asset": "PAXG/BTC",
+      "amount": "$1000.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-23 17:40:29",
+      "account": "Binance Spot",
+      "action": "LIVE ОТКРЫЛ short",
       "asset": "PAXG/BTC",
       "amount": "$1000.0",
       "status": "filled"
@@ -962,38 +962,38 @@
     ]
   },
   "live": {
-    "generated": "2026-07-23 17:37:02 (Бишкек)",
+    "generated": "2026-07-23 17:40:47 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
     "positions": [
       {
         "sym": "BTC",
-        "side": "long",
-        "entry": 65683.1,
-        "price": 65575.9,
-        "pnl_pct": -0.16,
-        "why": "EMA↑ RSI 40"
+        "side": "short",
+        "entry": 65574.3,
+        "price": 65574.3,
+        "pnl_pct": -0.0,
+        "why": "EMA↓ RSI 34"
       },
       {
         "sym": "ETH",
         "side": "long",
         "entry": 1925.0,
-        "price": 1924.84,
-        "pnl_pct": -0.01,
-        "why": "EMA↑ RSI 45"
+        "price": 1924.66,
+        "pnl_pct": -0.02,
+        "why": "EMA↑ RSI 47"
       }
     ],
     "recent": [
+      "17:40:17 BTC 🔴 ШОРТ @ 65574.3",
       "15:26:06 BTC 🟢 ЛОНГ @ 65682.9",
       "15:23:25 BTC 🔴 ШОРТ @ 65673.9",
       "15:20:45 BTC 🟢 ЛОНГ @ 65664.4",
       "14:58:05 ETH 🟢 ЛОНГ @ 1924.97",
       "00:33:04 BTC 🔴 ШОРТ @ 65830.9",
       "00:30:07 ETH 🔴 ШОРТ @ 1931.73",
-      "21:25:38 BTC 🟢 ЛОНГ @ 66006.6",
-      "20:14:47 ETH 🟢 ЛОНГ @ 1941.35"
+      "21:25:38 BTC 🟢 ЛОНГ @ 66006.6"
     ]
   },
-  "total_value": 124927.37
+  "total_value": 124925.56
 }
