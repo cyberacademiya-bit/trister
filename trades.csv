@@ -31,3 +31,4 @@ time,action,signal,price,amount_btc,cost_usdt,note
 2026-07-23 00:33:12,LIVE ОТКРЫЛ short,BTC/USDT EMA↓ RSI 32,65830.9,,1000,"5m, плечо 2x, стоп 2%"
 2026-07-23 14:58:18,LIVE ОТКРЫЛ long,ETH/USDT EMA↑ RSI 65,1924.97,,1000,"5m, плечо 2x, стоп 2%"
 2026-07-23 15:20:52,LIVE ОТКРЫЛ long,BTC/USDT EMA↑ RSI 64,65664.4,,1000,"5m, плечо 2x, стоп 2%"
+2026-07-23 15:23:33,LIVE ОТКРЫЛ short,BTC/USDT EMA↓ RSI 61,65673.9,,1000,"5m, плечо 2x, стоп 2%"
