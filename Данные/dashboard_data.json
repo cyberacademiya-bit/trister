@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23 19:17 (Бишкек)",
+  "generated": "2026-07-23 19:21 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,26 +28,39 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4966.93,
+      "total": 4965.76,
       "start": 5000,
-      "positions": [],
+      "positions": [
+        {
+          "asset": "BTC/USDT",
+          "side": "short",
+          "entry": 65063.22,
+          "pnl": -0.381
+        },
+        {
+          "asset": "ETH/USDT",
+          "side": "short",
+          "entry": 1899.82,
+          "pnl": 0.0
+        }
+      ],
       "status": "ok"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99887.68,
+      "total": 99889.97,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.539577162,
-          "usd": 498.82
+          "usd": 498.45
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2988.63
+          "usd": 2987.76
         },
         {
           "asset": "BND",
@@ -67,22 +80,22 @@
         {
           "asset": "META",
           "amount": 0.79500283,
-          "usd": 484.9
+          "usd": 485.39
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2957.48
+          "usd": 2958.72
         },
         {
           "asset": "SPY",
           "amount": 0.666790247,
-          "usd": 493.04
+          "usd": 493.14
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2975.4
+          "usd": 2977.21
         }
       ],
       "status": "ok"
@@ -516,22 +529,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-07-22 17:45:41",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ short",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 17:47:07",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ long",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
       "time": "2026-07-22 18:05:35",
       "account": "Binance Spot",
       "action": "LIVE ОТКРЫЛ short",
@@ -669,6 +666,22 @@
     },
     {
       "time": "2026-07-23 19:12:58",
+      "account": "Binance Spot",
+      "action": "LIVE ОТКРЫЛ short",
+      "asset": "PAXG/BTC",
+      "amount": "$1000.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-23 19:21:12",
+      "account": "Binance Spot",
+      "action": "LIVE ОТКРЫЛ short",
+      "asset": "PAXG/BTC",
+      "amount": "$1000.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-23 19:21:17",
       "account": "Binance Spot",
       "action": "LIVE ОТКРЫЛ short",
       "asset": "PAXG/BTC",
@@ -949,21 +962,38 @@
     ]
   },
   "live": {
-    "generated": "2026-07-23 19:17:23 (Бишкек)",
+    "generated": "2026-07-23 19:21:17 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
-    "positions": [],
+    "positions": [
+      {
+        "sym": "BTC",
+        "side": "short",
+        "entry": 65055.4,
+        "price": 65055.4,
+        "pnl_pct": -0.0,
+        "why": "EMA↓ RSI 30"
+      },
+      {
+        "sym": "ETH",
+        "side": "short",
+        "entry": 1899.83,
+        "price": 1899.83,
+        "pnl_pct": -0.0,
+        "why": "EMA↓ RSI 27"
+      }
+    ],
     "recent": [
+      "19:21:03 ETH 🔴 ШОРТ @ 1899.83",
+      "19:21:03 BTC 🔴 ШОРТ @ 65055.4",
       "19:14:28 BTC ⚪ закрыл short (нейтрально)",
       "19:12:52 BTC 🔴 ШОРТ @ 65099.4",
       "19:05:08 ETH ⚪ закрыл short (нейтрально)",
       "19:05:08 BTC ⚪ закрыл short (нейтрально)",
       "18:59:46 ETH 🔴 ШОРТ @ 1902.48",
-      "18:58:22 ETH ⚪ закрыл short (нейтрально)",
-      "18:56:46 ETH 🔴 ШОРТ @ 1902.71",
-      "18:52:46 ETH ⚪ закрыл short (нейтрально)"
+      "18:58:22 ETH ⚪ закрыл short (нейтрально)"
     ]
   },
-  "total_value": 124851.29
+  "total_value": 124852.41
 }
