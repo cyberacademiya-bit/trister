@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23 23:15 (Бишкек)",
+  "generated": "2026-07-24 01:06 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,48 +51,48 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99888.47,
+      "total": 99873.22,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.539577162,
-          "usd": 493.66
+          "usd": 494.14
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2988.73
+          "usd": 2988.17
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2988.95
+          "usd": 2988.52
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2986.01
+          "usd": 2985.85
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2985.52
+          "usd": 2984.4
         },
         {
           "asset": "META",
           "amount": 0.79500283,
-          "usd": 482.11
+          "usd": 481.54
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2950.5
+          "usd": 2938.7
         },
         {
           "asset": "SPY",
           "amount": 0.666790247,
-          "usd": 492.43
+          "usd": 491.35
         },
         {
           "asset": "TLT",
@@ -105,7 +105,7 @@
     {
       "name": "Локальный",
       "kind": "Все рынки (виртуально)",
-      "total": 9932.62,
+      "total": 9929.72,
       "start": 10000.0,
       "positions": [
         {
@@ -161,11 +161,6 @@
         {
           "asset": "HG=F",
           "amount": 76.781326,
-          "usd": 500.0
-        },
-        {
-          "asset": "AMZN",
-          "amount": 2.1292,
           "usd": 500.0
         }
       ],
@@ -409,14 +404,6 @@
       "time": "2026-07-22 14:31",
       "account": "Локальный",
       "action": "BUY",
-      "asset": "META",
-      "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:31",
-      "account": "Локальный",
-      "action": "BUY",
       "asset": "SPY",
       "amount": "$500",
       "status": "filled"
@@ -523,6 +510,14 @@
       "action": "BUY",
       "asset": "AMZN",
       "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-24 01:06",
+      "account": "Локальный",
+      "action": "SELL",
+      "asset": "AMZN",
+      "amount": "$497.1",
       "status": "filled"
     },
     {
@@ -992,5 +987,5 @@
       "19:21:03 BTC 🔴 ШОРТ @ 65055.4"
     ]
   },
-  "total_value": 124789.4
+  "total_value": 124771.25
 }
