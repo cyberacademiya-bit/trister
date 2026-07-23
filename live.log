@@ -3213,3 +3213,18 @@
 ----------------------------------------------------------------
   21:40:03 BTC/USDT     держим short EMA↓ RSI 48      PnL +0.19%
   21:40:03 ETH/USDT     держим short EMA↓ RSI 45      PnL +0.40%
+----------------------------------------------------------------
+  21:41:29 BTC/USDT     держим short EMA↓ RSI 47      PnL +0.19%
+  21:41:29 ETH/USDT     держим short EMA↓ RSI 42      PnL +0.43%
+----------------------------------------------------------------
+  21:42:39 BTC/USDT     держим short EMA↓ RSI 47      PnL +0.16%
+  21:42:39 ETH/USDT     держим short EMA↓ RSI 43      PnL +0.38%
+----------------------------------------------------------------
+  21:43:49 BTC/USDT     держим short EMA↓ RSI 46      PnL +0.19%
+  21:43:49 ETH/USDT     держим short EMA↓ RSI 42      PnL +0.40%
+----------------------------------------------------------------
+  21:46:01 BTC/USDT     ⚠️ NetworkError: binance GET https://api.binance.com/api/v3/ex
+  21:46:01 ETH/USDT     ⚠️ NetworkError: binance GET https://api.binance.com/api/v3/ex
+----------------------------------------------------------------
+  23:45:30 BTC/USDT     ⚠️ NetworkError: binance GET https://api.binance.com/api/v3/ex
+  23:45:30 ETH/USDT     ⚠️ NetworkError: binance GET https://api.binance.com/api/v3/ex
