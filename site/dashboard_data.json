@@ -23,7 +23,8 @@
           "usd": 0.03
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-23 19:43"
     },
     {
       "name": "Binance Futures",
@@ -44,7 +45,8 @@
           "pnl": -2.04
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-23 19:43"
     },
     {
       "name": "Alpaca",
@@ -103,7 +105,7 @@
     {
       "name": "Локальный",
       "kind": "Все рынки (виртуально)",
-      "total": 9999.32,
+      "total": 9962.43,
       "start": 10000.0,
       "positions": [
         {
@@ -114,11 +116,6 @@
         {
           "asset": "NVDA",
           "amount": 2.41208,
-          "usd": 500.0
-        },
-        {
-          "asset": "GOOGL",
-          "amount": 1.4403,
           "usd": 500.0
         },
         {
@@ -412,14 +409,6 @@
       "time": "2026-07-22 14:31",
       "account": "Локальный",
       "action": "BUY",
-      "asset": "NVDA",
-      "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:31",
-      "account": "Локальный",
-      "action": "BUY",
       "asset": "GOOGL",
       "amount": "$500",
       "status": "filled"
@@ -526,6 +515,14 @@
       "action": "BUY",
       "asset": "HG=F",
       "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-23 19:44",
+      "account": "Локальный",
+      "action": "SELL",
+      "asset": "GOOGL",
+      "amount": "$463.11",
       "status": "filled"
     },
     {
