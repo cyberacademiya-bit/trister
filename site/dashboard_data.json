@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23 08:50 (Бишкек)",
+  "generated": "2026-07-23 08:53 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -23,18 +23,35 @@
           "usd": 0.03
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-23 08:50"
     },
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "status": "error",
-      "error": "binance GET https://demo-fapi.binance.com/fapi/v1/leverageBracket?timestamp=1784"
+      "total": 4974.57,
+      "start": 5000,
+      "positions": [
+        {
+          "asset": "BTC/USDT",
+          "side": "short",
+          "entry": 65830.9,
+          "pnl": 0.385
+        },
+        {
+          "asset": "ETH/USDT",
+          "side": "short",
+          "entry": 1931.5,
+          "pnl": 3.082
+        }
+      ],
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-23 02:11"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100006.54,
+      "total": 100008.77,
       "start": 100000,
       "positions": [
         {
@@ -65,22 +82,22 @@
         {
           "asset": "META",
           "amount": 0.79500283,
-          "usd": 493.7
+          "usd": 493.68
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2994.2
+          "usd": 2995.69
         },
         {
           "asset": "SPY",
           "amount": 0.666790247,
-          "usd": 497.85
+          "usd": 497.89
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2993.71
+          "usd": 2995.51
         }
       ],
       "status": "ok"
@@ -980,5 +997,5 @@
       "18:05:27 BTC 🔴 ШОРТ @ 65912.0"
     ]
   },
-  "total_value": 120003.22
+  "total_value": 124980.02
 }
