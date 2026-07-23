@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23 10:43 (Бишкек)",
+  "generated": "2026-07-23 10:50 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,20 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4979.55,
+      "total": 4979.33,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 65830.9,
-          "pnl": 2.991
+          "pnl": 3.044
         },
         {
           "asset": "ETH/USDT",
           "side": "short",
           "entry": 1931.5,
-          "pnl": 5.258
+          "pnl": 4.987
         }
       ],
       "status": "ok"
@@ -49,7 +49,7 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100016.15,
+      "total": 100014.88,
       "start": 100000,
       "positions": [
         {
@@ -80,17 +80,17 @@
         {
           "asset": "META",
           "amount": 0.79500283,
-          "usd": 493.55
+          "usd": 493.14
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3002.46
+          "usd": 3001.74
         },
         {
           "asset": "SPY",
           "amount": 0.666790247,
-          "usd": 498.04
+          "usd": 497.9
         },
         {
           "asset": "TLT",
@@ -962,7 +962,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-23 10:43:51 (Бишкек)",
+    "generated": "2026-07-23 10:50:03 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -971,7 +971,7 @@
         "sym": "BTC",
         "side": "short",
         "entry": 65830.9,
-        "price": 65632.8,
+        "price": 65630.7,
         "pnl_pct": 0.3,
         "why": "EMA↓ RSI 41"
       },
@@ -979,9 +979,9 @@
         "sym": "ETH",
         "side": "short",
         "entry": 1931.5,
-        "price": 1921.33,
-        "pnl_pct": 0.53,
-        "why": "EMA↓ RSI 46"
+        "price": 1922.66,
+        "pnl_pct": 0.46,
+        "why": "EMA↓ RSI 44"
       }
     ],
     "recent": [
@@ -995,5 +995,5 @@
       "18:05:27 BTC 🔴 ШОРТ @ 65912.0"
     ]
   },
-  "total_value": 124992.38
+  "total_value": 124990.89
 }
