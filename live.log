@@ -3258,3 +3258,15 @@
 ----------------------------------------------------------------
   08:53:51 BTC/USDT     ⚠️ NetworkError: binance GET https://api.binance.com/api/v3/ex
   08:53:51 ETH/USDT     ⚠️ NetworkError: binance GET https://api.binance.com/api/v3/ex
+----------------------------------------------------------------
+  09:54:49 BTC/USDT     ⚠️ NetworkError: binance GET https://api.binance.com/api/v3/ex
+  09:54:49 ETH/USDT     ⚠️ NetworkError: binance GET https://api.binance.com/api/v3/ex
+----------------------------------------------------------------
+  10:55:47 BTC/USDT     ⚠️ NetworkError: binance GET https://api.binance.com/api/v3/ex
+  10:55:47 ETH/USDT     ⚠️ NetworkError: binance GET https://api.binance.com/api/v3/ex
+----------------------------------------------------------------
+  11:56:44 BTC/USDT     ⚠️ NetworkError: binance GET https://api.binance.com/api/v3/ex
+  11:56:44 ETH/USDT     ⚠️ NetworkError: binance GET https://api.binance.com/api/v3/ex
+----------------------------------------------------------------
+  12:46:47 BTC/USDT     ⚠️ RequestTimeout: binance GET https://demo-fapi.binance.com/fap
+  12:46:47 ETH/USDT     🟢 ЛОНГ EMA↑ RSI 69      @ 1884.95
