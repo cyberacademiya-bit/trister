@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24 15:17 (Бишкек)",
+  "generated": "2026-07-24 15:18 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,20 +28,14 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4972.49,
+      "total": 4971.36,
       "start": 5000,
       "positions": [
-        {
-          "asset": "BTC/USDT",
-          "side": "short",
-          "entry": 65032.5,
-          "pnl": -0.055
-        },
         {
           "asset": "ETH/USDT",
           "side": "long",
           "entry": 1891.11,
-          "pnl": -4.646
+          "pnl": -5.41
         }
       ],
       "status": "ok"
@@ -49,7 +43,7 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99897.5,
+      "total": 99896.59,
       "start": 100000,
       "positions": [
         {
@@ -85,12 +79,12 @@
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2952.12
+          "usd": 2951.14
         },
         {
           "asset": "SPY",
           "amount": 0.666790247,
-          "usd": 493.42
+          "usd": 493.5
         },
         {
           "asset": "TLT",
@@ -952,38 +946,30 @@
     ]
   },
   "live": {
-    "generated": "2026-07-24 15:17:24 (Бишкек)",
+    "generated": "2026-07-24 15:18:49 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
     "positions": [
       {
-        "sym": "BTC",
-        "side": "short",
-        "entry": 65032.5,
-        "price": 65032.5,
-        "pnl_pct": -0.0,
-        "why": "EMA↓ RSI 26"
-      },
-      {
         "sym": "ETH",
         "side": "long",
         "entry": 1891.11,
-        "price": 1882.08,
-        "pnl_pct": -0.48,
-        "why": "EMA↑ RSI 35"
+        "price": 1880.58,
+        "pnl_pct": -0.56,
+        "why": "EMA↑ RSI 34"
       }
     ],
     "recent": [
+      "15:18:37 BTC ⚪ закрыл short (нейтрально)",
       "15:17:12 BTC 🔴 ШОРТ @ 65032.5",
       "15:15:49 BTC ⚪ закрыл short (нейтрально)",
       "15:05:59 BTC 🔴 ШОРТ @ 65267.0",
       "13:42:40 ETH 🟢 ЛОНГ @ 1890.57",
       "13:42:40 BTC 🟢 ЛОНГ @ 65400.4",
       "13:15:10 ETH ⚪ закрыл long (нейтрально)",
-      "13:15:10 BTC ⚪ закрыл long (нейтрально)",
-      "12:48:27 BTC 🟢 ЛОНГ @ 65449.9"
+      "13:15:10 BTC ⚪ закрыл long (нейтрально)"
     ]
   },
-  "total_value": 124797.07
+  "total_value": 124795.03
 }
