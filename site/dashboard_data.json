@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25 03:11 (Бишкек)",
+  "generated": "2026-07-25 03:17 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,20 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4963.97,
+      "total": 4963.46,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 64127.5,
-          "pnl": -0.076
+          "pnl": -0.184
         },
         {
           "asset": "ETH/USDT",
           "side": "short",
           "entry": 1861.45,
-          "pnl": 1.397
+          "pnl": 1.01
         }
       ],
       "status": "ok"
@@ -49,13 +49,13 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99876.16,
+      "total": 99875.39,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.51749402,
-          "usd": 505.95
+          "usd": 505.98
         },
         {
           "asset": "AGG",
@@ -80,22 +80,22 @@
         {
           "asset": "META",
           "amount": 0.826514452,
-          "usd": 492.24
+          "usd": 492.0
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2915.1
+          "usd": 2914.34
         },
         {
           "asset": "SPY",
           "amount": 0.676706484,
-          "usd": 499.56
+          "usd": 499.4
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2989.77
+          "usd": 2990.13
         }
       ],
       "status": "ok"
@@ -960,7 +960,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-25 03:11:17 (Бишкек)",
+    "generated": "2026-07-25 03:17:21 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -969,17 +969,17 @@
         "sym": "BTC",
         "side": "short",
         "entry": 64127.5,
-        "price": 64127.5,
-        "pnl_pct": -0.0,
-        "why": "EMA↓ RSI 44"
+        "price": 64138.4,
+        "pnl_pct": -0.02,
+        "why": "EMA↓ RSI 47"
       },
       {
         "sym": "ETH",
         "side": "short",
         "entry": 1861.45,
-        "price": 1858.63,
-        "pnl_pct": 0.15,
-        "why": "EMA↓ RSI 41"
+        "price": 1859.57,
+        "pnl_pct": 0.1,
+        "why": "EMA↓ RSI 45"
       }
     ],
     "recent": [
@@ -993,5 +993,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124767.21
+  "total_value": 124765.93
 }
