@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24 19:31:19 (Бишкек)",
+  "generated": "2026-07-24 19:32:42 (Бишкек)",
   "size_usd": 1000,
   "leverage": 2,
   "stop_pct": 2.0,
@@ -10,7 +10,7 @@
       "entry": 1862.5,
       "price": 1862.63,
       "pnl_pct": -0.01,
-      "why": "EMA↓ RSI 33"
+      "why": "EMA↓ RSI 32"
     }
   ],
   "recent": [
