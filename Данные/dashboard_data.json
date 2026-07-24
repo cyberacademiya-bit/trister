@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24 19:39 (Бишкек)",
+  "generated": "2026-07-24 19:44 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,14 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4965.46,
+      "total": 4965.2,
       "start": 5000,
       "positions": [
+        {
+          "asset": "BTC/USDT",
+          "side": "short",
+          "entry": 64888.2,
+          "pnl": 0.198
+        },
         {
           "asset": "ETH/USDT",
           "side": "short",
           "entry": 1862.5,
-          "pnl": 0.289
+          "pnl": 0.233
         }
       ],
       "status": "ok"
@@ -43,23 +49,23 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99896.77,
+      "total": 99890.42,
       "start": 100000,
       "positions": [
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2991.49
+          "usd": 2991.55
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2991.43
+          "usd": 2991.23
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2990.51
+          "usd": 2990.03
         },
         {
           "asset": "LQD",
@@ -69,12 +75,12 @@
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2939.04
+          "usd": 2934.4
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2990.13
+          "usd": 2989.05
         }
       ],
       "status": "ok"
@@ -506,14 +512,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-07-23 19:28:12",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ short",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
       "time": "2026-07-23 19:30:57",
       "account": "Binance Spot",
       "action": "LIVE ОТКРЫЛ short",
@@ -659,6 +657,14 @@
     },
     {
       "time": "2026-07-24 19:38:03",
+      "account": "Binance Spot",
+      "action": "LIVE ОТКРЫЛ short",
+      "asset": "PAXG/BTC",
+      "amount": "$1000.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-24 19:44:24",
       "account": "Binance Spot",
       "action": "LIVE ОТКРЫЛ short",
       "asset": "PAXG/BTC",
@@ -939,30 +945,38 @@
     ]
   },
   "live": {
-    "generated": "2026-07-24 19:39:31 (Бишкек)",
+    "generated": "2026-07-24 19:44:28 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
     "positions": [
       {
+        "sym": "BTC",
+        "side": "short",
+        "entry": 64920.4,
+        "price": 64920.4,
+        "pnl_pct": -0.0,
+        "why": "EMA↓ RSI 31"
+      },
+      {
         "sym": "ETH",
         "side": "short",
         "entry": 1862.5,
-        "price": 1861.87,
+        "price": 1862.01,
         "pnl_pct": 0.03,
-        "why": "EMA↓ RSI 28"
+        "why": "EMA↓ RSI 33"
       }
     ],
     "recent": [
+      "19:44:18 BTC 🔴 ШОРТ @ 64920.4",
       "19:39:19 BTC ⚪ закрыл short (нейтрально)",
       "19:37:56 BTC 🔴 ШОРТ @ 64847.7",
       "19:36:34 BTC ⚪ закрыл short (нейтрально)",
       "19:35:11 BTC 🔴 ШОРТ @ 64920.4",
       "19:31:07 BTC ⚪ закрыл short (нейтрально)",
       "19:18:31 BTC 🔴 ШОРТ @ 64857.0",
-      "19:17:08 ETH 🔴 ШОРТ @ 1862.6",
-      "19:07:03 ETH ⚪ закрыл short (нейтрально)"
+      "19:17:08 ETH 🔴 ШОРТ @ 1862.6"
     ]
   },
-  "total_value": 124789.31
+  "total_value": 124782.7
 }
