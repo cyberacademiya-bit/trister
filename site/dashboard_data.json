@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24 15:30 (Бишкек)",
+  "generated": "2026-07-24 15:32 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,20 +28,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4966.92,
+      "total": 4967.24,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 64976.0,
-          "pnl": -0.213
+          "pnl": -0.258
         },
         {
           "asset": "ETH/USDT",
-          "side": "short",
-          "entry": 1881.99,
-          "pnl": -0.172
+          "side": "long",
+          "entry": 1881.21,
+          "pnl": 0.543
         }
       ],
       "status": "ok"
@@ -49,13 +49,13 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99903.16,
+      "total": 99904.06,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.539577162,
-          "usd": 496.45
+          "usd": 496.81
         },
         {
           "asset": "AGG",
@@ -85,7 +85,7 @@
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2954.8
+          "usd": 2955.35
         },
         {
           "asset": "SPY",
@@ -519,14 +519,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-07-23 18:51:25",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ short",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
       "time": "2026-07-23 18:51:32",
       "account": "Binance Spot",
       "action": "LIVE ОТКРЫЛ short",
@@ -674,6 +666,14 @@
       "time": "2026-07-24 15:30:52",
       "account": "Binance Spot",
       "action": "LIVE ОТКРЫЛ short",
+      "asset": "PAXG/BTC",
+      "amount": "$1000.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-24 15:32:17",
+      "account": "Binance Spot",
+      "action": "LIVE ОТКРЫЛ long",
       "asset": "PAXG/BTC",
       "amount": "$1000.0",
       "status": "filled"
@@ -952,7 +952,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-24 15:30:52 (Бишкек)",
+    "generated": "2026-07-24 15:32:17 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -961,29 +961,29 @@
         "sym": "BTC",
         "side": "short",
         "entry": 64976.0,
-        "price": 64976.0,
-        "pnl_pct": -0.0,
-        "why": "EMA↓ RSI 25"
+        "price": 64951.9,
+        "pnl_pct": 0.04,
+        "why": "EMA↓ RSI 26"
       },
       {
         "sym": "ETH",
-        "side": "short",
-        "entry": 1881.75,
-        "price": 1881.75,
-        "pnl_pct": -0.0,
-        "why": "EMA↓ RSI 38"
+        "side": "long",
+        "entry": 1881.1,
+        "price": 1881.1,
+        "pnl_pct": 0.0,
+        "why": "EMA↑ RSI 40"
       }
     ],
     "recent": [
+      "15:32:05 ETH 🟢 ЛОНГ @ 1881.1",
       "15:30:39 ETH 🔴 ШОРТ @ 1881.75",
       "15:30:39 BTC 🔴 ШОРТ @ 64976.0",
       "15:27:55 BTC ⚪ закрыл short (нейтрально)",
       "15:25:22 BTC 🔴 ШОРТ @ 65021.0",
       "15:22:36 BTC ⚪ закрыл short (нейтрально)",
       "15:21:12 BTC 🔴 ШОРТ @ 65076.1",
-      "15:18:37 BTC ⚪ закрыл short (нейтрально)",
-      "15:17:12 BTC 🔴 ШОРТ @ 65032.5"
+      "15:18:37 BTC ⚪ закрыл short (нейтрально)"
     ]
   },
-  "total_value": 124797.16
+  "total_value": 124798.38
 }
