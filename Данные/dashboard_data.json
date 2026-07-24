@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25 00:13 (Бишкек)",
+  "generated": "2026-07-25 00:15 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -23,7 +23,8 @@
           "usd": 0.03
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-25 00:13"
     },
     {
       "name": "Binance Futures",
@@ -44,58 +45,59 @@
           "pnl": -3.983
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-25 00:13"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99894.41,
+      "total": 99893.45,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.51749402,
-          "usd": 504.81
+          "usd": 504.48
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2992.93
+          "usd": 2993.08
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2992.68
+          "usd": 2992.66
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2992.44
+          "usd": 2992.12
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2986.65
+          "usd": 2986.51
         },
         {
           "asset": "META",
           "amount": 0.826514452,
-          "usd": 497.51
+          "usd": 497.63
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2928.9
+          "usd": 2929.03
         },
         {
           "asset": "SPY",
           "amount": 0.676706484,
-          "usd": 501.16
+          "usd": 501.15
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2989.23
+          "usd": 2988.69
         }
       ],
       "status": "ok"
@@ -993,5 +995,5 @@
       "19:36:34 BTC ⚪ закрыл short (нейтрально)"
     ]
   },
-  "total_value": 124792.18
+  "total_value": 124791.22
 }
