@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24 14:15 (Бишкек)",
+  "generated": "2026-07-24 14:16 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -23,7 +23,8 @@
           "usd": 0.03
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-24 14:15"
     },
     {
       "name": "Binance Futures",
@@ -44,18 +45,19 @@
           "pnl": 0.914
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-24 14:15"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99885.27,
+      "total": 99885.35,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.539577162,
-          "usd": 495.82
+          "usd": 495.74
         },
         {
           "asset": "AGG",
@@ -85,17 +87,17 @@
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2945.05
+          "usd": 2945.47
         },
         {
           "asset": "SPY",
           "amount": 0.666790247,
-          "usd": 492.98
+          "usd": 493.06
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2981.51
+          "usd": 2981.16
         }
       ],
       "status": "ok"
@@ -977,5 +979,5 @@
       "19:30:49 BTC 🔴 ШОРТ @ 65015.5"
     ]
   },
-  "total_value": 124791.55
+  "total_value": 124791.63
 }
