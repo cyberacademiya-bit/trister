@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24 22:18 (Бишкек)",
+  "generated": "2026-07-24 22:34 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -23,7 +23,8 @@
           "usd": 0.03
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-24 22:18"
     },
     {
       "name": "Binance Futures",
@@ -44,33 +45,34 @@
           "pnl": -2.749
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-24 22:18"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99940.09,
+      "total": 99931.74,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.51749402,
-          "usd": 506.4
+          "usd": 506.04
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2996.62
+          "usd": 2996.46
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2996.61
+          "usd": 2995.78
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2996.78
+          "usd": 2996.46
         },
         {
           "asset": "LQD",
@@ -80,22 +82,22 @@
         {
           "asset": "META",
           "amount": 0.826514452,
-          "usd": 499.07
+          "usd": 497.67
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2943.51
+          "usd": 2940.85
         },
         {
           "asset": "SPY",
           "amount": 0.676706484,
-          "usd": 502.87
+          "usd": 502.46
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2998.94
+          "usd": 2996.76
         }
       ],
       "status": "ok"
@@ -993,5 +995,5 @@
       "19:36:34 BTC ⚪ закрыл short (нейтрально)"
     ]
   },
-  "total_value": 124840.47
+  "total_value": 124832.12
 }
