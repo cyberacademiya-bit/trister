@@ -23,7 +23,8 @@
           "usd": 0.03
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-24 14:15"
     },
     {
       "name": "Binance Futures",
@@ -44,7 +45,8 @@
           "pnl": 0.116
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-24 14:15"
     },
     {
       "name": "Alpaca",
@@ -95,7 +97,7 @@
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2981.51
+          "usd": 2981.16
         }
       ],
       "status": "ok"
