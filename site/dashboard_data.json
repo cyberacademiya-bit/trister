@@ -29,20 +29,20 @@
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4973.3,
+      "total": 4974.57,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 64833.4,
-          "pnl": 11.602
+          "pnl": 11.676
         },
         {
           "asset": "ETH/USDT",
           "side": "short",
           "entry": 1856.48,
-          "pnl": -2.749
+          "pnl": -1.555
         }
       ],
       "status": "offline",
@@ -77,7 +77,7 @@
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2991.14
+          "usd": 2990.72
         },
         {
           "asset": "META",
@@ -962,7 +962,7 @@
     ]
   },
   "live": {
-    "generated": "2026-07-24 22:18:37 (Бишкек)",
+    "generated": "2026-07-24 22:30:50 (Бишкек)",
     "size_usd": 1000,
     "leverage": 2,
     "stop_pct": 2.0,
@@ -971,17 +971,17 @@
         "sym": "BTC",
         "side": "short",
         "entry": 64833.4,
-        "price": 64077.2,
+        "price": 64075.2,
         "pnl_pct": 1.17,
-        "why": "EMA↓ RSI 48"
+        "why": "EMA↓ RSI 45"
       },
       {
         "sym": "ETH",
         "side": "short",
         "entry": 1856.48,
-        "price": 1861.46,
-        "pnl_pct": -0.27,
-        "why": "EMA↓ RSI 49"
+        "price": 1860.0,
+        "pnl_pct": -0.19,
+        "why": "EMA↓ RSI 44"
       }
     ],
     "recent": [
