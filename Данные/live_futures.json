@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24 21:36:02 (Бишкек)",
+  "generated": "2026-07-24 21:42:06 (Бишкек)",
   "size_usd": 1000,
   "leverage": 2,
   "stop_pct": 2.0,
@@ -8,17 +8,17 @@
       "sym": "BTC",
       "side": "short",
       "entry": 64833.4,
-      "price": 64138.0,
-      "pnl_pct": 1.07,
+      "price": 64240.6,
+      "pnl_pct": 0.91,
       "why": "EMA↓ RSI 53"
     },
     {
       "sym": "ETH",
       "side": "short",
       "entry": 1856.48,
-      "price": 1865.77,
-      "pnl_pct": -0.5,
-      "why": "EMA↓ RSI 56"
+      "price": 1866.54,
+      "pnl_pct": -0.54,
+      "why": "EMA↓ RSI 54"
     }
   ],
   "recent": [
