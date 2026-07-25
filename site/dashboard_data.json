@@ -23,7 +23,8 @@
           "usd": 0.03
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-25 13:56"
     },
     {
       "name": "Binance Futures",
@@ -44,7 +45,8 @@
           "pnl": 3.732
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-25 13:56"
     },
     {
       "name": "Alpaca",
