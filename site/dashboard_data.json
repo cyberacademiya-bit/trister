@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27 16:37 (Бишкек)",
+  "generated": "2026-07-27 19:36 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,53 +51,53 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99964.27,
+      "total": 99962.69,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.51749402,
-          "usd": 506.34
+          "usd": 509.92
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2992.01
+          "usd": 2998.45
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2997.43
+          "usd": 2997.64
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 3000.32
+          "usd": 2998.07
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2984.26
+          "usd": 2993.81
         },
         {
           "asset": "META",
           "amount": 0.826514452,
-          "usd": 501.69
+          "usd": 500.19
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2961.49
+          "usd": 2947.94
         },
         {
           "asset": "SPY",
           "amount": 0.676706484,
-          "usd": 504.92
+          "usd": 504.46
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 3007.71
+          "usd": 3004.12
         }
       ],
       "status": "ok"
@@ -161,6 +161,16 @@
         {
           "asset": "HG=F",
           "amount": 76.781326,
+          "usd": 500.0
+        },
+        {
+          "asset": "AMZN",
+          "amount": 2.125489,
+          "usd": 500.0
+        },
+        {
+          "asset": "GOOGL",
+          "amount": 1.523554,
           "usd": 500.0
         }
       ],
@@ -412,22 +422,6 @@
       "time": "2026-07-22 14:31",
       "account": "Локальный",
       "action": "BUY",
-      "asset": "SPY",
-      "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:31",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "QQQ",
-      "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:31",
-      "account": "Локальный",
-      "action": "BUY",
       "asset": "TLT",
       "amount": "$500",
       "status": "filled"
@@ -526,6 +520,22 @@
       "action": "SELL",
       "asset": "AMZN",
       "amount": "$497.1",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-27 19:35",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "AMZN",
+      "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-27 19:35",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "GOOGL",
+      "amount": "$500.0",
       "status": "filled"
     },
     {
@@ -995,5 +1005,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124860.57
+  "total_value": 124858.99
 }
