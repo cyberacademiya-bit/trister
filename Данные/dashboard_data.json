@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-30 01:06 (Бишкек)",
+  "generated": "2026-07-30 02:49 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,53 +51,53 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99897.23,
+      "total": 99707.14,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.51749402,
-          "usd": 519.38
+          "usd": 513.22
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 3002.91
+          "usd": 2990.17
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 3002.19
+          "usd": 2994.95
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 3004.18
+          "usd": 2992.6
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2993.53
+          "usd": 2980.89
         },
         {
           "asset": "META",
           "amount": 0.826514452,
-          "usd": 492.18
+          "usd": 453.84
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2882.14
+          "usd": 2813.18
         },
         {
           "asset": "SPY",
           "amount": 0.676706484,
-          "usd": 500.65
+          "usd": 492.85
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2992.46
+          "usd": 2967.36
         }
       ],
       "status": "ok"
@@ -105,7 +105,7 @@
     {
       "name": "Локальный",
       "kind": "Все рынки (виртуально)",
-      "total": 9885.37,
+      "total": 9872.17,
       "start": 10000.0,
       "positions": [
         {
@@ -161,11 +161,6 @@
         {
           "asset": "GOOGL",
           "amount": 1.523554,
-          "usd": 500.0
-        },
-        {
-          "asset": "NVDA",
-          "amount": 2.562,
           "usd": 500.0
         }
       ],
@@ -417,14 +412,6 @@
       "time": "2026-07-22 14:31",
       "account": "Локальный",
       "action": "BUY",
-      "asset": "BND",
-      "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:31",
-      "account": "Локальный",
-      "action": "BUY",
       "asset": "LQD",
       "amount": "$500",
       "status": "filled"
@@ -531,6 +518,14 @@
       "action": "BUY",
       "asset": "NVDA",
       "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-30 02:49",
+      "account": "Локальный",
+      "action": "SELL",
+      "asset": "NVDA",
+      "amount": "$486.81",
       "status": "filled"
     },
     {
@@ -1000,5 +995,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124749.18
+  "total_value": 124545.89
 }
