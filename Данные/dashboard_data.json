@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29 19:57 (Бишкек)",
+  "generated": "2026-07-29 21:43 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,53 +51,53 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99888.2,
+      "total": 99840.67,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.51749402,
-          "usd": 519.88
+          "usd": 516.14
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 3001.99
+          "usd": 2998.61
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 3001.78
+          "usd": 2998.05
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 3003.86
+          "usd": 2999.52
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2995.92
+          "usd": 2990.72
         },
         {
           "asset": "META",
           "amount": 0.826514452,
-          "usd": 486.83
+          "usd": 487.24
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2854.16
+          "usd": 2836.95
         },
         {
           "asset": "SPY",
           "amount": 0.676706484,
-          "usd": 498.75
+          "usd": 496.57
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 3017.03
+          "usd": 3008.78
         }
       ],
       "status": "ok"
@@ -105,17 +105,12 @@
     {
       "name": "Локальный",
       "kind": "Все рынки (виртуально)",
-      "total": 9922.83,
+      "total": 9885.37,
       "start": 10000.0,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.5256,
-          "usd": 500.0
-        },
-        {
-          "asset": "NVDA",
-          "amount": 2.41208,
           "usd": 500.0
         },
         {
@@ -417,14 +412,6 @@
       "time": "2026-07-22 14:31",
       "account": "Локальный",
       "action": "BUY",
-      "asset": "IEF",
-      "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 14:31",
-      "account": "Локальный",
-      "action": "BUY",
       "asset": "AGG",
       "amount": "$500",
       "status": "filled"
@@ -531,6 +518,14 @@
       "action": "SELL",
       "asset": "AMZN",
       "amount": "$493.1",
+      "status": "filled"
+    },
+    {
+      "time": "2026-07-29 21:43",
+      "account": "Локальный",
+      "action": "SELL",
+      "asset": "NVDA",
+      "amount": "$462.54",
       "status": "filled"
     },
     {
@@ -757,14 +752,14 @@
     "failed": 0
   },
   "battle": {
-    "period": "2024-01-01 → 2026-07-28",
+    "period": "2024-01-01 → 2026-07-29",
     "markets": 16,
     "strategies": [
       {
         "name": "buyhold",
         "title": "📊 Купи и держи",
-        "equity": 19220.46,
-        "ret": 92.2,
+        "equity": 19127.57,
+        "ret": 91.28,
         "longs": 16,
         "shorts": 0,
         "curve": [
@@ -797,8 +792,8 @@
       {
         "name": "sma",
         "title": "📈 SMA 20/50",
-        "equity": 15283.46,
-        "ret": 52.83,
+        "equity": 15255.33,
+        "ret": 52.55,
         "longs": 5,
         "shorts": 0,
         "curve": [
@@ -831,9 +826,9 @@
       {
         "name": "trend",
         "title": "🏆 Тренд MA50/200 (лучший)",
-        "equity": 11552.29,
-        "ret": 15.52,
-        "longs": 7,
+        "equity": 11550.69,
+        "ret": 15.509999999999998,
+        "longs": 6,
         "shorts": 0,
         "curve": [
           10000.0,
@@ -865,9 +860,9 @@
       {
         "name": "cot",
         "title": "🧠 Тренд + COT Уильямса",
-        "equity": 11552.29,
-        "ret": 15.52,
-        "longs": 7,
+        "equity": 11550.69,
+        "ret": 15.509999999999998,
+        "longs": 6,
         "shorts": 0,
         "curve": [
           10000.0,
@@ -899,10 +894,10 @@
       {
         "name": "candles",
         "title": "🕯️ Свечи + индикаторы",
-        "equity": 9005.88,
-        "ret": -9.94,
-        "longs": 3,
-        "shorts": 4,
+        "equity": 9040.57,
+        "ret": -9.59,
+        "longs": 2,
+        "shorts": 6,
         "curve": [
           10000.0,
           9919.5,
@@ -933,8 +928,8 @@
       {
         "name": "trend_ls",
         "title": "↕️ Тренд лонг/шорт (фьючерсы)",
-        "equity": 6865.09,
-        "ret": -31.35,
+        "equity": 6885.97,
+        "ret": -31.14,
         "longs": 8,
         "shorts": 8,
         "curve": [
@@ -1000,5 +995,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124777.61
+  "total_value": 124692.62
 }
