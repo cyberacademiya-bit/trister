@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-30 21:48 (Бишкек)",
+  "generated": "2026-07-30 23:21 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,13 +51,13 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99803.35,
+      "total": 99814.18,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.51749402,
-          "usd": 504.31
+          "usd": 504.18
         },
         {
           "asset": "AGG",
@@ -67,7 +67,7 @@
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2997.43
+          "usd": 2997.23
         },
         {
           "asset": "IEF",
@@ -77,27 +77,27 @@
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2990.86
+          "usd": 2990.02
         },
         {
           "asset": "META",
           "amount": 0.826514452,
-          "usd": 440.74
+          "usd": 439.52
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2899.26
+          "usd": 2908.12
         },
         {
           "asset": "SPY",
           "amount": 0.676706484,
-          "usd": 498.81
+          "usd": 500.84
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2968.24
+          "usd": 2970.57
         }
       ],
       "status": "ok"
@@ -1005,5 +1005,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124642.1
+  "total_value": 124652.93
 }
