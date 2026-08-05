@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-05 15:32 (Бишкек)",
+  "generated": "2026-08-05 17:54 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,63 +51,63 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100053.89,
+      "total": 100066.97,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.634413593,
-          "usd": 511.16
+          "usd": 503.07
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 3003.98
+          "usd": 3005.21
         },
         {
           "asset": "AMZN",
           "amount": 1.80383286,
-          "usd": 503.54
+          "usd": 505.91
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2997.93
+          "usd": 2997.43
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 3000.96
+          "usd": 3002.25
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2999.15
+          "usd": 3001.96
         },
         {
           "asset": "META",
           "amount": 0.826514452,
-          "usd": 487.99
+          "usd": 493.2
         },
         {
           "asset": "MSFT",
           "amount": 1.002349554,
-          "usd": 495.0
+          "usd": 498.02
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3081.72
+          "usd": 3086.32
         },
         {
           "asset": "SPY",
           "amount": 0.676706484,
-          "usd": 523.68
+          "usd": 524.11
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2981.51
+          "usd": 2982.23
         }
       ],
       "status": "ok"
@@ -115,7 +115,7 @@
     {
       "name": "Локальный",
       "kind": "Все рынки (виртуально)",
-      "total": 9799.32,
+      "total": 9797.1,
       "start": 10000.0,
       "positions": [
         {
@@ -176,11 +176,6 @@
         {
           "asset": "NVDA",
           "amount": 2.588461,
-          "usd": 500.0
-        },
-        {
-          "asset": "CL=F",
-          "amount": 6.549647,
           "usd": 500.0
         }
       ],
@@ -429,14 +424,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-07-22 16:07",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "HG=F",
-      "amount": "$500.0",
-      "status": "filled"
-    },
-    {
       "time": "2026-07-23 19:44",
       "account": "Локальный",
       "action": "SELL",
@@ -546,6 +533,14 @@
       "action": "BUY",
       "asset": "CL=F",
       "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-05 17:54",
+      "account": "Локальный",
+      "action": "SELL",
+      "asset": "CL=F",
+      "amount": "$497.77",
       "status": "filled"
     },
     {
@@ -1015,5 +1010,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124819.79
+  "total_value": 124830.65
 }
