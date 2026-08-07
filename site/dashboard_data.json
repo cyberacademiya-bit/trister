@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07 17:41 (Бишкек)",
+  "generated": "2026-08-07 18:51 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,13 +51,13 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99963.15,
+      "total": 100036.99,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.624652317,
-          "usd": 506.89
+          "usd": 507.38
         },
         {
           "asset": "AGG",
@@ -67,52 +67,52 @@
         {
           "asset": "AMZN",
           "amount": 1.820740837,
-          "usd": 498.41
+          "usd": 500.28
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2991.64
+          "usd": 2998.84
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2991.54
+          "usd": 3004.18
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2988.75
+          "usd": 3003.08
         },
         {
           "asset": "META",
           "amount": 0.826514452,
-          "usd": 487.25
+          "usd": 486.84
         },
         {
           "asset": "MSFT",
           "amount": 1.002349554,
-          "usd": 499.42
+          "usd": 498.51
         },
         {
           "asset": "NVDA",
           "amount": 2.240098566,
-          "usd": 493.76
+          "usd": 495.84
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3061.75
+          "usd": 3081.72
         },
         {
           "asset": "SPY",
           "amount": 0.676706484,
-          "usd": 521.62
+          "usd": 523.03
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2963.58
+          "usd": 2978.64
         }
       ],
       "status": "ok"
@@ -1020,5 +1020,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124726.83
+  "total_value": 124800.67
 }
