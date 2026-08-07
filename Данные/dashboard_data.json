@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07 21:51 (Бишкек)",
+  "generated": "2026-08-07 22:47 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,23 +51,23 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100024.7,
+      "total": 100006.01,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.624652317,
-          "usd": 507.1
+          "usd": 507.43
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2995.22
+          "usd": 2995.23
         },
         {
           "asset": "AMZN",
           "amount": 1.820740837,
-          "usd": 505.34
+          "usd": 502.36
         },
         {
           "asset": "BND",
@@ -77,42 +77,42 @@
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2994.37
+          "usd": 2994.85
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2993.11
+          "usd": 2991.98
         },
         {
           "asset": "META",
           "amount": 0.826514452,
-          "usd": 492.37
+          "usd": 491.11
         },
         {
           "asset": "MSFT",
           "amount": 1.002349554,
-          "usd": 504.37
+          "usd": 503.93
         },
         {
           "asset": "NVDA",
           "amount": 2.240098566,
-          "usd": 503.2
+          "usd": 498.53
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3079.91
+          "usd": 3071.71
         },
         {
           "asset": "SPY",
           "amount": 0.676706484,
-          "usd": 523.48
+          "usd": 522.81
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2964.65
+          "usd": 2964.47
         }
       ],
       "status": "ok"
@@ -1020,5 +1020,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124788.38
+  "total_value": 124769.69
 }
