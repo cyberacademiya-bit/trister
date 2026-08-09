@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09 19:44 (Бишкек)",
+  "generated": "2026-08-09 20:22 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -777,14 +777,14 @@
     "failed": 0
   },
   "battle": {
-    "period": "2024-01-01 → 2026-08-08",
+    "period": "2024-01-01 → 2026-08-09",
     "markets": 16,
     "strategies": [
       {
         "name": "buyhold",
         "title": "📊 Купи и держи",
-        "equity": 20466.54,
-        "ret": 104.67,
+        "equity": 20503.39,
+        "ret": 105.03,
         "longs": 16,
         "shorts": 0,
         "curve": [
@@ -817,8 +817,8 @@
       {
         "name": "sma",
         "title": "📈 SMA 20/50",
-        "equity": 15352.4,
-        "ret": 53.52,
+        "equity": 15359.03,
+        "ret": 53.59,
         "longs": 10,
         "shorts": 0,
         "curve": [
@@ -851,8 +851,8 @@
       {
         "name": "trend",
         "title": "🏆 Тренд MA50/200 (лучший)",
-        "equity": 11815.61,
-        "ret": 18.16,
+        "equity": 11817.87,
+        "ret": 18.18,
         "longs": 8,
         "shorts": 0,
         "curve": [
@@ -885,8 +885,8 @@
       {
         "name": "cot",
         "title": "🧠 Тренд + COT Уильямса",
-        "equity": 11815.61,
-        "ret": 18.16,
+        "equity": 11817.87,
+        "ret": 18.18,
         "longs": 8,
         "shorts": 0,
         "curve": [
@@ -919,8 +919,8 @@
       {
         "name": "candles",
         "title": "🕯️ Свечи + индикаторы",
-        "equity": 8643.56,
-        "ret": -13.56,
+        "equity": 8656.47,
+        "ret": -13.44,
         "longs": 7,
         "shorts": 2,
         "curve": [
@@ -953,8 +953,8 @@
       {
         "name": "trend_ls",
         "title": "↕️ Тренд лонг/шорт (фьючерсы)",
-        "equity": 6798.99,
-        "ret": -32.01,
+        "equity": 6789.22,
+        "ret": -32.11,
         "longs": 8,
         "shorts": 8,
         "curve": [
