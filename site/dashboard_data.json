@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10 20:48 (Бишкек)",
+  "generated": "2026-08-10 21:55 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,43 +51,43 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99981.43,
+      "total": 99965.26,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.624652317,
-          "usd": 497.86
+          "usd": 498.54
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2989.86
+          "usd": 2988.78
         },
         {
           "asset": "AMZN",
           "amount": 1.820740837,
-          "usd": 505.5
+          "usd": 509.5
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2989.06
+          "usd": 2987.71
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2987.3
+          "usd": 2985.69
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2983.28
+          "usd": 2981.92
         },
         {
           "asset": "META",
           "amount": 0.826514452,
-          "usd": 501.64
+          "usd": 495.5
         },
         {
           "asset": "MSFT",
@@ -97,22 +97,22 @@
         {
           "asset": "NVDA",
           "amount": 2.240098566,
-          "usd": 494.86
+          "usd": 491.43
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3083.26
+          "usd": 3080.4
         },
         {
           "asset": "SPY",
           "amount": 0.6459018,
-          "usd": 500.55
+          "usd": 500.01
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2951.91
+          "usd": 2949.23
         }
       ],
       "status": "ok"
@@ -1020,5 +1020,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124745.11
+  "total_value": 124728.94
 }
