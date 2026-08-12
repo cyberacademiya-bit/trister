@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12 22:52 (Бишкек)",
+  "generated": "2026-08-12 23:54 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,68 +51,68 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99940.45,
+      "total": 99927.93,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.624652317,
-          "usd": 490.56
+          "usd": 489.82
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2992.39
+          "usd": 2991.85
         },
         {
           "asset": "AMZN",
           "amount": 1.820740837,
-          "usd": 490.34
+          "usd": 488.2
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2991.83
+          "usd": 2991.43
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2991.32
+          "usd": 2991.16
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2982.85
+          "usd": 2982.43
         },
         {
           "asset": "META",
           "amount": 0.826514452,
-          "usd": 481.43
+          "usd": 478.58
         },
         {
           "asset": "MSFT",
           "amount": 0.982831555,
-          "usd": 485.98
+          "usd": 483.26
         },
         {
           "asset": "NVDA",
           "amount": 2.240098566,
-          "usd": 501.01
+          "usd": 500.84
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3088.03
+          "usd": 3088.2
         },
         {
           "asset": "SPY",
           "amount": 0.646083749,
-          "usd": 499.49
+          "usd": 499.28
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2950.48
+          "usd": 2948.15
         }
       ],
       "status": "ok"
@@ -1020,5 +1020,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124704.13
+  "total_value": 124691.61
 }
