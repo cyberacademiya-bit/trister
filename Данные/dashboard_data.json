@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12 20:48 (Бишкек)",
+  "generated": "2026-08-12 21:55 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,23 +51,23 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99952.45,
+      "total": 99933.7,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.624652317,
-          "usd": 491.76
+          "usd": 488.97
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2993.39
+          "usd": 2993.7
         },
         {
           "asset": "AMZN",
           "amount": 1.820740837,
-          "usd": 490.16
+          "usd": 488.18
         },
         {
           "asset": "BND",
@@ -77,42 +77,42 @@
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2992.76
+          "usd": 2992.6
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2984.26
+          "usd": 2984.54
         },
         {
           "asset": "META",
           "amount": 0.826514452,
-          "usd": 483.25
+          "usd": 480.73
         },
         {
           "asset": "MSFT",
           "amount": 0.982831555,
-          "usd": 485.98
+          "usd": 484.61
         },
         {
           "asset": "NVDA",
           "amount": 2.240098566,
-          "usd": 503.64
+          "usd": 499.77
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3087.3
+          "usd": 3080.66
         },
         {
           "asset": "SPY",
           "amount": 0.646083749,
-          "usd": 499.11
+          "usd": 498.74
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2952.99
+          "usd": 2953.35
         }
       ],
       "status": "ok"
@@ -1020,5 +1020,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124716.13
+  "total_value": 124697.38
 }
