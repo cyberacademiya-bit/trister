@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16 06:58 (Бишкек)",
+  "generated": "2026-08-16 08:21 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -188,6 +188,14 @@
     }
   ],
   "transactions": [
+    {
+      "time": "2026-08-16 02:21",
+      "account": "Alpaca",
+      "action": "SELL",
+      "asset": "SPY",
+      "amount": "$0.646083749",
+      "status": "accepted"
+    },
     {
       "time": "2026-08-15 09:19",
       "account": "Alpaca",
@@ -417,14 +425,6 @@
       "account": "Alpaca",
       "action": "BUY",
       "asset": "SPY",
-      "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-22 16:08",
-      "account": "Alpaca",
-      "action": "BUY",
-      "asset": "META",
       "amount": "$500",
       "status": "filled"
     },
@@ -767,8 +767,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 63,
-    "pending": 2,
+    "filled": 62,
+    "pending": 3,
     "failed": 0
   },
   "battle": {
