@@ -1,83 +1,63 @@
 {
-  "generated": "2026-08-17 17:20 (Бишкек)",
+  "generated": "2026-08-17 18:32 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
       "kind": "Крипта + Золото",
-      "total": 9997.36,
-      "start": 10000,
-      "positions": [
-        {
-          "asset": "USDC",
-          "amount": 5000.0,
-          "usd": 5000.0
-        },
-        {
-          "asset": "USDT",
-          "amount": 4997.328727,
-          "usd": 4997.33
-        },
-        {
-          "asset": "SOL",
-          "amount": 0.000425,
-          "usd": 0.03
-        }
-      ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-25 14:02"
+      "status": "error",
+      "error": "binance {\"code\":-2008,\"msg\":\"Invalid Api-Key ID.\"}"
     },
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4969.22,
+      "total": 4953.93,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 64127.5,
-          "pnl": 2.455
+          "pnl": 8.158
         },
         {
           "asset": "ETH/USDT",
           "side": "short",
           "entry": 1861.45,
-          "pnl": 3.732
+          "pnl": -20.701
         }
       ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-25 14:02"
+      "status": "ok"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99991.05,
+      "total": 99961.88,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.624652317,
-          "usd": 498.36
+          "usd": 498.49
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2992.93
+          "usd": 2988.02
         },
         {
           "asset": "AMZN",
           "amount": 1.820740837,
-          "usd": 483.93
+          "usd": 484.77
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2994.03
+          "usd": 2990.4
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2993.25
+          "usd": 2988.32
         },
         {
           "asset": "LQD",
@@ -87,27 +67,27 @@
         {
           "asset": "MSFT",
           "amount": 0.982831555,
-          "usd": 483.66
+          "usd": 482.57
         },
         {
           "asset": "NVDA",
           "amount": 2.21009592,
-          "usd": 500.64
+          "usd": 501.65
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3129.0
+          "usd": 3123.55
         },
         {
           "asset": "SPY",
           "amount": 0.646083749,
-          "usd": 502.14
+          "usd": 501.77
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2941.33
+          "usd": 2930.57
         }
       ],
       "status": "ok"
@@ -1015,5 +995,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124754.73
+  "total_value": 114712.91
 }
