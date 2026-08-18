@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18 12:33 (Бишкек)",
+  "generated": "2026-08-18 13:33 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,13 +51,13 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99852.37,
+      "total": 99851.18,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.636167887,
-          "usd": 499.65
+          "usd": 499.49
         },
         {
           "asset": "AGG",
@@ -67,7 +67,7 @@
         {
           "asset": "AMZN",
           "amount": 1.912797637,
-          "usd": 497.08
+          "usd": 498.51
         },
         {
           "asset": "BND",
@@ -87,27 +87,27 @@
         {
           "asset": "MSFT",
           "amount": 0.982831555,
-          "usd": 470.37
+          "usd": 471.0
         },
         {
           "asset": "NVDA",
           "amount": 2.21009592,
-          "usd": 491.39
+          "usd": 491.15
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3085.81
+          "usd": 3082.4
         },
         {
           "asset": "SPY",
           "amount": 0.644745732,
-          "usd": 496.22
+          "usd": 496.05
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2915.86
+          "usd": 2916.57
         }
       ],
       "status": "ok"
@@ -188,6 +188,14 @@
     }
   ],
   "transactions": [
+    {
+      "time": "2026-08-18 07:33",
+      "account": "Alpaca",
+      "action": "SELL",
+      "asset": "SPY",
+      "amount": "$0.644745732",
+      "status": "accepted"
+    },
     {
       "time": "2026-08-17 13:35",
       "account": "Alpaca",
@@ -418,14 +426,6 @@
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-24 13:23",
-      "account": "Alpaca",
-      "action": "SELL",
-      "asset": "SPY",
-      "amount": "$0.666790247",
       "status": "filled"
     },
     {
@@ -767,8 +767,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 65,
-    "pending": 0,
+    "filled": 64,
+    "pending": 1,
     "failed": 0
   },
   "battle": {
@@ -1015,5 +1015,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124600.76
+  "total_value": 124599.57
 }
