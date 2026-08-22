@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-22 20:09 (Бишкек)",
+  "generated": "2026-08-22 20:16 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
       "kind": "Крипта + Золото",
-      "total": 9997.36,
+      "total": 9991.95,
       "start": 10000,
       "positions": [
         {
@@ -13,40 +13,78 @@
           "usd": 5000.0
         },
         {
-          "asset": "USDT",
-          "amount": 4997.328727,
-          "usd": 4997.33
+          "asset": "PAXG",
+          "amount": 0.109098,
+          "usd": 500.43
         },
         {
           "asset": "SOL",
-          "amount": 0.000425,
-          "usd": 0.03
+          "amount": 5.328425,
+          "usd": 499.86
+        },
+        {
+          "asset": "LINK",
+          "amount": 42.55,
+          "usd": 499.79
+        },
+        {
+          "asset": "AVAX",
+          "amount": 66.73,
+          "usd": 499.61
+        },
+        {
+          "asset": "BTC",
+          "amount": 0.006483,
+          "usd": 499.37
+        },
+        {
+          "asset": "DOGE",
+          "amount": 5508.0,
+          "usd": 499.19
+        },
+        {
+          "asset": "ADA",
+          "amount": 2219.9,
+          "usd": 499.03
+        },
+        {
+          "asset": "ETH",
+          "amount": 0.206293,
+          "usd": 498.98
+        },
+        {
+          "asset": "USDT",
+          "amount": 498.588241,
+          "usd": 498.59
+        },
+        {
+          "asset": "BNB",
+          "amount": 0.717212,
+          "usd": 497.09
         }
       ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-07-25 14:02"
+      "status": "ok"
     },
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4557.61,
+      "total": 4536.58,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 75441.12,
-          "pnl": -0.137
+          "pnl": -10.688
         },
         {
           "asset": "ETH/USDT",
           "side": "short",
           "entry": 2368.34,
-          "pnl": -0.002
+          "pnl": -10.74
         }
       ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-08-21 12:37"
+      "status": "ok"
     },
     {
       "name": "Alpaca",
@@ -549,78 +587,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-07-24 15:32:17",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ long",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-24 15:33:43",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ short",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-24 15:35:01",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ short",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-24 19:17:19",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ short",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-24 19:18:38",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ short",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-24 19:35:17",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ short",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-24 19:38:03",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ short",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-24 19:44:24",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ short",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-24 19:57:18",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ short",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
       "time": "2026-07-24 19:58:37",
       "account": "Binance Spot",
       "action": "LIVE ОТКРЫЛ short",
@@ -706,6 +672,78 @@
       "action": "ОТКРЫЛ short",
       "asset": "PAXG/BTC",
       "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-22 20:15:43",
+      "account": "Binance Spot",
+      "action": "BUY",
+      "asset": "PAXG/BTC",
+      "amount": "$499.3840512",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-22 20:15:46",
+      "account": "Binance Spot",
+      "action": "BUY",
+      "asset": "PAXG/BTC",
+      "amount": "$499.769235",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-22 20:15:50",
+      "account": "Binance Spot",
+      "action": "BUY",
+      "asset": "PAXG/BTC",
+      "amount": "$499.93043",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-22 20:15:53",
+      "account": "Binance Spot",
+      "action": "BUY",
+      "asset": "PAXG/BTC",
+      "amount": "$499.92624",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-22 20:16:00",
+      "account": "Binance Spot",
+      "action": "BUY",
+      "asset": "PAXG/BTC",
+      "amount": "$499.97976",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-22 20:16:03",
+      "account": "Binance Spot",
+      "action": "BUY",
+      "asset": "PAXG/BTC",
+      "amount": "$499.96116",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-22 20:16:07",
+      "account": "Binance Spot",
+      "action": "BUY",
+      "asset": "PAXG/BTC",
+      "amount": "$499.94116",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-22 20:16:10",
+      "account": "Binance Spot",
+      "action": "BUY",
+      "asset": "PAXG/BTC",
+      "amount": "$499.91995",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-22 20:16:13",
+      "account": "Binance Spot",
+      "action": "BUY",
+      "asset": "PAXG/BTC",
+      "amount": "$499.9285",
       "status": "filled"
     }
   ],
@@ -1015,5 +1053,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124187.23
+  "total_value": 124160.79
 }
