@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22 13:26 (Бишкек)",
+  "generated": "2026-08-22 14:22 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -51,7 +51,7 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99835.19,
+      "total": 99835.16,
       "start": 100000,
       "positions": [
         {
@@ -1015,5 +1015,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124187.26
+  "total_value": 124187.23
 }
