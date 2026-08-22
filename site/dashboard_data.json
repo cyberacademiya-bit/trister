@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22 20:16 (Бишкек)",
+  "generated": "2026-08-22 21:15 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -63,7 +63,8 @@
           "usd": 497.09
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-08-22 20:16"
     },
     {
       "name": "Binance Futures",
@@ -84,7 +85,8 @@
           "pnl": -10.74
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-08-22 20:16"
     },
     {
       "name": "Alpaca",
