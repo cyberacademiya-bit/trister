@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-24 09:49 (Бишкек)",
+  "generated": "2026-08-24 10:39 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
       "kind": "Крипта + Золото",
-      "total": 9991.95,
+      "total": 9992.84,
       "start": 10000,
       "positions": [
         {
@@ -13,44 +13,39 @@
           "usd": 5000.0
         },
         {
-          "asset": "PAXG",
-          "amount": 0.109098,
-          "usd": 500.43
-        },
-        {
-          "asset": "SOL",
-          "amount": 5.328425,
-          "usd": 499.86
-        },
-        {
-          "asset": "LINK",
-          "amount": 42.55,
-          "usd": 499.79
-        },
-        {
-          "asset": "AVAX",
-          "amount": 66.73,
-          "usd": 499.61
-        },
-        {
-          "asset": "BTC",
-          "amount": 0.006483,
-          "usd": 499.37
-        },
-        {
           "asset": "DOGE",
           "amount": 5508.0,
-          "usd": 499.19
+          "usd": 507.4
         },
         {
-          "asset": "ADA",
-          "amount": 2219.9,
-          "usd": 499.03
+          "asset": "PAXG",
+          "amount": 0.109098,
+          "usd": 505.01
         },
         {
           "asset": "ETH",
           "amount": 0.206293,
-          "usd": 498.98
+          "usd": 503.58
+        },
+        {
+          "asset": "SOL",
+          "amount": 5.328425,
+          "usd": 501.35
+        },
+        {
+          "asset": "BNB",
+          "amount": 0.717212,
+          "usd": 500.1
+        },
+        {
+          "asset": "BTC",
+          "amount": 0.006483,
+          "usd": 500.07
+        },
+        {
+          "asset": "AVAX",
+          "amount": 66.73,
+          "usd": 499.94
         },
         {
           "asset": "USDT",
@@ -58,46 +53,49 @@
           "usd": 498.59
         },
         {
-          "asset": "BNB",
-          "amount": 0.717212,
-          "usd": 497.09
+          "asset": "ADA",
+          "amount": 2219.9,
+          "usd": 489.04
+        },
+        {
+          "asset": "LINK",
+          "amount": 42.55,
+          "usd": 487.75
         }
       ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-08-22 20:16"
+      "status": "ok"
     },
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4536.58,
+      "total": 4531.37,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "short",
           "entry": 75441.12,
-          "pnl": -10.688
+          "pnl": -11.389
         },
         {
           "asset": "ETH/USDT",
           "side": "short",
-          "entry": 2368.34,
-          "pnl": -10.74
+          "entry": 2440.98,
+          "pnl": 0.002
         }
       ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-08-22 20:16"
+      "status": "ok"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99841.92,
+      "total": 99840.22,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.609734581,
-          "usd": 498.81
+          "usd": 498.55
         },
         {
           "asset": "AGG",
@@ -107,7 +105,7 @@
         {
           "asset": "AMZN",
           "amount": 1.912797637,
-          "usd": 494.96
+          "usd": 494.46
         },
         {
           "asset": "BND",
@@ -127,27 +125,27 @@
         {
           "asset": "MSFT",
           "amount": 1.032435646,
-          "usd": 499.18
+          "usd": 498.82
         },
         {
           "asset": "NVDA",
           "amount": 2.21009592,
-          "usd": 477.27
+          "usd": 477.62
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3028.99
+          "usd": 3027.16
         },
         {
           "asset": "SPY",
           "amount": 0.650060326,
-          "usd": 497.33
+          "usd": 497.15
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2952.81
+          "usd": 2953.89
         }
       ],
       "status": "ok"
@@ -589,22 +587,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-07-24 19:58:37",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ short",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-25 01:35:30",
-      "account": "Binance Spot",
-      "action": "LIVE ОТКРЫЛ long",
-      "asset": "PAXG/BTC",
-      "amount": "$1000.0",
-      "status": "filled"
-    },
-    {
       "time": "2026-07-25 02:23:19",
       "account": "Binance Spot",
       "action": "LIVE ОТКРЫЛ long",
@@ -746,6 +728,22 @@
       "action": "BUY",
       "asset": "PAXG/BTC",
       "amount": "$499.9285",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-24 10:39:32",
+      "account": "Binance Spot",
+      "action": "СТОП-ЛОСС",
+      "asset": "PAXG/BTC",
+      "amount": "$nan",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-24 10:39:33",
+      "account": "Binance Spot",
+      "action": "ОТКРЫЛ short",
+      "asset": "PAXG/BTC",
+      "amount": "$500.0",
       "status": "filled"
     }
   ],
@@ -1055,5 +1053,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124167.55
+  "total_value": 124161.53
 }

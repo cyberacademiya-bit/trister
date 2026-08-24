@@ -1,6 +1,6 @@
 {
   "Binance Spot": {
-    "total": 9991.95,
+    "total": 9992.84,
     "positions": [
       {
         "asset": "USDC",
@@ -8,44 +8,39 @@
         "usd": 5000.0
       },
       {
-        "asset": "PAXG",
-        "amount": 0.109098,
-        "usd": 500.43
-      },
-      {
-        "asset": "SOL",
-        "amount": 5.328425,
-        "usd": 499.86
-      },
-      {
-        "asset": "LINK",
-        "amount": 42.55,
-        "usd": 499.79
-      },
-      {
-        "asset": "AVAX",
-        "amount": 66.73,
-        "usd": 499.61
-      },
-      {
-        "asset": "BTC",
-        "amount": 0.006483,
-        "usd": 499.37
-      },
-      {
         "asset": "DOGE",
         "amount": 5508.0,
-        "usd": 499.19
+        "usd": 507.4
       },
       {
-        "asset": "ADA",
-        "amount": 2219.9,
-        "usd": 499.03
+        "asset": "PAXG",
+        "amount": 0.109098,
+        "usd": 505.01
       },
       {
         "asset": "ETH",
         "amount": 0.206293,
-        "usd": 498.98
+        "usd": 503.58
+      },
+      {
+        "asset": "SOL",
+        "amount": 5.328425,
+        "usd": 501.35
+      },
+      {
+        "asset": "BNB",
+        "amount": 0.717212,
+        "usd": 500.1
+      },
+      {
+        "asset": "BTC",
+        "amount": 0.006483,
+        "usd": 500.07
+      },
+      {
+        "asset": "AVAX",
+        "amount": 66.73,
+        "usd": 499.94
       },
       {
         "asset": "USDT",
@@ -53,29 +48,34 @@
         "usd": 498.59
       },
       {
-        "asset": "BNB",
-        "amount": 0.717212,
-        "usd": 497.09
+        "asset": "ADA",
+        "amount": 2219.9,
+        "usd": 489.04
+      },
+      {
+        "asset": "LINK",
+        "amount": 42.55,
+        "usd": 487.75
       }
     ],
-    "time": "2026-08-22 20:16"
+    "time": "2026-08-24 10:39"
   },
   "Binance Futures": {
-    "total": 4536.58,
+    "total": 4531.37,
     "positions": [
       {
         "asset": "BTC/USDT",
         "side": "short",
         "entry": 75441.12,
-        "pnl": -10.688
+        "pnl": -11.389
       },
       {
         "asset": "ETH/USDT",
         "side": "short",
-        "entry": 2368.34,
-        "pnl": -10.74
+        "entry": 2440.98,
+        "pnl": 0.002
       }
     ],
-    "time": "2026-08-22 20:16"
+    "time": "2026-08-24 10:39"
   }
 }
