@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26 13:41 (Бишкек)",
+  "generated": "2026-08-26 14:36 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,23 +91,23 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99947.33,
+      "total": 99962.16,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.603477691,
-          "usd": 496.0
+          "usd": 496.44
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 3003.06
+          "usd": 3008.89
         },
         {
           "asset": "AMZN",
           "amount": 1.902303354,
-          "usd": 496.04
+          "usd": 498.5
         },
         {
           "asset": "BND",
@@ -127,27 +127,27 @@
         {
           "asset": "MSFT",
           "amount": 1.033639434,
-          "usd": 505.18
+          "usd": 504.48
         },
         {
           "asset": "NVDA",
           "amount": 2.385448473,
-          "usd": 509.41
+          "usd": 509.77
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3019.75
+          "usd": 3022.99
         },
         {
           "asset": "SPY",
           "amount": 0.650060326,
-          "usd": 497.36
+          "usd": 497.71
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2986.54
+          "usd": 2989.41
         }
       ],
       "status": "ok"
@@ -228,6 +228,14 @@
     }
   ],
   "transactions": [
+    {
+      "time": "2026-08-26 08:36",
+      "account": "Alpaca",
+      "action": "SELL",
+      "asset": "NVDA",
+      "amount": "$2.385448473",
+      "status": "new"
+    },
     {
       "time": "2026-08-26 03:49",
       "account": "Alpaca",
@@ -458,14 +466,6 @@
       "action": "BUY",
       "asset": "SPY",
       "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-08-11 14:16",
-      "account": "Alpaca",
-      "action": "SELL",
-      "asset": "SPY",
-      "amount": "$0.6459018",
       "status": "filled"
     },
     {
@@ -807,8 +807,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 64,
-    "pending": 1,
+    "filled": 63,
+    "pending": 2,
     "failed": 0
   },
   "battle": {
@@ -1055,5 +1055,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124268.64
+  "total_value": 124283.47
 }
