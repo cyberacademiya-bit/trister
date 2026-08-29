@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30 01:05 (Бишкек)",
+  "generated": "2026-08-30 04:11 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -221,6 +221,11 @@
         {
           "asset": "CL=F",
           "amount": 6.390593,
+          "usd": 500.0
+        },
+        {
+          "asset": "MSFT",
+          "amount": 0.973653,
           "usd": 500.0
         }
       ],
@@ -469,14 +474,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-07-27 19:35",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "GOOGL",
-      "amount": "$500.0",
-      "status": "filled"
-    },
-    {
       "time": "2026-07-27 22:05",
       "account": "Локальный",
       "action": "SELL",
@@ -586,6 +583,14 @@
       "action": "SELL",
       "asset": "MSFT",
       "amount": "$491.75",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-30 04:11",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "MSFT",
+      "amount": "$500.0",
       "status": "filled"
     },
     {
