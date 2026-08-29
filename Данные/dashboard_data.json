@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29 09:00 (Бишкек)",
+  "generated": "2026-08-29 16:40 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,7 +91,7 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99922.38,
+      "total": 99922.37,
       "start": 100000,
       "positions": [
         {
@@ -155,7 +155,7 @@
     {
       "name": "Локальный",
       "kind": "Все рынки (виртуально)",
-      "total": 9797.1,
+      "total": 9788.85,
       "start": 10000.0,
       "positions": [
         {
@@ -221,11 +221,6 @@
         {
           "asset": "CL=F",
           "amount": 6.390593,
-          "usd": 500.0
-        },
-        {
-          "asset": "MSFT",
-          "amount": 0.973653,
           "usd": 500.0
         }
       ],
@@ -474,14 +469,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-07-23 23:15",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "AMZN",
-      "amount": "$500.0",
-      "status": "filled"
-    },
-    {
       "time": "2026-07-24 01:06",
       "account": "Локальный",
       "action": "SELL",
@@ -591,6 +578,14 @@
       "action": "BUY",
       "asset": "MSFT",
       "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-29 16:40",
+      "account": "Локальный",
+      "action": "SELL",
+      "asset": "MSFT",
+      "amount": "$491.75",
       "status": "filled"
     },
     {
@@ -1060,5 +1055,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124243.69
+  "total_value": 124235.43
 }
