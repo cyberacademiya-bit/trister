@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29 23:25 (Бишкек)",
+  "generated": "2026-08-30 01:05 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -155,7 +155,7 @@
     {
       "name": "Локальный",
       "kind": "Все рынки (виртуально)",
-      "total": 9788.85,
+      "total": 9780.6,
       "start": 10000.0,
       "positions": [
         {
@@ -221,11 +221,6 @@
         {
           "asset": "CL=F",
           "amount": 6.390593,
-          "usd": 500.0
-        },
-        {
-          "asset": "MSFT",
-          "amount": 0.973653,
           "usd": 500.0
         }
       ],
@@ -477,14 +472,6 @@
       "time": "2026-07-27 19:35",
       "account": "Локальный",
       "action": "BUY",
-      "asset": "AMZN",
-      "amount": "$500.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-07-27 19:35",
-      "account": "Локальный",
-      "action": "BUY",
       "asset": "GOOGL",
       "amount": "$500.0",
       "status": "filled"
@@ -591,6 +578,14 @@
       "action": "BUY",
       "asset": "MSFT",
       "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-08-30 01:05",
+      "account": "Локальный",
+      "action": "SELL",
+      "asset": "MSFT",
+      "amount": "$491.75",
       "status": "filled"
     },
     {
@@ -1060,5 +1055,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124235.43
+  "total_value": 124227.18
 }
