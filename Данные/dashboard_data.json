@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30 23:07 (Бишкек)",
+  "generated": "2026-08-30 23:48 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -817,14 +817,14 @@
     "failed": 0
   },
   "battle": {
-    "period": "2024-01-01 → 2026-08-29",
+    "period": "2024-01-01 → 2026-08-30",
     "markets": 16,
     "strategies": [
       {
         "name": "buyhold",
         "title": "📊 Купи и держи",
-        "equity": 21431.16,
-        "ret": 114.31,
+        "equity": 21442.67,
+        "ret": 114.43,
         "longs": 16,
         "shorts": 0,
         "curve": [
@@ -857,8 +857,8 @@
       {
         "name": "sma",
         "title": "📈 SMA 20/50",
-        "equity": 16024.61,
-        "ret": 60.25,
+        "equity": 16033.16,
+        "ret": 60.33,
         "longs": 13,
         "shorts": 0,
         "curve": [
@@ -885,14 +885,14 @@
           15686.1,
           16033.4,
           15324.2,
-          15282.0
+          15281.9
         ]
       },
       {
         "name": "trend",
         "title": "🏆 Тренд MA50/200 (лучший)",
-        "equity": 11822.29,
-        "ret": 18.22,
+        "equity": 11829.21,
+        "ret": 18.29,
         "longs": 9,
         "shorts": 0,
         "curve": [
@@ -925,8 +925,8 @@
       {
         "name": "cot",
         "title": "🧠 Тренд + COT Уильямса",
-        "equity": 11822.29,
-        "ret": 18.22,
+        "equity": 11829.21,
+        "ret": 18.29,
         "longs": 9,
         "shorts": 0,
         "curve": [
@@ -959,8 +959,8 @@
       {
         "name": "candles",
         "title": "🕯️ Свечи + индикаторы",
-        "equity": 8620.01,
-        "ret": -13.8,
+        "equity": 8609.89,
+        "ret": -13.900000000000002,
         "longs": 4,
         "shorts": 1,
         "curve": [
@@ -993,8 +993,8 @@
       {
         "name": "trend_ls",
         "title": "↕️ Тренд лонг/шорт (фьючерсы)",
-        "equity": 6492.95,
-        "ret": -35.07,
+        "equity": 6496.92,
+        "ret": -35.03,
         "longs": 9,
         "shorts": 7,
         "curve": [
