@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31 16:22 (Бишкек)",
+  "generated": "2026-08-31 23:47 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,63 +91,53 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99919.15,
+      "total": 99868.02,
       "start": 100000,
       "positions": [
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2992.93
-        },
-        {
-          "asset": "AMZN",
-          "amount": 1.902303354,
-          "usd": 504.66
+          "usd": 2988.82
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2994.54
-        },
-        {
-          "asset": "GOOGL",
-          "amount": 1.473418989,
-          "usd": 508.17
+          "usd": 2987.71
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2987.46
+          "usd": 2980.54
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2987.63
+          "usd": 2981.45
         },
         {
           "asset": "MSFT",
           "amount": 1.033639434,
-          "usd": 527.1
+          "usd": 527.85
         },
         {
           "asset": "NVDA",
           "amount": 6.618595163,
-          "usd": 1448.08
+          "usd": 1453.87
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3048.12
+          "usd": 3046.12
         },
         {
           "asset": "SPY",
           "amount": 0.65297908,
-          "usd": 501.45
+          "usd": 500.39
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2970.68
+          "usd": 2953.53
         }
       ],
       "status": "ok"
@@ -234,12 +224,20 @@
   ],
   "transactions": [
     {
+      "time": "2026-08-31 17:47",
+      "account": "Alpaca",
+      "action": "SELL",
+      "asset": "GOOGL",
+      "amount": "$1.473418989",
+      "status": "filled"
+    },
+    {
       "time": "2026-08-31 08:00",
       "account": "Alpaca",
       "action": "SELL",
       "asset": "AMZN",
       "amount": "$1.902303354",
-      "status": "new"
+      "status": "filled"
     },
     {
       "time": "2026-08-28 08:36",
@@ -463,14 +461,6 @@
       "action": "SELL",
       "asset": "SPY",
       "amount": "$0.644745732",
-      "status": "filled"
-    },
-    {
-      "time": "2026-08-17 13:35",
-      "account": "Alpaca",
-      "action": "BUY",
-      "asset": "SPY",
-      "amount": "$500",
       "status": "filled"
     },
     {
@@ -812,8 +802,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 64,
-    "pending": 1,
+    "filled": 65,
+    "pending": 0,
     "failed": 0
   },
   "battle": {
@@ -1060,5 +1050,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124223.96
+  "total_value": 124172.83
 }
