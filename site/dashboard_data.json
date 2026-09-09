@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09 04:18 (Бишкек)",
+  "generated": "2026-09-09 06:59 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,53 +91,53 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99843.01,
+      "total": 99851.12,
       "start": 100000,
       "positions": [
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2975.74
+          "usd": 2979.42
         },
         {
           "asset": "AMZN",
           "amount": 7.850060836,
-          "usd": 2017.86
+          "usd": 2018.17
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2978.81
+          "usd": 2974.68
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2962.04
+          "usd": 2963.34
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2962.32
+          "usd": 2963.19
         },
         {
           "asset": "MSFT",
           "amount": 1.033639434,
-          "usd": 510.29
+          "usd": 510.76
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3058.01
+          "usd": 3061.49
         },
         {
           "asset": "SPY",
           "amount": 0.646518171,
-          "usd": 495.15
+          "usd": 495.34
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2946.58
+          "usd": 2948.51
         }
       ],
       "status": "ok"
@@ -233,6 +233,14 @@
     }
   ],
   "transactions": [
+    {
+      "time": "2026-09-09 00:59",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "NVDA",
+      "amount": "$500",
+      "status": "accepted"
+    },
     {
       "time": "2026-09-08 22:18",
       "account": "Alpaca",
@@ -463,14 +471,6 @@
       "action": "SELL",
       "asset": "NVDA",
       "amount": "$2.21009592",
-      "status": "filled"
-    },
-    {
-      "time": "2026-08-24 08:00",
-      "account": "Alpaca",
-      "action": "SELL",
-      "asset": "MSFT",
-      "amount": "$1.032435646",
       "status": "filled"
     },
     {
@@ -812,8 +812,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 64,
-    "pending": 1,
+    "filled": 63,
+    "pending": 2,
     "failed": 0
   },
   "battle": {
@@ -1060,5 +1060,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124147.82
+  "total_value": 124155.93
 }
