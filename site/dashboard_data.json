@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11 11:33 (Бишкек)",
+  "generated": "2026-09-11 16:28 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,18 +91,18 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99525.36,
+      "total": 99575.19,
       "start": 100000,
       "positions": [
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2948.72
+          "usd": 2950.56
         },
         {
           "asset": "AMZN",
           "amount": 7.850060836,
-          "usd": 1977.43
+          "usd": 1990.23
         },
         {
           "asset": "BND",
@@ -112,7 +112,7 @@
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2928.61
+          "usd": 2935.68
         },
         {
           "asset": "LQD",
@@ -122,22 +122,22 @@
         {
           "asset": "MSFT",
           "amount": 1.033639434,
-          "usd": 507.82
+          "usd": 510.0
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3018.65
+          "usd": 3037.26
         },
         {
           "asset": "SPY",
           "amount": 0.646518171,
-          "usd": 491.16
+          "usd": 492.81
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2898.28
+          "usd": 2904.02
         }
       ],
       "status": "ok"
@@ -229,28 +229,36 @@
   ],
   "transactions": [
     {
-      "time": "2026-09-11 05:33",
+      "time": "2026-09-11 10:28",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "NVDA",
       "amount": "$500",
-      "status": "accepted"
+      "status": "new"
     },
     {
-      "time": "2026-09-11 00:47",
+      "time": "2026-09-11 08:00",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "NVDA",
       "amount": "$500",
-      "status": "accepted"
+      "status": "new"
     },
     {
-      "time": "2026-09-10 22:12",
+      "time": "2026-09-11 08:00",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "NVDA",
       "amount": "$500",
-      "status": "accepted"
+      "status": "new"
+    },
+    {
+      "time": "2026-09-11 08:00",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "NVDA",
+      "amount": "$500",
+      "status": "new"
     },
     {
       "time": "2026-09-10 19:26",
@@ -458,14 +466,6 @@
       "action": "SELL",
       "asset": "NVDA",
       "amount": "$2.385448473",
-      "status": "filled"
-    },
-    {
-      "time": "2026-08-24 18:31",
-      "account": "Alpaca",
-      "action": "BUY",
-      "asset": "AMZN",
-      "amount": "$500",
       "status": "filled"
     },
     {
@@ -807,8 +807,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 62,
-    "pending": 3,
+    "filled": 61,
+    "pending": 4,
     "failed": 0
   },
   "battle": {
@@ -1055,5 +1055,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 123832.54
+  "total_value": 123882.37
 }
