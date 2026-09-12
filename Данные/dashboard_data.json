@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-12 13:36 (Бишкек)",
+  "generated": "2026-09-12 17:54 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,7 +91,7 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99580.81,
+      "total": 99580.74,
       "start": 100000,
       "positions": [
         {
@@ -238,6 +238,14 @@
     }
   ],
   "transactions": [
+    {
+      "time": "2026-09-12 11:54",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "NVDA",
+      "amount": "$500",
+      "status": "accepted"
+    },
     {
       "time": "2026-09-12 07:36",
       "account": "Alpaca",
@@ -467,14 +475,6 @@
       "account": "Alpaca",
       "action": "BUY",
       "asset": "NVDA",
-      "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-08-27 13:37",
-      "account": "Alpaca",
-      "action": "BUY",
-      "asset": "GOOGL",
       "amount": "$500",
       "status": "filled"
     },
@@ -817,8 +817,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 61,
-    "pending": 4,
+    "filled": 60,
+    "pending": 5,
     "failed": 0
   },
   "battle": {
@@ -1065,5 +1065,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 123887.99
+  "total_value": 123887.92
 }
