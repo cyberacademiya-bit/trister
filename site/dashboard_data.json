@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-13 06:33 (Бишкек)",
+  "generated": "2026-09-13 11:36 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -239,6 +239,14 @@
   ],
   "transactions": [
     {
+      "time": "2026-09-13 05:36",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "NVDA",
+      "amount": "$500",
+      "status": "accepted"
+    },
+    {
       "time": "2026-09-13 00:33",
       "account": "Alpaca",
       "action": "BUY",
@@ -468,14 +476,6 @@
       "action": "BUY",
       "asset": "AMZN",
       "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-09-01 08:00",
-      "account": "Alpaca",
-      "action": "SELL",
-      "asset": "GOOGL",
-      "amount": "$1.474618361",
       "status": "filled"
     },
     {
@@ -817,8 +817,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 54,
-    "pending": 11,
+    "filled": 53,
+    "pending": 12,
     "failed": 0
   },
   "battle": {
