@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14 04:47 (Бишкек)",
+  "generated": "2026-09-14 06:37 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,7 +91,7 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99580.74,
+      "total": 99519.54,
       "start": 100000,
       "positions": [
         {
@@ -102,17 +102,17 @@
         {
           "asset": "AMZN",
           "amount": 7.850060836,
-          "usd": 2015.74
+          "usd": 1997.06
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2946.95
+          "usd": 2949.35
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2926.68
+          "usd": 2929.25
         },
         {
           "asset": "LQD",
@@ -122,27 +122,27 @@
         {
           "asset": "MSFT",
           "amount": 1.033639434,
-          "usd": 512.3
+          "usd": 509.22
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3044.8
+          "usd": 3007.87
         },
         {
           "asset": "SPY",
           "amount": 0.646518171,
-          "usd": 494.13
+          "usd": 491.63
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2901.5
+          "usd": 2903.66
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 500.47
+          "usd": 493.34
         }
       ],
       "status": "ok"
@@ -238,6 +238,14 @@
     }
   ],
   "transactions": [
+    {
+      "time": "2026-09-14 00:37",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "NVDA",
+      "amount": "$500",
+      "status": "accepted"
+    },
     {
       "time": "2026-09-13 22:47",
       "account": "Alpaca",
@@ -468,14 +476,6 @@
       "action": "BUY",
       "asset": "NVDA",
       "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-09-08 19:49",
-      "account": "Alpaca",
-      "action": "SELL",
-      "asset": "NVDA",
-      "amount": "$6.618595163",
       "status": "filled"
     },
     {
@@ -817,8 +817,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 47,
-    "pending": 18,
+    "filled": 46,
+    "pending": 19,
     "failed": 0
   },
   "battle": {
@@ -1065,5 +1065,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 123887.92
+  "total_value": 123826.72
 }
