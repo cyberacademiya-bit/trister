@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-16 11:47 (Бишкек)",
+  "generated": "2026-09-16 16:42 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,13 +91,13 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 99625.82,
+      "total": 99602.12,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.515506977,
-          "usd": 502.65
+          "usd": 501.94
         },
         {
           "asset": "AGG",
@@ -107,17 +107,17 @@
         {
           "asset": "AMZN",
           "amount": 7.850060836,
-          "usd": 1952.86
+          "usd": 1954.19
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2942.81
+          "usd": 2944.06
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2924.43
+          "usd": 2919.28
         },
         {
           "asset": "LQD",
@@ -127,22 +127,22 @@
         {
           "asset": "MSFT",
           "amount": 1.033639434,
-          "usd": 514.44
+          "usd": 512.75
         },
         {
           "asset": "NVDA",
           "amount": 49.907122075,
-          "usd": 10663.16
+          "usd": 10640.7
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3011.19
+          "usd": 3015.15
         },
         {
           "asset": "SPY",
           "amount": 0.646518171,
-          "usd": 490.83
+          "usd": 490.8
         },
         {
           "asset": "TLT",
@@ -152,7 +152,7 @@
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 489.4
+          "usd": 489.19
         }
       ],
       "status": "ok"
@@ -249,12 +249,12 @@
   ],
   "transactions": [
     {
-      "time": "2026-09-16 00:59",
+      "time": "2026-09-16 08:00",
       "account": "Alpaca",
       "action": "SELL",
       "asset": "AAPL",
       "amount": "$1.515506977",
-      "status": "accepted"
+      "status": "new"
     },
     {
       "time": "2026-09-15 15:24",
@@ -1075,5 +1075,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 123933.0
+  "total_value": 123909.3
 }
