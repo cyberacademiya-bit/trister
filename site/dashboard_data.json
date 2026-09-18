@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19 01:24 (Бишкек)",
+  "generated": "2026-09-19 04:11 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -58,7 +58,8 @@
           "usd": 484.04
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-09-19 01:24"
     },
     {
       "name": "Binance Futures",
@@ -79,78 +80,79 @@
           "pnl": -0.002
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-09-19 01:24"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100028.87,
+      "total": 100191.65,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.498609262,
-          "usd": 503.7
+          "usd": 502.03
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2946.27
+          "usd": 2947.49
         },
         {
           "asset": "AMZN",
           "amount": 2.040442376,
-          "usd": 519.24
+          "usd": 519.31
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2946.33
+          "usd": 2956.44
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2921.05
+          "usd": 2921.86
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2941.14
+          "usd": 2943.24
         },
         {
           "asset": "META",
           "amount": 0.737785713,
-          "usd": 495.47
+          "usd": 493.4
         },
         {
           "asset": "MSFT",
           "amount": 1.013557617,
-          "usd": 502.33
+          "usd": 501.46
         },
         {
           "asset": "NVDA",
           "amount": 49.907122075,
-          "usd": 10962.61
+          "usd": 11097.85
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3064.01
+          "usd": 3078.44
         },
         {
           "asset": "SPY",
           "amount": 0.658472471,
-          "usd": 501.14
+          "usd": 502.35
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2913.14
+          "usd": 2916.57
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 499.75
+          "usd": 498.52
         }
       ],
       "status": "ok"
@@ -1073,5 +1075,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124539.18
+  "total_value": 124701.96
 }
