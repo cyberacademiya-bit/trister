@@ -1,12 +1,12 @@
 {
-  "period": "2024-01-01 → 2026-09-17",
+  "period": "2024-01-01 → 2026-09-18",
   "markets": 16,
   "strategies": [
     {
       "name": "buyhold",
       "title": "📊 Купи и держи",
-      "equity": 21798.36,
-      "ret": 117.97999999999999,
+      "equity": 21899.29,
+      "ret": 118.99,
       "longs": 16,
       "shorts": 0,
       "curve": [
@@ -39,8 +39,8 @@
     {
       "name": "sma",
       "title": "📈 SMA 20/50",
-      "equity": 15990.19,
-      "ret": 59.9,
+      "equity": 16046.54,
+      "ret": 60.47,
       "longs": 15,
       "shorts": 0,
       "curve": [
@@ -73,8 +73,8 @@
     {
       "name": "trend",
       "title": "🏆 Тренд MA50/200 (лучший)",
-      "equity": 11922.22,
-      "ret": 19.220000000000002,
+      "equity": 11972.99,
+      "ret": 19.73,
       "longs": 11,
       "shorts": 0,
       "curve": [
@@ -107,8 +107,8 @@
     {
       "name": "cot",
       "title": "🧠 Тренд + COT Уильямса",
-      "equity": 11922.22,
-      "ret": 19.220000000000002,
+      "equity": 11972.99,
+      "ret": 19.73,
       "longs": 11,
       "shorts": 0,
       "curve": [
@@ -141,10 +141,10 @@
     {
       "name": "candles",
       "title": "🕯️ Свечи + индикаторы",
-      "equity": 8534.22,
-      "ret": -14.66,
-      "longs": 4,
-      "shorts": 1,
+      "equity": 8493.76,
+      "ret": -15.06,
+      "longs": 5,
+      "shorts": 2,
       "curve": [
         10003.1,
         9896.8,
@@ -175,8 +175,8 @@
     {
       "name": "trend_ls",
       "title": "↕️ Тренд лонг/шорт (фьючерсы)",
-      "equity": 6506.1,
-      "ret": -34.94,
+      "equity": 6531.42,
+      "ret": -34.69,
       "longs": 11,
       "shorts": 5,
       "curve": [
