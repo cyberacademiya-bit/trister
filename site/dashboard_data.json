@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19 06:53 (Бишкек)",
+  "generated": "2026-09-19 11:25 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -86,13 +86,13 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100185.57,
+      "total": 100160.24,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.498609262,
-          "usd": 501.85
+          "usd": 503.73
         },
         {
           "asset": "AGG",
@@ -102,17 +102,17 @@
         {
           "asset": "AMZN",
           "amount": 2.040442376,
-          "usd": 518.78
+          "usd": 517.68
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2951.92
+          "usd": 2946.12
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2922.17
+          "usd": 2919.93
         },
         {
           "asset": "LQD",
@@ -122,22 +122,22 @@
         {
           "asset": "META",
           "amount": 0.737785713,
-          "usd": 493.22
+          "usd": 491.18
         },
         {
           "asset": "MSFT",
           "amount": 1.013557617,
-          "usd": 500.69
+          "usd": 500.47
         },
         {
           "asset": "NVDA",
           "amount": 49.907122075,
-          "usd": 11105.83
+          "usd": 11092.86
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3075.33
+          "usd": 3072.78
         },
         {
           "asset": "SPY",
@@ -147,12 +147,12 @@
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2915.56
+          "usd": 2915.14
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 498.75
+          "usd": 498.87
         }
       ],
       "status": "ok"
@@ -1075,5 +1075,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124695.88
+  "total_value": 124670.55
 }
