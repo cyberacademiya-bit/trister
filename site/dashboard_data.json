@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21 04:53 (Бишкек)",
+  "generated": "2026-09-21 06:46 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,13 +91,13 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100160.24,
+      "total": 100229.02,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.498609262,
-          "usd": 503.73
+          "usd": 501.94
         },
         {
           "asset": "AGG",
@@ -107,17 +107,17 @@
         {
           "asset": "AMZN",
           "amount": 2.040442376,
-          "usd": 517.68
+          "usd": 520.5
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2946.12
+          "usd": 2948.61
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2919.93
+          "usd": 2922.17
         },
         {
           "asset": "LQD",
@@ -127,37 +127,37 @@
         {
           "asset": "META",
           "amount": 0.737785713,
-          "usd": 491.18
+          "usd": 496.03
         },
         {
           "asset": "MSFT",
           "amount": 1.013557617,
-          "usd": 500.47
+          "usd": 501.71
         },
         {
           "asset": "NVDA",
           "amount": 49.907122075,
-          "usd": 11092.86
+          "usd": 11123.8
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3072.78
+          "usd": 3084.92
         },
         {
           "asset": "SPY",
           "amount": 0.658472471,
-          "usd": 501.55
+          "usd": 503.18
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2915.14
+          "usd": 2924.11
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 498.87
+          "usd": 502.13
         }
       ],
       "status": "ok"
@@ -1080,5 +1080,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124867.77
+  "total_value": 124936.55
 }
