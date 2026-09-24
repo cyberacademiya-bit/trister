@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24 11:46 (Бишкек)",
+  "generated": "2026-09-24 16:57 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,13 +91,13 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100302.62,
+      "total": 100170.01,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.498609262,
-          "usd": 503.86
+          "usd": 504.82
         },
         {
           "asset": "AGG",
@@ -107,52 +107,52 @@
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2929.57
+          "usd": 2921.71
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2899.35
+          "usd": 2893.24
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2918.52
+          "usd": 2910.38
         },
         {
           "asset": "META",
           "amount": 0.737785713,
-          "usd": 543.75
+          "usd": 536.54
         },
         {
           "asset": "MSFT",
           "amount": 1.013557617,
-          "usd": 504.92
+          "usd": 505.36
         },
         {
           "asset": "NVDA",
           "amount": 49.907122075,
-          "usd": 11216.63
+          "usd": 11142.37
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3145.95
+          "usd": 3127.89
         },
         {
           "asset": "SPY",
           "amount": 0.658472471,
-          "usd": 504.06
+          "usd": 502.85
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2879.26
+          "usd": 2870.29
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 518.22
+          "usd": 516.03
         }
       ],
       "status": "ok"
@@ -1075,5 +1075,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 125010.15
+  "total_value": 124877.54
 }
