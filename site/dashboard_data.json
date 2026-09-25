@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25 04:56 (Бишкек)",
+  "generated": "2026-09-25 07:08 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,28 +91,28 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100214.16,
+      "total": 100212.88,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.498609262,
-          "usd": 503.61
+          "usd": 502.78
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2914.95
+          "usd": 2922.93
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2915.09
+          "usd": 2917.16
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2887.39
+          "usd": 2886.16
         },
         {
           "asset": "LQD",
@@ -122,37 +122,37 @@
         {
           "asset": "META",
           "amount": 0.737785713,
-          "usd": 572.67
+          "usd": 572.52
         },
         {
           "asset": "MSFT",
           "amount": 1.013557617,
-          "usd": 503.33
+          "usd": 502.94
         },
         {
           "asset": "NVDA",
           "amount": 49.907122075,
-          "usd": 11181.48
+          "usd": 11174.2
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3153.23
+          "usd": 3152.64
         },
         {
           "asset": "SPY",
           "amount": 0.658472471,
-          "usd": 504.7
+          "usd": 504.67
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2853.07
+          "usd": 2851.27
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 517.45
+          "usd": 518.42
         }
       ],
       "status": "ok"
@@ -1075,5 +1075,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124921.69
+  "total_value": 124920.41
 }
