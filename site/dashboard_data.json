@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25 13:00 (Бишкек)",
+  "generated": "2026-09-25 19:10 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,68 +91,68 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100313.87,
+      "total": 100339.76,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 1.498609262,
-          "usd": 503.14
+          "usd": 503.44
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2922.93
+          "usd": 2922.63
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2917.16
+          "usd": 2918.4
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2887.77
+          "usd": 2890.02
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2897.73
+          "usd": 2908.05
         },
         {
           "asset": "META",
           "amount": 0.737785713,
-          "usd": 575.14
+          "usd": 569.21
         },
         {
           "asset": "MSFT",
           "amount": 1.013557617,
-          "usd": 503.97
+          "usd": 505.77
         },
         {
           "asset": "NVDA",
           "amount": 49.907122075,
-          "usd": 11239.58
+          "usd": 11258.73
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3169.46
+          "usd": 3171.72
         },
         {
           "asset": "SPY",
           "amount": 0.658472471,
-          "usd": 506.17
+          "usd": 506.81
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2860.6
+          "usd": 2853.07
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 520.74
+          "usd": 522.45
         }
       ],
       "status": "ok"
@@ -1075,5 +1075,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 125021.4
+  "total_value": 125047.29
 }
