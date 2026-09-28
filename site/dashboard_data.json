@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28 09:09 (Бишкек)",
+  "generated": "2026-09-29 00:21 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,63 +91,68 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100193.34,
+      "total": 100384.0,
       "start": 100000,
       "positions": [
         {
+          "asset": "AAPL",
+          "amount": 23.5137264,
+          "usd": 7993.96
+        },
+        {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2920.17
+          "usd": 2906.82
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2920.85
+          "usd": 2908.88
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2885.52
+          "usd": 2878.77
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2899.42
+          "usd": 2879.33
         },
         {
           "asset": "META",
           "amount": 0.737785713,
-          "usd": 541.24
+          "usd": 532.16
         },
         {
           "asset": "MSFT",
           "amount": 1.013557617,
-          "usd": 523.25
+          "usd": 518.62
         },
         {
           "asset": "NVDA",
           "amount": 49.907122075,
-          "usd": 11180.69
+          "usd": 11487.62
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3151.11
+          "usd": 3143.35
         },
         {
           "asset": "SPY",
           "amount": 0.658472471,
-          "usd": 506.24
+          "usd": 505.13
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2838.72
+          "usd": 2817.55
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 507.01
+          "usd": 492.53
         }
       ],
       "status": "ok"
@@ -244,132 +249,132 @@
   ],
   "transactions": [
     {
-      "time": "2026-09-28 03:09",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-27 23:32",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-27 20:43",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-27 17:58",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-27 17:23",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-27 12:38",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-27 06:05",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-27 00:07",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-26 21:44",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-26 18:13",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-26 17:26",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-26 14:50",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-26 10:39",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-26 05:45",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-26 00:21",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
-      "time": "2026-09-25 21:56",
+      "time": "2026-09-28 13:23",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "AAPL",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
       "time": "2026-09-25 18:10",
@@ -822,8 +827,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 49,
-    "pending": 16,
+    "filled": 65,
+    "pending": 0,
     "failed": 0
   },
   "battle": {
@@ -1070,5 +1075,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124900.87
+  "total_value": 125091.53
 }
