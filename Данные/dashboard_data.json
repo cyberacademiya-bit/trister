@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29 05:37 (Бишкек)",
+  "generated": "2026-09-29 09:48 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,18 +91,18 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100299.39,
+      "total": 100217.14,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 23.5137264,
-          "usd": 7958.23
+          "usd": 7936.12
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2904.51
+          "usd": 2905.74
         },
         {
           "asset": "BND",
@@ -112,47 +112,47 @@
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2881.19
+          "usd": 2877.48
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2878.35
+          "usd": 2878.63
         },
         {
           "asset": "META",
           "amount": 0.737785713,
-          "usd": 530.14
+          "usd": 528.31
         },
         {
           "asset": "MSFT",
           "amount": 1.013557617,
-          "usd": 516.31
+          "usd": 514.88
         },
         {
           "asset": "NVDA",
           "amount": 49.907122075,
-          "usd": 11447.2
+          "usd": 11410.27
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3140.29
+          "usd": 3128.49
         },
         {
           "asset": "SPY",
           "amount": 0.658472471,
-          "usd": 504.26
+          "usd": 503.42
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2822.2
+          "usd": 2818.27
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 490.36
+          "usd": 489.19
         }
       ],
       "status": "ok"
@@ -1075,5 +1075,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 125006.92
+  "total_value": 124924.67
 }
