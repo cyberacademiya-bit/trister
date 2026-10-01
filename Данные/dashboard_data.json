@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01 04:46 (Бишкек)",
+  "generated": "2026-10-01 07:45 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,28 +91,28 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100148.92,
+      "total": 100193.75,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 23.5137264,
-          "usd": 7841.59
+          "usd": 7858.52
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2902.36
+          "usd": 2934.91
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2901.85
+          "usd": 2896.47
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2870.08
+          "usd": 2857.22
         },
         {
           "asset": "LQD",
@@ -122,37 +122,37 @@
         {
           "asset": "META",
           "amount": 0.737785713,
-          "usd": 535.53
+          "usd": 536.86
         },
         {
           "asset": "MSFT",
           "amount": 0.983512073,
-          "usd": 505.16
+          "usd": 506.12
         },
         {
           "asset": "NVDA",
           "amount": 49.907122075,
-          "usd": 11449.69
+          "usd": 11466.66
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3158.94
+          "usd": 3165.71
         },
         {
           "asset": "SPY",
           "amount": 0.658472471,
-          "usd": 503.44
+          "usd": 503.93
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2790.65
+          "usd": 2776.29
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 485.42
+          "usd": 486.88
         }
       ],
       "status": "ok"
@@ -1075,5 +1075,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124856.45
+  "total_value": 124901.28
 }
