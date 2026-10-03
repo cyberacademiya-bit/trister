@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03 13:28 (Бишкек)",
+  "generated": "2026-10-03 18:57 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -63,7 +63,8 @@
           "usd": 475.67
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-10-03 13:28"
     },
     {
       "name": "Binance Futures",
@@ -84,7 +85,8 @@
           "pnl": 10.107
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-10-03 13:28"
     },
     {
       "name": "Alpaca",
@@ -246,6 +248,14 @@
     }
   ],
   "transactions": [
+    {
+      "time": "2026-10-03 12:57",
+      "account": "Alpaca",
+      "action": "SELL",
+      "asset": "NVDA",
+      "amount": "$49.907122075",
+      "status": "accepted"
+    },
     {
       "time": "2026-09-29 16:44",
       "account": "Alpaca",
@@ -475,14 +485,6 @@
       "account": "Alpaca",
       "action": "BUY",
       "asset": "META",
-      "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-09-16 19:19",
-      "account": "Alpaca",
-      "action": "BUY",
-      "asset": "AMZN",
       "amount": "$500",
       "status": "filled"
     },
@@ -825,8 +827,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 65,
-    "pending": 0,
+    "filled": 64,
+    "pending": 1,
     "failed": 0
   },
   "battle": {
