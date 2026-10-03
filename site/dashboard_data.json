@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-03 07:39 (Бишкек)",
+  "generated": "2026-10-03 13:28 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
       "kind": "Крипта + Золото",
-      "total": 10452.62,
+      "total": 10661.59,
       "start": 10000,
       "positions": [
         {
@@ -15,47 +15,47 @@
         {
           "asset": "AVAX",
           "amount": 66.73,
-          "usd": 749.58
+          "usd": 724.62
         },
         {
           "asset": "SOL",
           "amount": 5.328425,
-          "usd": 587.94
-        },
-        {
-          "asset": "BNB",
-          "amount": 0.716257,
-          "usd": 550.53
-        },
-        {
-          "asset": "ETH",
-          "amount": 0.206293,
-          "usd": 543.12
+          "usd": 635.73
         },
         {
           "asset": "LINK",
           "amount": 42.55,
-          "usd": 532.98
+          "usd": 596.04
+        },
+        {
+          "asset": "ETH",
+          "amount": 0.206293,
+          "usd": 552.98
+        },
+        {
+          "asset": "BNB",
+          "amount": 0.716257,
+          "usd": 548.6
         },
         {
           "asset": "BTC",
           "amount": 0.006483,
-          "usd": 526.31
+          "usd": 548.56
         },
         {
           "asset": "ADA",
           "amount": 2219.9,
-          "usd": 505.69
+          "usd": 542.54
         },
         {
           "asset": "XRP",
           "amount": 354.5,
-          "usd": 499.95
+          "usd": 525.79
         },
         {
           "asset": "DOGE",
           "amount": 5508.0,
-          "usd": 480.85
+          "usd": 511.03
         },
         {
           "asset": "USDT",
@@ -63,41 +63,39 @@
           "usd": 475.67
         }
       ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-09-21 02:11"
+      "status": "ok"
     },
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4471.94,
+      "total": 4498.57,
       "start": 5000,
       "positions": [
         {
           "asset": "BTC/USDT",
           "side": "long",
           "entry": 81140.0,
-          "pnl": -0.001
+          "pnl": 20.611
         },
         {
           "asset": "ETH/USDT",
           "side": "long",
           "entry": 2626.86,
-          "pnl": 0.97
+          "pnl": 10.107
         }
       ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-09-21 02:11"
+      "status": "ok"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100415.48,
+      "total": 100400.47,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 23.5137264,
-          "usd": 7844.18
+          "usd": 7846.3
         },
         {
           "asset": "AGG",
@@ -112,7 +110,7 @@
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2865.14
+          "usd": 2863.65
         },
         {
           "asset": "LQD",
@@ -122,22 +120,22 @@
         {
           "asset": "META",
           "amount": 0.737785713,
-          "usd": 536.85
+          "usd": 537.17
         },
         {
           "asset": "MSFT",
           "amount": 0.983512073,
-          "usd": 508.66
+          "usd": 509.0
         },
         {
           "asset": "NVDA",
           "amount": 49.907122075,
-          "usd": 11689.25
+          "usd": 11675.77
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3192.46
+          "usd": 3192.59
         },
         {
           "asset": "SPY",
@@ -147,12 +145,12 @@
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2781.67
+          "usd": 2779.88
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 508.68
+          "usd": 507.53
         }
       ],
       "status": "ok"
@@ -1075,5 +1073,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 125112.17
+  "total_value": 125332.76
 }

@@ -1,6 +1,6 @@
 {
   "Binance Spot": {
-    "total": 10452.62,
+    "total": 10661.59,
     "positions": [
       {
         "asset": "USDC",
@@ -10,47 +10,47 @@
       {
         "asset": "AVAX",
         "amount": 66.73,
-        "usd": 749.58
+        "usd": 724.62
       },
       {
         "asset": "SOL",
         "amount": 5.328425,
-        "usd": 587.94
-      },
-      {
-        "asset": "BNB",
-        "amount": 0.716257,
-        "usd": 550.53
-      },
-      {
-        "asset": "ETH",
-        "amount": 0.206293,
-        "usd": 543.12
+        "usd": 635.73
       },
       {
         "asset": "LINK",
         "amount": 42.55,
-        "usd": 532.98
+        "usd": 596.04
+      },
+      {
+        "asset": "ETH",
+        "amount": 0.206293,
+        "usd": 552.98
+      },
+      {
+        "asset": "BNB",
+        "amount": 0.716257,
+        "usd": 548.6
       },
       {
         "asset": "BTC",
         "amount": 0.006483,
-        "usd": 526.31
+        "usd": 548.56
       },
       {
         "asset": "ADA",
         "amount": 2219.9,
-        "usd": 505.69
+        "usd": 542.54
       },
       {
         "asset": "XRP",
         "amount": 354.5,
-        "usd": 499.95
+        "usd": 525.79
       },
       {
         "asset": "DOGE",
         "amount": 5508.0,
-        "usd": 480.85
+        "usd": 511.03
       },
       {
         "asset": "USDT",
@@ -58,24 +58,24 @@
         "usd": 475.67
       }
     ],
-    "time": "2026-09-21 02:11"
+    "time": "2026-10-03 13:28"
   },
   "Binance Futures": {
-    "total": 4471.94,
+    "total": 4498.57,
     "positions": [
       {
         "asset": "BTC/USDT",
         "side": "long",
         "entry": 81140.0,
-        "pnl": -0.001
+        "pnl": 20.611
       },
       {
         "asset": "ETH/USDT",
         "side": "long",
         "entry": 2626.86,
-        "pnl": 0.97
+        "pnl": 10.107
       }
     ],
-    "time": "2026-09-21 02:11"
+    "time": "2026-10-03 13:28"
   }
 }
