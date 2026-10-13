@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14 01:58 (Бишкек)",
+  "generated": "2026-10-14 04:12 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,73 +91,73 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100778.23,
+      "total": 100778.19,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 23.5137264,
-          "usd": 8017.12
+          "usd": 8008.78
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2908.04
+          "usd": 2907.58
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2909.3
+          "usd": 2910.53
         },
         {
           "asset": "GOOGL",
           "amount": 5.611402596,
-          "usd": 1983.46
+          "usd": 1985.88
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2879.57
+          "usd": 2883.27
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2880.46
+          "usd": 2880.88
         },
         {
           "asset": "META",
           "amount": 0.737785713,
-          "usd": 562.52
+          "usd": 562.99
         },
         {
           "asset": "MSFT",
           "amount": 0.983512073,
-          "usd": 534.15
+          "usd": 533.47
         },
         {
           "asset": "NVDA",
           "amount": 2.204249878,
-          "usd": 503.37
+          "usd": 504.55
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3166.65
+          "usd": 3165.67
         },
         {
           "asset": "SPY",
           "amount": 0.658472471,
-          "usd": 512.25
+          "usd": 512.15
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2810.73
+          "usd": 2813.0
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 514.44
+          "usd": 513.29
         }
       ],
       "status": "ok"
@@ -1085,5 +1085,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 125710.52
+  "total_value": 125710.48
 }
