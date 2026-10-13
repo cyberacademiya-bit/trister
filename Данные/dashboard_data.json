@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13 03:53 (Бишкек)",
+  "generated": "2026-10-13 08:22 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,28 +91,28 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100764.59,
+      "total": 100785.03,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 23.5137264,
-          "usd": 8010.89
+          "usd": 8046.4
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2907.06
+          "usd": 2906.05
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2907.23
+          "usd": 2907.64
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2874.91
+          "usd": 2878.44
         },
         {
           "asset": "LQD",
@@ -122,37 +122,37 @@
         {
           "asset": "META",
           "amount": 0.737785713,
-          "usd": 547.18
+          "usd": 543.34
         },
         {
           "asset": "MSFT",
           "amount": 0.983512073,
-          "usd": 531.69
+          "usd": 530.13
         },
         {
           "asset": "NVDA",
           "amount": 2.103272757,
-          "usd": 475.51
+          "usd": 471.13
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3174.15
+          "usd": 3153.92
         },
         {
           "asset": "SPY",
           "amount": 0.658472471,
-          "usd": 512.13
+          "usd": 511.3
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2799.07
+          "usd": 2816.11
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 517.54
+          "usd": 513.32
         }
       ],
       "status": "ok"
@@ -253,6 +253,14 @@
     }
   ],
   "transactions": [
+    {
+      "time": "2026-10-13 02:22",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "GOOGL",
+      "amount": "$500",
+      "status": "accepted"
+    },
     {
       "time": "2026-10-12 21:53",
       "account": "Alpaca",
@@ -483,14 +491,6 @@
       "action": "BUY",
       "asset": "SPY",
       "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-09-18 16:54",
-      "account": "Alpaca",
-      "action": "SELL",
-      "asset": "SPY",
-      "amount": "$0.646518171",
       "status": "filled"
     },
     {
@@ -832,8 +832,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 63,
-    "pending": 2,
+    "filled": 62,
+    "pending": 3,
     "failed": 0
   },
   "battle": {
@@ -1080,5 +1080,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 125696.88
+  "total_value": 125717.32
 }
