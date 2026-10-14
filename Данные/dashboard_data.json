@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14 07:32 (Бишкек)",
+  "generated": "2026-10-14 13:00 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,13 +91,13 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100789.33,
+      "total": 100858.49,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 23.5137264,
-          "usd": 8010.19
+          "usd": 8053.69
         },
         {
           "asset": "AGG",
@@ -112,52 +112,52 @@
         {
           "asset": "GOOGL",
           "amount": 5.611402596,
-          "usd": 1989.3
+          "usd": 1999.57
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2883.27
+          "usd": 2882.95
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2880.88
+          "usd": 2887.06
         },
         {
           "asset": "META",
           "amount": 0.737785713,
-          "usd": 563.59
+          "usd": 567.67
         },
         {
           "asset": "MSFT",
           "amount": 0.983512073,
-          "usd": 533.74
+          "usd": 536.23
         },
         {
           "asset": "NVDA",
           "amount": 2.204249878,
-          "usd": 505.9
+          "usd": 504.05
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 3168.4
+          "usd": 3166.78
         },
         {
           "asset": "SPY",
           "amount": 0.658472471,
-          "usd": 512.65
+          "usd": 513.08
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2812.88
+          "usd": 2818.27
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 514.27
+          "usd": 514.88
         }
       ],
       "status": "ok"
@@ -1085,5 +1085,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 125721.62
+  "total_value": 125790.78
 }
