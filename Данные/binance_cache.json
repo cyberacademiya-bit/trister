@@ -1,6 +1,6 @@
 {
   "Binance Spot": {
-    "total": 10661.59,
+    "total": 10143.46,
     "positions": [
       {
         "asset": "USDC",
@@ -10,72 +10,72 @@
       {
         "asset": "AVAX",
         "amount": 66.73,
-        "usd": 724.62
+        "usd": 660.43
       },
       {
         "asset": "SOL",
         "amount": 5.328425,
-        "usd": 635.73
-      },
-      {
-        "asset": "LINK",
-        "amount": 42.55,
-        "usd": 596.04
-      },
-      {
-        "asset": "ETH",
-        "amount": 0.206293,
-        "usd": 552.98
-      },
-      {
-        "asset": "BNB",
-        "amount": 0.716257,
-        "usd": 548.6
+        "usd": 554.74
       },
       {
         "asset": "BTC",
         "amount": 0.006483,
-        "usd": 548.56
+        "usd": 529.1
+      },
+      {
+        "asset": "BNB",
+        "amount": 0.716257,
+        "usd": 514.04
+      },
+      {
+        "asset": "LINK",
+        "amount": 42.55,
+        "usd": 513.92
+      },
+      {
+        "asset": "ETH",
+        "amount": 0.206293,
+        "usd": 498.98
       },
       {
         "asset": "ADA",
         "amount": 2219.9,
-        "usd": 542.54
-      },
-      {
-        "asset": "XRP",
-        "amount": 354.5,
-        "usd": 525.79
-      },
-      {
-        "asset": "DOGE",
-        "amount": 5508.0,
-        "usd": 511.03
+        "usd": 494.59
       },
       {
         "asset": "USDT",
         "amount": 475.673731,
         "usd": 475.67
+      },
+      {
+        "asset": "XRP",
+        "amount": 354.5,
+        "usd": 460.96
+      },
+      {
+        "asset": "DOGE",
+        "amount": 5508.0,
+        "usd": 441.03
       }
     ],
-    "time": "2026-10-03 13:28"
+    "time": "2026-10-18 01:59"
   },
   "Binance Futures": {
-    "total": 4498.57,
+    "total": 4423.4,
     "positions": [
       {
         "asset": "BTC/USDT",
         "side": "long",
         "entry": 81140.0,
-        "pnl": 20.611
+        "pnl": 2.752
       },
       {
         "asset": "ETH/USDT",
         "side": "long",
-        "entry": 2626.86,
-        "pnl": 10.107
+        "entry": 2417.81,
+        "pnl": 0.061
       }
     ],
-    "time": "2026-10-03 13:28"
+    "time": "2026-10-18 01:59"
   }
 }
