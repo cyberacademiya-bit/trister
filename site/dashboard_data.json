@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02 13:06 (Бишкек)",
+  "generated": "2026-11-02 23:42 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -91,68 +91,68 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100703.4,
+      "total": 100695.93,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 4.368505356,
-          "usd": 1502.72
+          "usd": 1474.58
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2953.63
+          "usd": 2956.24
         },
         {
           "asset": "AMZN",
           "amount": 1.971662696,
-          "usd": 476.98
+          "usd": 493.03
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2958.53
+          "usd": 2956.68
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2935.04
+          "usd": 2945.81
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2929.2
+          "usd": 2927.09
         },
         {
           "asset": "META",
           "amount": 0.80743827,
-          "usd": 497.86
+          "usd": 493.31
         },
         {
           "asset": "MSFT",
           "amount": 0.983512073,
-          "usd": 513.96
+          "usd": 511.44
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2968.05
+          "usd": 2942.83
         },
         {
           "asset": "SPY",
           "amount": 0.658472471,
-          "usd": 500.0
+          "usd": 499.06
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2921.24
+          "usd": 2944.2
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 549.07
+          "usd": 559.3
         }
       ],
       "status": "ok"
@@ -232,6 +232,11 @@
           "asset": "NVDA",
           "amount": 2.443315,
           "usd": 500.0
+        },
+        {
+          "asset": "AMZN",
+          "amount": 1.99968,
+          "usd": 500.0
         }
       ],
       "status": "ok"
@@ -239,12 +244,20 @@
   ],
   "transactions": [
     {
-      "time": "2026-10-31 01:22",
+      "time": "2026-11-02 17:42",
+      "account": "Alpaca",
+      "action": "SELL",
+      "asset": "NVDA",
+      "amount": "$2.402412069",
+      "status": "filled"
+    },
+    {
+      "time": "2026-11-02 09:01",
       "account": "Alpaca",
       "action": "BUY",
       "asset": "NVDA",
       "amount": "$500",
-      "status": "accepted"
+      "status": "filled"
     },
     {
       "time": "2026-10-30 16:27",
@@ -471,22 +484,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-09-28 13:23",
-      "account": "Alpaca",
-      "action": "BUY",
-      "asset": "AAPL",
-      "amount": "$500",
-      "status": "filled"
-    },
-    {
-      "time": "2026-10-03 00:45",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "GOOGL",
-      "amount": "$500.0",
-      "status": "filled"
-    },
-    {
       "time": "2026-10-06 23:46",
       "account": "Локальный",
       "action": "BUY",
@@ -596,6 +593,14 @@
       "action": "SELL",
       "asset": "AMZN",
       "amount": "$492.94",
+      "status": "filled"
+    },
+    {
+      "time": "2026-11-02 23:42",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "AMZN",
+      "amount": "$500.0",
       "status": "filled"
     },
     {
@@ -817,8 +822,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 64,
-    "pending": 1,
+    "filled": 65,
+    "pending": 0,
     "failed": 0
   },
   "battle": {
@@ -1065,5 +1070,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124969.68
+  "total_value": 124962.21
 }
