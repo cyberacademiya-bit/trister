@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04 02:20 (Бишкек)",
+  "generated": "2026-11-04 03:26 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,79 +28,96 @@
           "usd": 0.04
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-11-04 02:20"
     },
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "status": "error",
-      "error": "binance does not have market symbol BTC/USDT"
+      "total": 4423.4,
+      "start": 5000,
+      "positions": [
+        {
+          "asset": "BTC/USDT",
+          "side": "long",
+          "entry": 81140.0,
+          "pnl": 2.752
+        },
+        {
+          "asset": "ETH/USDT",
+          "side": "long",
+          "entry": 2417.81,
+          "pnl": 0.061
+        }
+      ],
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-10-18 01:59"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100558.22,
+      "total": 100539.36,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 4.368505356,
-          "usd": 1446.98
+          "usd": 1443.69
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2947.05
+          "usd": 2945.34
         },
         {
           "asset": "AMZN",
           "amount": 1.983898358,
-          "usd": 499.94
+          "usd": 497.32
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2947.16
+          "usd": 2944.06
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2933.59
+          "usd": 2930.54
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2915.01
+          "usd": 2908.7
         },
         {
           "asset": "META",
           "amount": 0.80743827,
-          "usd": 500.22
+          "usd": 502.12
         },
         {
           "asset": "MSFT",
           "amount": 0.983512073,
-          "usd": 514.44
+          "usd": 510.37
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2920.6
+          "usd": 2930.64
         },
         {
           "asset": "SPY",
           "amount": 0.658472471,
-          "usd": 496.96
+          "usd": 497.45
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2912.27
+          "usd": 2905.81
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 545.76
+          "usd": 545.09
         }
       ],
       "status": "ok"
@@ -1018,5 +1035,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 120025.71
+  "total_value": 124430.25
 }
