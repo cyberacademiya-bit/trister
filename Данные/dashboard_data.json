@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05 04:21 (Бишкек)",
+  "generated": "2026-11-05 09:02 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -56,13 +56,13 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100809.95,
+      "total": 100785.92,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 4.368505356,
-          "usd": 1528.76
+          "usd": 1528.06
         },
         {
           "asset": "AGG",
@@ -72,52 +72,52 @@
         {
           "asset": "AMZN",
           "amount": 1.983898358,
-          "usd": 527.68
+          "usd": 525.18
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2959.37
+          "usd": 2956.47
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2946.3
+          "usd": 2947.58
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2937.06
+          "usd": 2940.71
         },
         {
           "asset": "META",
           "amount": 0.80743827,
-          "usd": 510.84
+          "usd": 507.07
         },
         {
           "asset": "MSFT",
           "amount": 0.983512073,
-          "usd": 545.82
+          "usd": 543.69
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2955.74
+          "usd": 2926.05
         },
         {
           "asset": "SPY",
           "amount": 0.651617477,
-          "usd": 500.44
+          "usd": 499.27
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2930.89
+          "usd": 2951.38
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 527.52
+          "usd": 520.94
         }
       ],
       "status": "ok"
@@ -1030,5 +1030,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124675.21
+  "total_value": 124651.18
 }
