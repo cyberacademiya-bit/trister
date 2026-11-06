@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06 13:35 (Бишкек)",
+  "generated": "2026-11-06 21:34 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -28,69 +28,86 @@
           "usd": 0.04
         }
       ],
-      "status": "ok"
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-11-06 13:35"
     },
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "status": "error",
-      "error": "binance does not have market symbol BTC/USDT"
+      "total": 4423.4,
+      "start": 5000,
+      "positions": [
+        {
+          "asset": "BTC/USDT",
+          "side": "long",
+          "entry": 81140.0,
+          "pnl": 2.752
+        },
+        {
+          "asset": "ETH/USDT",
+          "side": "long",
+          "entry": 2417.81,
+          "pnl": 0.061
+        }
+      ],
+      "status": "offline",
+      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-10-18 01:59"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100504.82,
+      "total": 100611.08,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 4.368505356,
-          "usd": 1488.09
+          "usd": 1501.28
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2966.22
+          "usd": 2963.0
         },
         {
           "asset": "AMZN",
           "amount": 1.983898358,
-          "usd": 508.75
+          "usd": 520.78
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2960.61
+          "usd": 2962.06
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2960.12
+          "usd": 2953.69
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2940.15
+          "usd": 2936.22
         },
         {
           "asset": "MSFT",
           "amount": 0.983512073,
-          "usd": 519.86
+          "usd": 524.97
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2769.19
+          "usd": 2795.72
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2944.2
+          "usd": 2941.87
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 471.1
+          "usd": 490.92
         }
       ],
       "status": "ok"
@@ -159,6 +176,11 @@
         {
           "asset": "AMZN",
           "amount": 1.99968,
+          "usd": 500.0
+        },
+        {
+          "asset": "HG=F",
+          "amount": 79.725742,
           "usd": 500.0
         }
       ],
@@ -407,14 +429,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-10-31 03:19",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "NVDA",
-      "amount": "$500.0",
-      "status": "filled"
-    },
-    {
       "time": "2026-10-31 07:22",
       "account": "Локальный",
       "action": "BUY",
@@ -524,6 +538,14 @@
       "action": "SELL",
       "asset": "HG=F",
       "amount": "$496.64",
+      "status": "filled"
+    },
+    {
+      "time": "2026-11-06 21:34",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "HG=F",
+      "amount": "$500.0",
       "status": "filled"
     },
     {
@@ -993,5 +1015,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 119872.28
+  "total_value": 124401.94
 }
