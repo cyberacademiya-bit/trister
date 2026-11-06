@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-06 06:40 (Бишкек)",
+  "generated": "2026-11-06 13:35 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
       "kind": "Крипта + Золото",
-      "total": 9774.38,
+      "total": 9765.84,
       "start": 10000,
       "positions": [
         {
@@ -14,13 +14,13 @@
         },
         {
           "asset": "USDT",
-          "amount": 4276.933211,
-          "usd": 4276.93
+          "amount": 4765.687648,
+          "usd": 4765.69
         },
         {
           "asset": "BNB",
-          "amount": 0.712173,
-          "usd": 497.4
+          "amount": 0.000173,
+          "usd": 0.12
         },
         {
           "asset": "SOL",
@@ -28,56 +28,39 @@
           "usd": 0.04
         }
       ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-11-04 02:20"
+      "status": "ok"
     },
     {
       "name": "Binance Futures",
       "kind": "Фьючерсы (лонг/шорт)",
-      "total": 4423.4,
-      "start": 5000,
-      "positions": [
-        {
-          "asset": "BTC/USDT",
-          "side": "long",
-          "entry": 81140.0,
-          "pnl": 2.752
-        },
-        {
-          "asset": "ETH/USDT",
-          "side": "long",
-          "entry": 2417.81,
-          "pnl": 0.061
-        }
-      ],
-      "status": "offline",
-      "error": "Binance блокирует облако. Последний баланс с Мака: 2026-10-18 01:59"
+      "status": "error",
+      "error": "binance does not have market symbol BTC/USDT"
     },
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100525.71,
+      "total": 100504.82,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 4.368505356,
-          "usd": 1500.36
+          "usd": 1488.09
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2962.84
+          "usd": 2966.22
         },
         {
           "asset": "AMZN",
           "amount": 1.983898358,
-          "usd": 514.62
+          "usd": 508.75
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2952.83
+          "usd": 2960.61
         },
         {
           "asset": "IEF",
@@ -87,27 +70,27 @@
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2939.31
+          "usd": 2940.15
         },
         {
           "asset": "MSFT",
           "amount": 0.983512073,
-          "usd": 525.77
+          "usd": 519.86
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2781.24
+          "usd": 2769.19
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2936.54
+          "usd": 2944.2
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 475.55
+          "usd": 471.1
         }
       ],
       "status": "ok"
@@ -115,7 +98,7 @@
     {
       "name": "Локальный",
       "kind": "Все рынки (виртуально)",
-      "total": 9604.98,
+      "total": 9601.62,
       "start": 10000.0,
       "positions": [
         {
@@ -176,11 +159,6 @@
         {
           "asset": "AMZN",
           "amount": 1.99968,
-          "usd": 500.0
-        },
-        {
-          "asset": "HG=F",
-          "amount": 80.076874,
           "usd": 500.0
         }
       ],
@@ -429,14 +407,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-10-31 00:54",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "NVDA",
-      "amount": "$521.29",
-      "status": "filled"
-    },
-    {
       "time": "2026-10-31 03:19",
       "account": "Локальный",
       "action": "BUY",
@@ -549,11 +519,11 @@
       "status": "filled"
     },
     {
-      "time": "2026-08-22 20:16:10",
-      "account": "Binance Spot",
-      "action": "BUY",
-      "asset": "PAXG/BTC",
-      "amount": "$499.91995",
+      "time": "2026-11-06 13:35",
+      "account": "Локальный",
+      "action": "SELL",
+      "asset": "HG=F",
+      "amount": "$496.64",
       "status": "filled"
     },
     {
@@ -706,6 +676,14 @@
       "action": "SELL",
       "asset": "PAXG/BTC",
       "amount": "$470.65344",
+      "status": "filled"
+    },
+    {
+      "time": "2026-11-06 13:34:37",
+      "account": "Binance Spot",
+      "action": "SELL",
+      "asset": "PAXG/BTC",
+      "amount": "$489.24368",
       "status": "filled"
     }
   ],
@@ -1015,5 +993,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124328.47
+  "total_value": 119872.28
 }

@@ -1,6 +1,6 @@
 {
   "Binance Spot": {
-    "total": 9774.38,
+    "total": 9765.84,
     "positions": [
       {
         "asset": "USDC",
@@ -9,13 +9,13 @@
       },
       {
         "asset": "USDT",
-        "amount": 4276.933211,
-        "usd": 4276.93
+        "amount": 4765.687648,
+        "usd": 4765.69
       },
       {
         "asset": "BNB",
-        "amount": 0.712173,
-        "usd": 497.4
+        "amount": 0.000173,
+        "usd": 0.12
       },
       {
         "asset": "SOL",
@@ -23,7 +23,7 @@
         "usd": 0.04
       }
     ],
-    "time": "2026-11-04 02:20"
+    "time": "2026-11-06 13:35"
   },
   "Binance Futures": {
     "total": 4423.4,
