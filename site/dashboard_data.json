@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06 02:51 (Бишкек)",
+  "generated": "2026-11-06 06:40 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -56,58 +56,58 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100540.23,
+      "total": 100525.71,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 4.368505356,
-          "usd": 1510.08
+          "usd": 1500.36
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2966.07
+          "usd": 2962.84
         },
         {
           "asset": "AMZN",
           "amount": 1.983898358,
-          "usd": 515.3
+          "usd": 514.62
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2965.16
+          "usd": 2952.83
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2959.0
+          "usd": 2960.12
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2940.86
+          "usd": 2939.31
         },
         {
           "asset": "MSFT",
           "amount": 0.983512073,
-          "usd": 526.69
+          "usd": 525.77
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2769.87
+          "usd": 2781.24
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2940.79
+          "usd": 2936.54
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 469.89
+          "usd": 475.55
         }
       ],
       "status": "ok"
@@ -176,6 +176,11 @@
         {
           "asset": "AMZN",
           "amount": 1.99968,
+          "usd": 500.0
+        },
+        {
+          "asset": "HG=F",
+          "amount": 80.076874,
           "usd": 500.0
         }
       ],
@@ -424,14 +429,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-10-30 22:27",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "AMZN",
-      "amount": "$508.28",
-      "status": "filled"
-    },
-    {
       "time": "2026-10-31 00:54",
       "account": "Локальный",
       "action": "SELL",
@@ -541,6 +538,14 @@
       "action": "SELL",
       "asset": "HG=F",
       "amount": "$477.16",
+      "status": "filled"
+    },
+    {
+      "time": "2026-11-06 06:40",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "HG=F",
+      "amount": "$500.0",
       "status": "filled"
     },
     {
@@ -1010,5 +1015,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124342.99
+  "total_value": 124328.47
 }
