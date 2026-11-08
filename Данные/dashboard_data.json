@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08 09:56 (Бишкек)",
+  "generated": "2026-11-08 17:01 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -176,6 +176,11 @@
         {
           "asset": "AMZN",
           "amount": 1.99968,
+          "usd": 500.0
+        },
+        {
+          "asset": "HG=F",
+          "amount": 80.160318,
           "usd": 500.0
         }
       ],
@@ -424,14 +429,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-10-31 13:54",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "AMZN",
-      "amount": "$492.94",
-      "status": "filled"
-    },
-    {
       "time": "2026-11-02 23:42",
       "account": "Локальный",
       "action": "BUY",
@@ -541,6 +538,14 @@
       "action": "SELL",
       "asset": "HG=F",
       "amount": "$495.73",
+      "status": "filled"
+    },
+    {
+      "time": "2026-11-08 17:01",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "HG=F",
+      "amount": "$500.0",
       "status": "filled"
     },
     {
