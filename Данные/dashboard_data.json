@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11 18:20 (Бишкек)",
+  "generated": "2026-11-12 01:57 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -56,58 +56,58 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100676.42,
+      "total": 100728.46,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 4.368505356,
-          "usd": 1512.33
+          "usd": 1549.42
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2941.97
+          "usd": 2942.43
         },
         {
           "asset": "AMZN",
           "amount": 1.983898358,
-          "usd": 537.46
+          "usd": 528.46
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2941.16
+          "usd": 2942.09
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2923.79
+          "usd": 2924.27
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2919.08
+          "usd": 2921.61
         },
         {
           "asset": "MSFT",
           "amount": 0.983512073,
-          "usd": 525.74
+          "usd": 511.89
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2928.22
+          "usd": 2948.28
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2896.84
+          "usd": 2903.3
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 529.26
+          "usd": 536.14
         }
       ],
       "status": "ok"
@@ -176,6 +176,11 @@
         {
           "asset": "META",
           "amount": 0.779581,
+          "usd": 500.0
+        },
+        {
+          "asset": "QQQ",
+          "amount": 0.722324,
           "usd": 500.0
         }
       ],
@@ -426,14 +431,6 @@
     {
       "time": "2026-11-04 22:45",
       "account": "Локальный",
-      "action": "SELL",
-      "asset": "NVDA",
-      "amount": "$491.1",
-      "status": "filled"
-    },
-    {
-      "time": "2026-11-04 22:45",
-      "account": "Локальный",
       "action": "BUY",
       "asset": "META",
       "amount": "$500.0",
@@ -540,6 +537,14 @@
       "account": "Локальный",
       "action": "BUY",
       "asset": "META",
+      "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-11-12 01:57",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "QQQ",
       "amount": "$500.0",
       "status": "filled"
     },
@@ -1010,5 +1015,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124423.0
+  "total_value": 124475.04
 }
