@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14 07:11 (Бишкек)",
+  "generated": "2026-11-14 14:28 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -56,13 +56,13 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100489.98,
+      "total": 100515.61,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 4.368505356,
-          "usd": 1552.57
+          "usd": 1556.37
         },
         {
           "asset": "AGG",
@@ -72,17 +72,17 @@
         {
           "asset": "AMZN",
           "amount": 1.983898358,
-          "usd": 524.4
+          "usd": 529.03
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2927.08
+          "usd": 2919.64
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2899.02
+          "usd": 2895.49
         },
         {
           "asset": "LQD",
@@ -92,22 +92,22 @@
         {
           "asset": "MSFT",
           "amount": 0.944849898,
-          "usd": 493.65
+          "usd": 494.99
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2871.75
+          "usd": 2895.77
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2849.48
+          "usd": 2848.05
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 530.15
+          "usd": 534.41
         }
       ],
       "status": "ok"
@@ -115,7 +115,7 @@
     {
       "name": "Локальный",
       "kind": "Все рынки (виртуально)",
-      "total": 9469.8,
+      "total": 9463.78,
       "start": 10000.0,
       "positions": [
         {
@@ -169,8 +169,8 @@
           "usd": 500.0
         },
         {
-          "asset": "QQQ",
-          "amount": 0.726565,
+          "asset": "META",
+          "amount": 0.779192,
           "usd": 500.0
         }
       ],
@@ -419,22 +419,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-11-10 01:33",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "META",
-      "amount": "$500.0",
-      "status": "filled"
-    },
-    {
-      "time": "2026-11-10 05:11",
-      "account": "Локальный",
-      "action": "SELL",
-      "asset": "CL=F",
-      "amount": "$552.85",
-      "status": "filled"
-    },
-    {
       "time": "2026-11-10 08:29",
       "account": "Локальный",
       "action": "SELL",
@@ -536,6 +520,22 @@
       "action": "BUY",
       "asset": "QQQ",
       "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-11-14 14:28",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "META",
+      "amount": "$500.0",
+      "status": "filled"
+    },
+    {
+      "time": "2026-11-14 14:28",
+      "account": "Локальный",
+      "action": "SELL",
+      "asset": "QQQ",
+      "amount": "$493.98",
       "status": "filled"
     },
     {
@@ -1005,5 +1005,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124149.02
+  "total_value": 124168.63
 }
