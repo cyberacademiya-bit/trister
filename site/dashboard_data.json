@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15 21:13 (Бишкек)",
+  "generated": "2026-11-16 01:29 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -762,14 +762,14 @@
     "failed": 0
   },
   "battle": {
-    "period": "2024-01-01 → 2026-11-14",
+    "period": "2024-01-01 → 2026-11-15",
     "markets": 16,
     "strategies": [
       {
         "name": "buyhold",
         "title": "📊 Купи и держи",
-        "equity": 19838.0,
-        "ret": 98.38,
+        "equity": 19832.77,
+        "ret": 98.33,
         "longs": 16,
         "shorts": 0,
         "curve": [
@@ -938,8 +938,8 @@
       {
         "name": "trend_ls",
         "title": "↕️ Тренд лонг/шорт (фьючерсы)",
-        "equity": 6213.71,
-        "ret": -37.86,
+        "equity": 6210.04,
+        "ret": -37.9,
         "longs": 11,
         "shorts": 5,
         "curve": [
