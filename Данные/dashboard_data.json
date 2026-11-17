@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17 05:04 (Бишкек)",
+  "generated": "2026-11-17 07:27 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -56,58 +56,58 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100409.08,
+      "total": 100418.03,
       "start": 100000,
       "positions": [
         {
           "asset": "AAPL",
           "amount": 4.368505356,
-          "usd": 1542.52
+          "usd": 1543.79
         },
         {
           "asset": "AGG",
           "amount": 30.699856733,
-          "usd": 2921.85
+          "usd": 2921.09
         },
         {
           "asset": "AMZN",
           "amount": 1.934331984,
-          "usd": 499.33
+          "usd": 500.8
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2921.3
+          "usd": 2921.73
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2903.85
+          "usd": 2905.13
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2890.99
+          "usd": 2887.9
         },
         {
           "asset": "MSFT",
           "amount": 0.956860058,
-          "usd": 496.66
+          "usd": 497.03
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2818.12
+          "usd": 2825.58
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2847.87
+          "usd": 2846.97
         },
         {
           "asset": "TSLA",
           "amount": 1.369512936,
-          "usd": 519.13
+          "usd": 520.54
         }
       ],
       "status": "ok"
@@ -161,6 +161,11 @@
         {
           "asset": "AMZN",
           "amount": 1.99968,
+          "usd": 500.0
+        },
+        {
+          "asset": "META",
+          "amount": 0.779192,
           "usd": 500.0
         }
       ],
@@ -409,14 +414,6 @@
       "status": "filled"
     },
     {
-      "time": "2026-11-12 01:57",
-      "account": "Локальный",
-      "action": "BUY",
-      "asset": "QQQ",
-      "amount": "$500.0",
-      "status": "filled"
-    },
-    {
       "time": "2026-11-12 07:48",
       "account": "Локальный",
       "action": "SELL",
@@ -526,6 +523,14 @@
       "action": "SELL",
       "asset": "CL=F",
       "amount": "$484.15",
+      "status": "filled"
+    },
+    {
+      "time": "2026-11-17 07:27",
+      "account": "Локальный",
+      "action": "BUY",
+      "asset": "META",
+      "amount": "$500.0",
       "status": "filled"
     },
     {
@@ -995,5 +1000,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124034.86
+  "total_value": 124043.81
 }
