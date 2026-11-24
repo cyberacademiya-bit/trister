@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24 04:24 (Бишкек)",
+  "generated": "2026-11-24 07:17 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -56,7 +56,7 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100576.03,
+      "total": 100604.25,
       "start": 100000,
       "positions": [
         {
@@ -67,42 +67,42 @@
         {
           "asset": "AMZN",
           "amount": 1.984512554,
-          "usd": 508.59
+          "usd": 511.15
         },
         {
           "asset": "BND",
           "amount": 41.378154737,
-          "usd": 2956.47
+          "usd": 2958.31
         },
         {
           "asset": "IEF",
           "amount": 32.157787544,
-          "usd": 2941.47
+          "usd": 2942.12
         },
         {
           "asset": "LQD",
           "amount": 28.092424384,
-          "usd": 2916.83
+          "usd": 2919.65
         },
         {
           "asset": "MSFT",
           "amount": 0.956860058,
-          "usd": 472.78
+          "usd": 472.88
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2774.85
+          "usd": 2787.5
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2923.67
+          "usd": 2925.9
         },
         {
           "asset": "TSLA",
           "amount": 1.316331258,
-          "usd": 507.66
+          "usd": 513.04
         }
       ],
       "status": "ok"
@@ -158,6 +158,14 @@
     }
   ],
   "transactions": [
+    {
+      "time": "2026-11-24 01:17",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "AAPL",
+      "amount": "$500",
+      "status": "accepted"
+    },
     {
       "time": "2026-11-23 22:24",
       "account": "Alpaca",
@@ -388,14 +396,6 @@
       "action": "SELL",
       "asset": "GOOGL",
       "amount": "$1.57576426",
-      "status": "filled"
-    },
-    {
-      "time": "2026-10-27 13:23",
-      "account": "Alpaca",
-      "action": "BUY",
-      "asset": "GOOGL",
-      "amount": "$500",
       "status": "filled"
     },
     {
@@ -737,19 +737,19 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 64,
-    "pending": 1,
+    "filled": 63,
+    "pending": 2,
     "failed": 0
   },
   "battle": {
-    "period": "2024-01-01 → 2026-11-22",
+    "period": "2024-01-01 → 2026-11-24",
     "markets": 16,
     "strategies": [
       {
         "name": "buyhold",
         "title": "📊 Купи и держи",
-        "equity": 17809.54,
-        "ret": 78.10000000000001,
+        "equity": 17938.2,
+        "ret": 79.38,
         "longs": 16,
         "shorts": 0,
         "curve": [
@@ -776,7 +776,7 @@
           19548.4,
           21222.1,
           22030.6,
-          17809.5
+          17833.2
         ]
       },
       {
@@ -884,10 +884,10 @@
       {
         "name": "candles",
         "title": "🕯️ Свечи + индикаторы",
-        "equity": 8875.97,
-        "ret": -11.24,
+        "equity": 8894.75,
+        "ret": -11.05,
         "longs": 0,
-        "shorts": 5,
+        "shorts": 8,
         "curve": [
           9983.3,
           9865.3,
@@ -895,7 +895,7 @@
           9658.4,
           9932.9,
           9352.5,
-          8931.6,
+          8931.5,
           8890.3,
           8385.3,
           8745.8,
@@ -912,14 +912,14 @@
           8992.3,
           8667.9,
           8511.2,
-          8876.0
+          8872.2
         ]
       },
       {
         "name": "trend_ls",
         "title": "↕️ Тренд лонг/шорт (фьючерсы)",
-        "equity": 6049.45,
-        "ret": -39.51,
+        "equity": 6008.88,
+        "ret": -39.910000000000004,
         "longs": 11,
         "shorts": 5,
         "curve": [
@@ -946,7 +946,7 @@
           6850.3,
           6454.0,
           6618.5,
-          6049.5
+          6058.2
         ]
       }
     ]
@@ -985,5 +985,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124173.74
+  "total_value": 124201.96
 }
