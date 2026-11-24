@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24 07:17 (Бишкек)",
+  "generated": "2026-11-24 12:41 (Бишкек)",
   "accounts": [
     {
       "name": "Binance Spot",
@@ -56,7 +56,7 @@
     {
       "name": "Alpaca",
       "kind": "Акции США",
-      "total": 100604.25,
+      "total": 100599.29,
       "start": 100000,
       "positions": [
         {
@@ -67,7 +67,7 @@
         {
           "asset": "AMZN",
           "amount": 1.984512554,
-          "usd": 511.15
+          "usd": 511.37
         },
         {
           "asset": "BND",
@@ -87,22 +87,22 @@
         {
           "asset": "MSFT",
           "amount": 0.956860058,
-          "usd": 472.88
+          "usd": 475.04
         },
         {
           "asset": "QQQ",
           "amount": 4.259171446,
-          "usd": 2787.5
+          "usd": 2780.22
         },
         {
           "asset": "TLT",
           "amount": 35.878632069,
-          "usd": 2925.9
+          "usd": 2928.41
         },
         {
           "asset": "TSLA",
           "amount": 1.316331258,
-          "usd": 513.04
+          "usd": 510.47
         }
       ],
       "status": "ok"
@@ -158,6 +158,14 @@
     }
   ],
   "transactions": [
+    {
+      "time": "2026-11-24 06:41",
+      "account": "Alpaca",
+      "action": "BUY",
+      "asset": "AAPL",
+      "amount": "$500",
+      "status": "accepted"
+    },
     {
       "time": "2026-11-24 01:17",
       "account": "Alpaca",
@@ -388,14 +396,6 @@
       "action": "SELL",
       "asset": "META",
       "amount": "$0.737785713",
-      "status": "filled"
-    },
-    {
-      "time": "2026-10-27 17:16",
-      "account": "Alpaca",
-      "action": "SELL",
-      "asset": "GOOGL",
-      "amount": "$1.57576426",
       "status": "filled"
     },
     {
@@ -737,8 +737,8 @@
   ],
   "usage": {
     "total": 65,
-    "filled": 63,
-    "pending": 2,
+    "filled": 62,
+    "pending": 3,
     "failed": 0
   },
   "battle": {
@@ -985,5 +985,5 @@
       "19:57:06 ETH 🔴 ШОРТ @ 1856.46"
     ]
   },
-  "total_value": 124201.96
+  "total_value": 124197.0
 }
